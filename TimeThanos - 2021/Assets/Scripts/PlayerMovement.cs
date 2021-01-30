@@ -4,47 +4,27 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float camDir = 0;
+    public CharacterController controller;
     public Transform cam;
-    public float rotSpeed;
-    public float movSpeed;
-    private Vector2 dir;
+    public float movSpeed = 10f;
+    public float turnSmoothTime = 0.1f;
+    float turnSmoothVelocity;
 
-    private Animator anim;
-
-    void Start()
+    private void Update()
     {
-        anim = GetComponentInChildren<Animator>();
-    }
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+        Vector3 direction = new Vector3(h, 0f, v).normalized;
 
-    void FixedUpdate()
-
-    {
-
-        camDir += Input.GetAxis("Mouse X") * Time.deltaTime * rotSpeed;
-
-        transform.rotation = Quaternion.Euler(0, camDir, 0);
-
-        dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        dir = Vector2.ClampMagnitude(dir, 1);
-
-        Vector3 camF = cam.forward;
-        Vector3 camR = cam.right;
-
-        camF.y = 0;
-        camR.y = 0;
-        camF = camF.normalized;
-        camR = camR.normalized;
-
-        transform.position += (camF * dir.y + camR * dir.x) * Time.deltaTime * movSpeed;
-
-        if(Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+        if(direction.magnitude >= 0.1f)
         {
-            anim.SetBool("run", false);
-        }else {
-            anim.SetBool("run", true);
-        }
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
+            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            controller.Move(moveDir.normalized * movSpeed * Time.deltaTime);
+        }
     }
 
 }
