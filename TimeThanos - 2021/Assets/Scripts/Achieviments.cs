@@ -81,4 +81,6 @@ public class Achieviments : ScriptableObject
     public void AddPotion() {
         currentPotions++;
     }
+
+    
 }
