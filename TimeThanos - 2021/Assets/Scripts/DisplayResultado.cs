@@ -10,10 +10,12 @@ public class DisplayResultado : MonoBehaviour
     private HighScore Hs;
 
     public Text score;
+    public Text pontuacao;
 
     void Start()
     {
         SaveSystem.GetInstance().SaveHighScore();
+        pontuacao.text = "Pontos: " + Points.pontos.ToString();
         Hs = SaveSystem.GetInstance().Hs;
         DisplayScore();
     }
@@ -27,7 +29,8 @@ public class DisplayResultado : MonoBehaviour
     private void DisplayScore() {
         score.text = "";
         Hs.Scores.Sort();
-        for(int i = 0;i < Hs.Scores.Count; i++) {
+        int max = Hs.Scores.Count > Hs.MaxDisplayAttempts? Hs.MaxDisplayAttempts : Hs.Scores.Count;
+        for(int i = 0;i < max; i++) {
             score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
         }
     }
