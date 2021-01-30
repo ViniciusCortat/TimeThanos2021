@@ -7,13 +7,14 @@ public class ObjectCollider : MonoBehaviour
     public int pontos;
     
     private PointSystem PS;
+
     void Start() 
     {
         PS = PointSystem.Instance;
     }
 
     private void OnTriggerStay(Collider other) {
-        if(other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E)) {
+        if(other.CompareTag("Player")) {
             PS.GivePonto(pontos);
             Destroy(this.gameObject);
         }
