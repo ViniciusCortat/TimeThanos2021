@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2083828398036783390}
   - component: {fileID: 4349995545165067134}
   m_Layer: 0
-  m_Name: Item Filthy Rich
+  m_Name: Crystal Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
