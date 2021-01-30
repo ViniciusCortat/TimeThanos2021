@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
     }
 
-    void Update()
+    void FixedUpdate()
 
     {
 
