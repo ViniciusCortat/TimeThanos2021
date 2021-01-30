@@ -19,9 +19,11 @@ public class Achieviments : ScriptableObject
         SaveSystem.GetInstance().LoadAchieviments();
     }
 
-    public void GiveAchiev(string id) {
-        int i = Achiev.IndexOf(id);
-        if(Completed[i]) return;
-        Completed[i] = true;
+    public void GiveAchiev(int id) {
+        Completed[id] = true;
+    }
+
+    public bool CheckCompletion(int i) {
+        return Completed[i];
     }
 }
