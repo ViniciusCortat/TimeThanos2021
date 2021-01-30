@@ -47,9 +47,10 @@ public class ColorPicker : MonoBehaviour
             DebugText.color = color;
             DebugText.text = debug;
 
-            OnColorPreview?.Invoke(color);
+            //OnColorPreview?.Invoke(color);
 
             if (Input.GetMouseButtonDown(0)) {
+                Debug.Log("cliquei");
                 OnColorSelect?.Invoke(color);
             }
         }
