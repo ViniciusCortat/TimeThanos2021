@@ -12,6 +12,11 @@ public class Timer : MonoBehaviour
     public Text timerText;
     private bool timeStopped = false;
 
+    private void Start()
+    {
+        timeRemaining += Feiticos.Time;
+    }
+
     void Update() {
 
         if (timeRemaining > 0) 
