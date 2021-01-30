@@ -10,6 +10,13 @@ public class PlayerMovement : MonoBehaviour
     public float movSpeed;
     private Vector2 dir;
 
+    private Animator anim;
+
+    void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+    }
+
     void Update()
 
     {
@@ -30,6 +37,13 @@ public class PlayerMovement : MonoBehaviour
         camR = camR.normalized;
 
         transform.position += (camF * dir.y + camR * dir.x) * Time.deltaTime * movSpeed;
+
+        if(Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+        {
+            anim.SetBool("run", false);
+        }else {
+            anim.SetBool("run", true);
+        }
 
     }
 
