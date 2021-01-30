@@ -4,8 +4,8 @@ using UnityEngine;
 
 public static class Feiticos
 {
-    private static float speed, time;
-    private static float speedMod, timeMod;
+    private static float speed, time, wall;
+    private static float speedMod, timeMod, wallMod;
 
     public static float Speed
     {
@@ -52,6 +52,30 @@ public static class Feiticos
         set
         {
             timeMod = value;
+        }
+    }
+
+    public static float Wall
+    {
+        get
+        {
+            return wall;
+        }
+        set
+        {
+            wall = value;
+        }
+    }
+
+    public static float WallMod
+    {
+        get
+        {
+            return wallMod;
+        }
+        set
+        {
+            wallMod = value;
         }
     }
 }

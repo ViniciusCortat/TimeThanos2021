@@ -18,6 +18,7 @@ public class MovableWallLine : MonoBehaviour
 	private void Start()
 	{
 		InvokeRepeating("ChoosePoint", WaitTime, WaitTime);
+		WaitTime += Feiticos.Wall;
 	}
 
 	private void ChoosePoint()
