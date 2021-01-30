@@ -10,7 +10,11 @@ public class SetFeitico : MonoBehaviour
 
     private void Start()
     {
+        Feiticos.Speed = 1.0f;
+        Feiticos.SpeedMod = 1.0f;
 
+        Feiticos.Time = 0.0f;
+        Feiticos.TimeMod = 0.0f;
     }
     public void SetSpeed()
     {
