@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6217babe7a72b44b85fce2059c735fa, type: 3}
   m_Name: emptyHighScore
   m_EditorClassIdentifier: 
-  MaxDisplayAttempts: 0
+  MaxDisplayAttempts: 10
   Scores: 

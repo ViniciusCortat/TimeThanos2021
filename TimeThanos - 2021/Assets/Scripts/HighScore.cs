@@ -6,12 +6,10 @@ using UnityEngine;
 public class HighScore : ScriptableObject
 {
     public static int attempts;
-    public int MaxDisplayAttempts;
-
-    public List<int> Scores;
+    public List<int> Scores = new List<int>();
 
     void Start() {
-        Scores = new List<int>();
+        //Scores = new List<int>();
         SaveSystem.GetInstance().LoadHighScore();
     }
 }
