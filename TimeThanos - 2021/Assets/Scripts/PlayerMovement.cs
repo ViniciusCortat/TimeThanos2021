@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     float turnSmoothVelocity;
     private Animator anim;
 
+    public AudioSource run;
+    private bool isPlaying = false;
+
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -25,10 +28,18 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
         {
             anim.SetBool("run", true);
+            if (!isPlaying)
+            {
+                run.Play();
+                isPlaying = true;
+            }
+            
         }
         else
         {
             anim.SetBool("run", false);
+            run.Stop();
+            isPlaying = false;
         }
 
         if (direction.magnitude >= 0.1f)

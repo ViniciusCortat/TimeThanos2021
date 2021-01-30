@@ -16,7 +16,17 @@ public class ObjectCollider : MonoBehaviour
     private void OnTriggerStay(Collider other) {
         if(other.CompareTag("Player")) {
             PS.GivePonto(pontos);
+            PlaySound();
+            Debug.Log("oi");
             Destroy(this.gameObject);
+        }
+    }
+
+    private void PlaySound(){
+        foreach (Transform child in transform.parent){
+            if (child.name == "audio"){
+                child.GetComponent<AudioSource>().Play();
+            }
         }
     }
 }
