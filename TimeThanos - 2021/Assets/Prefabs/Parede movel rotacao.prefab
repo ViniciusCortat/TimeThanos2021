@@ -172,3 +172,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pivot: {fileID: 3903152848703061439}
   WaitTime: 5
+  InvertRotation: 0

@@ -8,10 +8,13 @@ public class MovableWallRotation : MonoBehaviour
 	private GameObject Pivot;
 	[SerializeField]
 	private float WaitTime = 30f;
-	
+	[SerializeField]
+	private bool InvertRotation = false;
+
 	private bool _isActive = false;
 	private Quaternion RotClockwise = Quaternion.Euler(0, 90, 0);
-	private Quaternion RotAntiClockwise = Quaternion.Euler(0, 0, 0);
+	private Quaternion RotAntiClockwise = Quaternion.Euler(0, -90, 0);
+	private Quaternion RotInitialPos = Quaternion.Euler(0, 0, 0);
 
 	private void Start()
 	{
@@ -21,9 +24,14 @@ public class MovableWallRotation : MonoBehaviour
 	private void ChoosePoint()
 	{
 		if (_isActive)
-			StartCoroutine(MoveWall(RotAntiClockwise));
+			StartCoroutine(MoveWall(RotInitialPos));
 		else
-			StartCoroutine(MoveWall(RotClockwise));
+		{
+			if (InvertRotation)
+				StartCoroutine(MoveWall(RotAntiClockwise));
+			else
+				StartCoroutine(MoveWall(RotClockwise));
+		}
 	}
 
 	IEnumerator MoveWall(Quaternion rotation)
