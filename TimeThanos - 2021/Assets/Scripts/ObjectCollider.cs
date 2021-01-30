@@ -17,7 +17,7 @@ public class ObjectCollider : MonoBehaviour
         if(other.CompareTag("Player")) {
             PS.GivePonto(pontos);
             PlaySound();
-            Debug.Log("oi");
+            Debug.Log("oi " + PS.pontos);
             Destroy(this.gameObject);
         }
     }

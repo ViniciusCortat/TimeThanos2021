@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4229055646214986266}
   - component: {fileID: 1324218334604456001}
+  - component: {fileID: 2653572367552678430}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -46,6 +47,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pontos: 200
+--- !u!65 &2653572367552678430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185948363036632708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1286630019961589444
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,8 +71,6 @@ GameObject:
   - component: {fileID: 2832796632542006100}
   - component: {fileID: 161390125882813915}
   - component: {fileID: 4943729775692351397}
-  - component: {fileID: 6714758422856338758}
-  - component: {fileID: 6139492094534850703}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -129,32 +141,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6714758422856338758
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286630019961589444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6139492094534850703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286630019961589444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dc8d2f56c3a7094a8443b03b9e4632d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pontos: 0
 --- !u!1 &5867527019542152712
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5867527019542152712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -88.52617, y: 26.673683, z: -90.662025}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4229055646214986266}
