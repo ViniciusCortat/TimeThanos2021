@@ -692,6 +692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8624726583501332918, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
+      propertyPath: WaitTime
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
 --- !u!4 &109022513 stripped
@@ -1359,6 +1363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 624979588}
     m_Modifications:
+    - target: {fileID: 8624726583060823979, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8624726583501332912, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
       propertyPath: m_Name
       value: Parede movel vertical (2)
@@ -1377,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8624726583501332913, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20
+      value: 40.9
       objectReference: {fileID: 0}
     - target: {fileID: 8624726583501332913, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1406,6 +1414,14 @@ PrefabInstance:
     - target: {fileID: 8624726583501332913, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8624726583501332918, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
+      propertyPath: WaitTime
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8624726584090314676, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ab7ad8f8f63e841b25f94da50657f7, type: 3}
@@ -10537,6 +10553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 624979588}
     m_Modifications:
+    - target: {fileID: 7352882863424463042, guid: 5a658b8e77416214f91dbc00f1d901a1, type: 3}
+      propertyPath: WaitTime
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7352882863424463043, guid: 5a658b8e77416214f91dbc00f1d901a1, type: 3}
       propertyPath: m_RootOrder
       value: 4
