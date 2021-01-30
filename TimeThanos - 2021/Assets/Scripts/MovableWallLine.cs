@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class MovableWall : MonoBehaviour
+public class MovableWallLine : MonoBehaviour
 {
 	[SerializeField]
 	private GameObject Wall;
