@@ -8,12 +8,6 @@ public class itemAchieviment : MonoBehaviour
 {
     public UnityEvent TriggerAction;
 
-    void Start()
-    {
-        
-    }
-
-    
     void Update()
     {
         
