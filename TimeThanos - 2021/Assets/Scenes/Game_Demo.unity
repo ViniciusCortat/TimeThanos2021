@@ -2458,6 +2458,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1866292766470364940, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
+    - target: {fileID: 2323811459316936092, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+    - target: {fileID: 2620502948179792861, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+    - target: {fileID: 2620502948179792861, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
     - target: {fileID: 3012948074038614319, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_AABB.m_Extent.x
       value: 0.2771214
