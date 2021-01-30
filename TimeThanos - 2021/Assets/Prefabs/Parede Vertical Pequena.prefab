@@ -174,7 +174,7 @@ MonoBehaviour:
   Wall: {fileID: 8624726583289683807}
   StartPoint: {fileID: 8624726584090314676}
   FinalPoint: {fileID: 8624726583060823979}
-  WaitTime: 30
+  WaitTime: 5
 --- !u!1 &8624726584090314679
 GameObject:
   m_ObjectHideFlags: 0
