@@ -10,40 +10,40 @@ public class SetFeitico : MonoBehaviour
     private void Start()
     {
         Feiticos.Speed = 1.0f;
-        Feiticos.SpeedMod = 1.0f;
+        Feiticos.SpeedMod = 0.0f;
 
         Feiticos.Time = 0.0f;
-        Feiticos.TimeMod = 1.0f;
+        Feiticos.TimeMod = 0.0f;
 
         Feiticos.Wall = 0.0f;
-        Feiticos.WallMod = 1.0f;
+        Feiticos.WallMod = 0.0f;
 
         Feiticos.Chance = 0;
-        Feiticos.ChanceMod = 1.0f;
+        Feiticos.ChanceMod = 0.0f;
 
         Feiticos.Loses = false;
-        Feiticos.LosesMod = 1.0f;
+        Feiticos.LosesMod = 0.0f;
 
         Feiticos.TimeUI = false;
-        Feiticos.TimeUIMod = 1.0f;
+        Feiticos.TimeUIMod = 0.0f;
 
         Feiticos.ScoreUI = false;
-        Feiticos.ScoreUIMod = 1.0f;
+        Feiticos.ScoreUIMod = 0.0f;
 
         Feiticos.Delay = false;
-        Feiticos.DelayMod = 1.0f;
+        Feiticos.DelayMod = 0.0f;
     }
     public void SetSpeed()
     {
         if (speedSlider.value == 1.0f)
         {
             Feiticos.Speed = 0.5f;
-            Feiticos.SpeedMod = 1.5f;
+            Feiticos.SpeedMod = 0.5f;
         }
         else
         {
             Feiticos.Speed = 1.0f;
-            Feiticos.SpeedMod = 1.0f;
+            Feiticos.SpeedMod = 0.0f;
         }
     }
 
@@ -52,40 +52,40 @@ public class SetFeitico : MonoBehaviour
         if (timeSlider.value == 1.0f)
         {
             Feiticos.Time = -20.0f;
-            Feiticos.TimeMod = 1.2f;
+            Feiticos.TimeMod = 0.2f;
         }
         else
         {
             Feiticos.Time = 0.0f;
-            Feiticos.TimeMod = 1.0f;
+            Feiticos.TimeMod = 0.0f;
         }
     }
 
     public void SetWall()
     {
-        if(wallSlider.value == 1.0f)
+        if (wallSlider.value == 1.0f)
         {
             Feiticos.Wall = 4.0f;
-            Feiticos.WallMod = 1.2f;
+            Feiticos.WallMod = 0.2f;
         }
-        else 
+        else
         {
             Feiticos.Wall = 0.0f;
-            Feiticos.WallMod = 1.0f;
+            Feiticos.WallMod = 0.0f;
         }
     }
 
     public void SetLoss()
     {
-        if(lossSlider.value == 1.0f)
+        if (lossSlider.value == 1.0f)
         {
             Feiticos.Loses = true;
-            Feiticos.LosesMod = 1.2f;
+            Feiticos.LosesMod = 0.2f;
         }
         else
         {
             Feiticos.Loses = false;
-            Feiticos.LosesMod = 1.0f;
+            Feiticos.LosesMod = 0.0f;
         }
     }
 
@@ -94,12 +94,12 @@ public class SetFeitico : MonoBehaviour
         if (timeUISlider.value == 1.0f)
         {
             Feiticos.TimeUI = true;
-            Feiticos.TimeUIMod = 1.3f;
+            Feiticos.TimeUIMod = 0.3f;
         }
         else
         {
             Feiticos.TimeUI = false;
-            Feiticos.TimeUIMod = 1.0f;
+            Feiticos.TimeUIMod = 0.0f;
         }
     }
 
@@ -108,40 +108,40 @@ public class SetFeitico : MonoBehaviour
         if (scoreUISlider.value == 1.0f)
         {
             Feiticos.ScoreUI = true;
-            Feiticos.ScoreUIMod = 1.1f;
+            Feiticos.ScoreUIMod = 0.1f;
         }
         else
         {
             Feiticos.ScoreUI = false;
-            Feiticos.ScoreUIMod = 1.0f;
+            Feiticos.ScoreUIMod = 0.0f;
         }
     }
 
     public void SetDelay()
     {
-        if(delaySlider.value == 1.0f)
+        if (delaySlider.value == 1.0f)
         {
             Feiticos.Delay = true;
-            Feiticos.DelayMod = 1.4f;
+            Feiticos.DelayMod = 0.4f;
         }
         else
         {
             Feiticos.Delay = false;
-            Feiticos.DelayMod = 1.0f;
+            Feiticos.DelayMod = 0.0f;
         }
     }
 
     public void SetChance()
     {
-        if(chanceSlider.value == 1.0f)
+        if (chanceSlider.value == 1.0f)
         {
             Feiticos.Chance = 15;
-            Feiticos.ChanceMod = 1.6f;
+            Feiticos.ChanceMod = 0.6f;
         }
         else
         {
             Feiticos.Chance = 0;
-            Feiticos.ChanceMod = 1.0f;
+            Feiticos.ChanceMod = 0.0f;
         }
     }
 }
