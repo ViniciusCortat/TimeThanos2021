@@ -29,7 +29,7 @@ public class PlayerCollider : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.E))
 			{
 				pointSystemScript.GivePonto(col.GetComponent<ItemValue>().Value);
-				PointsText.text = pointSystemScript._pontos.ToString();
+				PointsText.text = pointSystemScript.pontos.ToString();
 				Destroy(col.gameObject);
 			}
 		}
