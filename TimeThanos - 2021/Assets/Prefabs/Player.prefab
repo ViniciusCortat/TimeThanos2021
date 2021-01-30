@@ -1171,14 +1171,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3888891153505549458, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
+    - target: {fileID: -2920864478816749967, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56403691c768fa648b78bb305ed4f20c, type: 2}
+    - target: {fileID: -595494433820864577, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+    - target: {fileID: -595494433820864577, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
     - target: {fileID: 919132149155446097, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
       propertyPath: m_Name
       value: bruxa_anim
       objectReference: {fileID: 0}
+    - target: {fileID: 1123054084368432229, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
     - target: {fileID: 1155364316291384379, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8349202355759952382, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
     m_RemovedComponents:
     - {fileID: 8116873891725993217, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}
     - {fileID: -8237650219101533980, guid: 90eab0666a6a7e848a2fe5def77091e7, type: 3}

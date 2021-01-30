@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DisplayResultado : MonoBehaviour
 {
@@ -9,8 +10,8 @@ public class DisplayResultado : MonoBehaviour
     private PointSystem Points = PointSystem.Instance;
     private HighScore Hs;
 
-    public Text score;
-    public Text pontuacao;
+    public TextMeshProUGUI score;
+    public TextMeshProUGUI pontuacao;
 
     void Start()
     {
@@ -31,9 +32,25 @@ public class DisplayResultado : MonoBehaviour
         SaveSystem.GetInstance().SaveHighScore();
         Hs.Scores.Sort();
         Hs.Scores.Reverse();
+        int redId = checkForPontosInHiscores();
         int max = Hs.Scores.Count > 10? 10 : Hs.Scores.Count;
         for(int i = 0;i < max; i++) {
-            score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+            if(i != redId) {
+                score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+            }
+            else {
+                score.text += $"<color=#FF0000>Rank {i+1} - {Hs.Scores[i]}</color>\n";
+            }
         }
+    }
+
+    private int checkForPontosInHiscores() {
+        int max = Hs.Scores.Count > 10? 10 : Hs.Scores.Count;
+        for(int i=max;i>=0;i--) {
+            if(Hs.Scores[i] == Points.pontos) {
+                return i;
+            }
+        }
+        return 999;
     }
 }
