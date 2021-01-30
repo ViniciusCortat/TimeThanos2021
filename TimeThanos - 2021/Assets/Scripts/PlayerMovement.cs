@@ -9,6 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public float movSpeed = 10f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+    }
 
     private void Update()
     {
@@ -16,7 +22,16 @@ public class PlayerMovement : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(h, 0f, v).normalized;
 
-        if(direction.magnitude >= 0.1f)
+        if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            anim.SetBool("run", true);
+        }
+        else
+        {
+            anim.SetBool("run", false);
+        }
+
+        if (direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
