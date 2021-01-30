@@ -14,7 +14,6 @@ public class ColorPicker : MonoBehaviour
     public ColorEvent OnColorPreview;
     public ColorEvent OnColorSelect;
     Texture2D ColorTexture;
-    public TextMeshProUGUI DebugText;
 
     void Start() {
         Rect = GetComponent<RectTransform>();
@@ -27,26 +26,19 @@ public class ColorPicker : MonoBehaviour
             Vector2 delta;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(Rect, Input.mousePosition, null, out delta);
 
-            string debug = "mousePosition=" + Input.mousePosition;
-            debug += "<br>delta=" + delta;
-
             float width = Rect.rect.width;
             float height = Rect.rect.height;
             delta += new Vector2(width * .5f, height * .5f);
-            debug += "<br>offset delta=" + delta;
+            
 
             float x = Mathf.Clamp(delta.x / width, 0f, 1f);
             float y = Mathf.Clamp(delta.y / height, 0f, 1f);
-            debug += "<br>x=" + x + " y="  + y;
-
+            
             int texX = Mathf.RoundToInt(x * ColorTexture.width);
             int texY = Mathf.RoundToInt(y * ColorTexture.height);
-            debug += "<br>texX=" + texX + " texY="  + texY;
-
+            
             Color color = ColorTexture.GetPixel(texX, texY);
-            DebugText.color = color;
-            DebugText.text = debug;
-
+            
             //OnColorPreview?.Invoke(color);
 
             if (Input.GetMouseButtonDown(0)) {
