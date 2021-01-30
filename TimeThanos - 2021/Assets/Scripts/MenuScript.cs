@@ -7,7 +7,7 @@ public class MenuScript : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("hugo_test", LoadSceneMode.Single);
+        SceneManager.LoadScene("Game_Demo", LoadSceneMode.Single);
     }
 
     public void Leaderboard()
