@@ -95,7 +95,7 @@ public class SaveSystem : MonoBehaviour
             Achiev = ScriptableObject.CreateInstance<Achieviments>();
             JsonUtility.FromJsonOverwrite(jsonString, Achiev);
             SucessfulLoad = true;
-            Debug.Log("Salvei os Achieviments!");
+            Debug.Log("Dei Load nos Achieviments!");
             return;
         }
         catch (Exception e) {
@@ -135,7 +135,7 @@ public class SaveSystem : MonoBehaviour
             Hs = ScriptableObject.CreateInstance<HighScore>();
             JsonUtility.FromJsonOverwrite(jsonString, Hs);
             SucessfulLoad = true;
-            Debug.Log("Salvei os HighScores!");
+            Debug.Log("Dei Load nos HighScores!");
             return;
         }
         catch (Exception e) {
@@ -164,6 +164,7 @@ public class SaveSystem : MonoBehaviour
         {
             streamWriter.Write (saveVersion.ToString());
         }
+        Debug.Log("Achieviments Salvo!");
     }
 
     public void SaveHighScore() {
@@ -186,5 +187,6 @@ public class SaveSystem : MonoBehaviour
         {
             streamWriter.Write (saveVersion.ToString());
         }
+        Debug.Log("HighScores Salvo!");
     }
 }
