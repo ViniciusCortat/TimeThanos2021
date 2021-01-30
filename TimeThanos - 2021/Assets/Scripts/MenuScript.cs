@@ -10,6 +10,11 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("hugo_test", LoadSceneMode.Single);
     }
 
+    public void Leaderboard()
+    {
+        SceneManager.LoadScene("ResultadoFinal", LoadSceneMode.Single);
+    }
+
     public void QuitGame()
     {
         Debug.Log("SAIR");
