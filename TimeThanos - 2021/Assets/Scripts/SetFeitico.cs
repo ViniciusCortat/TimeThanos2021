@@ -18,54 +18,34 @@ public class SetFeitico : MonoBehaviour
     }
     public void SetSpeed()
     {
-        if (speedSlider.value == 2.0f)
+        if (speedSlider.value == 1.0f)
         {
             Feiticos.Speed = 0.5f;
             Feiticos.SpeedMod = 1.5f;
         }
-        else if (speedSlider.value == 1.0f)
+        else
         {
             Feiticos.Speed = 1.0f;
             Feiticos.SpeedMod = 1.0f;
-        }
-        else
-        {
-            Feiticos.Speed = 1.25f;
-            Feiticos.SpeedMod = 0.5f;
         }
     }
 
     public void SetTime()
     {
-        if (timeSlider.value == 6.0f)
+        if (timeSlider.value == 3.0f)
         {
-            Feiticos.Time = 30.0f;
-            Feiticos.TimeMod = 0.7f;
-        }
-        else if (timeSlider.value == 5.0f)
-        {
-            Feiticos.Time = 20.0f;
-            Feiticos.TimeMod = 0.8f;
-        }
-        else if (timeSlider.value == 4.0f)
-        {
-            Feiticos.Time = 10.0f;
-            Feiticos.TimeMod = 0.9f;
+            Feiticos.Time = -30.0f;
+            Feiticos.TimeMod = 1.3f;
         }
         else if (timeSlider.value == 2.0f)
-        {
-            Feiticos.Time = -10.0f;
-            Feiticos.TimeMod = 1.1f;
-        }
-        else if (timeSlider.value == 1.0f)
         {
             Feiticos.Time = -20.0f;
             Feiticos.TimeMod = 1.2f;
         }
-        else if (timeSlider.value == 0.0f)
+        else if (timeSlider.value == 1.0f)
         {
-            Feiticos.Time = -30.0f;
-            Feiticos.TimeMod = 1.3f;
+            Feiticos.Time = -10.0f;
+            Feiticos.TimeMod = 1.1f;
         }
         else
         {
