@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovableWall : MonoBehaviour
@@ -24,14 +23,9 @@ public class MovableWall : MonoBehaviour
 	private void ChoosePoint()
 	{
 		if (_isActive)
-		{
-			StartCoroutine(MoveWall(FinalPoint.position, 2));
-		}
-		else
-		{
 			StartCoroutine(MoveWall(StartPoint.position, 2));
-		}
-
+		else
+			StartCoroutine(MoveWall(FinalPoint.position, 2));
 	}
 
 	IEnumerator MoveWall(Vector3 targetPosition, float duration)
