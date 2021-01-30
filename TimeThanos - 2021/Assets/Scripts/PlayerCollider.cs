@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCollider : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerCollider : MonoBehaviour
     private int point;
     [SerializeField]
     private GameObject InputText;
+	[SerializeField]
+	private Text PointsText;
 
     PointSystem pointSystemScript = PointSystem.Instance;
 
@@ -26,6 +29,7 @@ public class PlayerCollider : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.E))
 			{
 				pointSystemScript.GivePonto(col.GetComponent<ItemValue>().Value);
+				PointsText.text = pointSystemScript._pontos.ToString();
 				Destroy(col.gameObject);
 			}
 		}

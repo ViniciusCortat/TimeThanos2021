@@ -12,7 +12,8 @@ public sealed class PointSystem
 
     // Fim da criacao do Singleton
 
-    private int _pontos = 0;
+    [HideInInspector]
+    public int _pontos = 0;
 
     public int pontos {get {return _pontos;}}
 
