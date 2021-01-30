@@ -9,6 +9,7 @@ public class DisplayResultado : MonoBehaviour
     
     private PointSystem Points = PointSystem.Instance;
     private HighScore Hs;
+    private Achieviments Achiev;
 
     public TextMeshProUGUI score;
     public TextMeshProUGUI pontuacao;
@@ -18,6 +19,8 @@ public class DisplayResultado : MonoBehaviour
         pontuacao.text = "Pontos: " + Points.pontos.ToString();
         Hs = SaveSystem.GetInstance().Hs;
         DisplayScore();
+        Achiev = SaveSystem.GetInstance().Achiev;
+        Achiev.AddPoints(Points.pontos);
     }
 
     

@@ -6,7 +6,12 @@ using UnityEngine.Events;
 
 public class itemAchieviment : MonoBehaviour
 {
-    public UnityEvent TriggerAction;
+
+    private Achieviments Achiev;
+
+    void Start() {
+        Achiev = SaveSystem.GetInstance().Achiev;
+    }
 
     void Update()
     {

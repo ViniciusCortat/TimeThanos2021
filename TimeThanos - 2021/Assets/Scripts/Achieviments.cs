@@ -10,6 +10,25 @@ public class Achieviments : ScriptableObject
 
     private List<bool> Completed;
 
+    public int numberOfBooks;
+    private int currentBooks;
+    public int numberOfMaps;
+    private int currentMaps;
+    public int numberOfPlants;
+    private int currentPlants;
+    public int numberOfPaintings;
+    private int currentPaintings;
+    public int numberOfPoints;
+    private int currentPoints;
+    public int numberOfMushs;
+    private int currentMushs;
+    public int numberOfCrystals;
+    private int currentCrystals;
+    public int numberOfCrystalsBalls;
+    private int currentCrystalBalls;
+    public int numberOfPotions;
+    private int currentPotions;
+
     void Start() {
         Completed = new List<bool>();
         for(int i=0; i < Achiev.Count; i++) {
@@ -25,5 +44,41 @@ public class Achieviments : ScriptableObject
 
     public bool CheckCompletion(int i) {
         return Completed[i];
+    }
+
+    public void AddBook() {
+        currentBooks++;
+    }
+
+    public void AddMaps() {
+        currentMaps++;
+    }
+
+    public void AddPlant() {
+        currentPlants++;
+    }
+
+    public void AddPaintings() {
+        currentPaintings++;
+    }
+
+    public void AddPoints(int points) {
+        currentPoints += points;
+    }
+
+    public void AddMush() {
+        currentMushs++;
+    }
+
+    public void AddCrystals() {
+        currentCrystals++;
+    }
+
+    public void AddCrystalBalls() {
+        currentCrystalBalls++;
+    }
+
+    public void AddPotion() {
+        currentPotions++;
     }
 }

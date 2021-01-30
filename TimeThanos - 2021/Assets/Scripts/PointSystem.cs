@@ -17,7 +17,7 @@ public sealed class PointSystem
     public int pontos {get {return _pontos;}}
 
     public void GivePonto(int give) {
-        _pontos += give;
+        _pontos += give;   
     }
 
     public void ResetPonto() {
