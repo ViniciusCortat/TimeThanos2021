@@ -329,8 +329,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97308142}
-  m_LocalRotation: {x: 0.28780523, y: -0.000000016478364, z: 0.0000000049520867, w: 0.957689}
-  m_LocalPosition: {x: 0, y: 5.5, z: -7}
+  m_LocalRotation: {x: -0.11170111, y: 0.88261724, z: -0.26524457, w: -0.37169215}
+  m_LocalPosition: {x: 5.00766, y: 5.5, z: 4.89115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -344,12 +344,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3391964739524618594, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.37365738
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964739524618594, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.104939684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964739524618594, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016565487
+      value: 0.8872839
       objectReference: {fileID: 0}
     - target: {fileID: 3391964739524618594, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000004652328
+      value: -0.24918893
       objectReference: {fileID: 0}
     - target: {fileID: 3391964740554039519, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_RootOrder
@@ -399,21 +407,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3391964741233796381, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.89115
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964741276870606, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964741276870606, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.36959887
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964741276870606, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.118443504
+      objectReference: {fileID: 0}
     - target: {fileID: 3391964741276870606, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016385558
+      value: 0.87764657
       objectReference: {fileID: 0}
     - target: {fileID: 3391964741276870606, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000052509983
+      value: -0.28125504
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964741346398656, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3716921
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391964741346398656, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.111701086
       objectReference: {fileID: 0}
     - target: {fileID: 3391964741346398656, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016478362
+      value: 0.88261724
       objectReference: {fileID: 0}
     - target: {fileID: 3391964741346398656, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000004952085
+      value: -0.26524454
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c5b92343f5e6b4c8bde7ee449c8c94, type: 3}
@@ -435,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: 1
+  InputText: {fileID: 0}
 --- !u!1 &545311470
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,10 +516,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
