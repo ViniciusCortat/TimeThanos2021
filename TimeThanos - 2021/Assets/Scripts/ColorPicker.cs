@@ -13,6 +13,7 @@ public class ColorPicker : MonoBehaviour
     RectTransform Rect;
     public ColorEvent OnColorPreview;
     public ColorEvent OnColorSelect;
+    public Material mat;
     Texture2D ColorTexture;
 
     void Start() {
@@ -29,11 +30,8 @@ public class ColorPicker : MonoBehaviour
             float width = Rect.rect.width;
             float height = Rect.rect.height;
             delta += new Vector2(width * .5f, height * .5f);
-            
-
             float x = Mathf.Clamp(delta.x / width, 0f, 1f);
             float y = Mathf.Clamp(delta.y / height, 0f, 1f);
-            
             int texX = Mathf.RoundToInt(x * ColorTexture.width);
             int texY = Mathf.RoundToInt(y * ColorTexture.height);
             
@@ -43,7 +41,8 @@ public class ColorPicker : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0)) {
                 Debug.Log("cliquei");
-                OnColorSelect?.Invoke(color);
+                //OnColorSelect?.Invoke(color);
+                mat.SetColor("Color_6A162E48",color);
             }
         }
     }

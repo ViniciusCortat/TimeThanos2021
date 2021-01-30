@@ -203,6 +203,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: 00c054099d0d45940b8b5fceb7999a5e, type: 2}
 --- !u!114 &21297992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,7 +1157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ca8e2f591b43d934998ae5cb65b80033, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1770,6 +1771,12 @@ MonoBehaviour:
   CorOculos: {fileID: 1722729562}
   CorPele: {fileID: 1875877899}
   CorCabelo: {fileID: 1393721107}
+  Cab: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
+  Capa: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+  Chapeu: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
+  Oculos: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
+  Olho: {fileID: 2100000, guid: 00c054099d0d45940b8b5fceb7999a5e, type: 2}
+  Pele: {fileID: 2100000, guid: d6e952c548b889e4a8eb18591613e1bd, type: 2}
 --- !u!4 &934401422
 Transform:
   m_ObjectHideFlags: 0
@@ -1964,7 +1971,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 934401421}
         m_TargetAssemblyTypeName: ChoosePart, Assembly-CSharp
-        m_MethodName: ligaCabelo
+        m_MethodName: Randomizar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2104,6 +2111,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
 --- !u!114 &1146921504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,7 +2634,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 934401421}
         m_TargetAssemblyTypeName: ChoosePart, Assembly-CSharp
-        m_MethodName: ligaPele
+        m_MethodName: Reset
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2766,6 +2774,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
 --- !u!114 &1393721110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3017,6 +3026,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
 --- !u!114 &1722729565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3135,6 +3145,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: d6e952c548b889e4a8eb18591613e1bd, type: 2}
 --- !u!114 &1875877902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,6 +3740,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mat: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
 --- !u!1 &2066943923
 GameObject:
   m_ObjectHideFlags: 0

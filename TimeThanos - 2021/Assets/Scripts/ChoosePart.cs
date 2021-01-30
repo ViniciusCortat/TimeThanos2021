@@ -11,6 +11,12 @@ public class ChoosePart : MonoBehaviour
     public GameObject CorOculos;
     public GameObject CorPele;
     public GameObject CorCabelo;
+    public Material Cab;
+    public Material Capa;
+    public Material Chapeu;
+    public Material Oculos;
+    public Material Olho;
+    public Material Pele;
 
 
     public void ligaCor(GameObject liga) {
@@ -21,5 +27,23 @@ public class ChoosePart : MonoBehaviour
         CorRoupa.SetActive(false);
         CorOculos.SetActive(false);
         liga.SetActive(true);
+    }
+
+    public void Reset() {
+        Cab.SetColor("Color_6A162E48",new Color32(82,137,172, 0));
+        Capa.SetColor("Color_6A162E48",new Color32(40,3,82, 0));
+        Chapeu.SetColor("Color_6A162E48",new Color32(0,0,0, 0));
+        Oculos.SetColor("Color_6A162E48",new Color32(255,255,255, 0));
+        Olho.SetColor("Color_6A162E48",new Color32(0,0,0, 0));
+        Pele.SetColor("Color_6A162E48",new Color32(245,125,71, 0));
+    }
+
+    public void Randomizar() {
+        Cab.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        Capa.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        Chapeu.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        Oculos.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        Olho.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        Pele.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
     }
 }

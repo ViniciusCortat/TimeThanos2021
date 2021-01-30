@@ -19,6 +19,10 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 
+    public void Settings() {
+        SceneManager.LoadScene("Settings", LoadSceneMode.Single);
+    }
+
     public void QuitGame()
     {
         Debug.Log("SAIR");
