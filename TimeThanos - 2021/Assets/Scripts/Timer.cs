@@ -15,6 +15,15 @@ public class Timer : MonoBehaviour
     private void Start()
     {
         timeRemaining += Feiticos.Time;
+
+        if(Feiticos.TimeUI == true)
+        {
+            timerText.gameObject.SetActive(false);
+        }
+        else
+        {
+            timerText.gameObject.SetActive(true);
+        }
     }
 
     void Update() {
