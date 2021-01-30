@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vinny.unity
     guid: f82750fd206197c438888c851f532127
+  - enabled: 1
+    path: Assets/Scenes/ResultadoFinal.unity
+    guid: f86a92c609996614e84e958048c03100
   m_configObjects: {}
