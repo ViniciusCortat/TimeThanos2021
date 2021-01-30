@@ -154,7 +154,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 21}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 19
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &10078591
 BoxCollider:
@@ -534,7 +534,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 8
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &75066972
 BoxCollider:
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 161923470}
   - component: {fileID: 161923469}
   m_Layer: 0
-  m_Name: Parede (3)
+  m_Name: Parede fixa horizontal (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1196,8 +1196,8 @@ Transform:
   m_LocalPosition: {x: 20.7, y: 0, z: -51}
   m_LocalScale: {x: 60, y: 10, z: 1}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 3
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &161923469
 BoxCollider:
@@ -1482,7 +1482,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 18
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &231540788
 BoxCollider:
@@ -1655,7 +1655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &250775267
 BoxCollider:
@@ -2126,7 +2126,7 @@ GameObject:
   - component: {fileID: 342867941}
   - component: {fileID: 342867940}
   m_Layer: 0
-  m_Name: Parede (10)
+  m_Name: Parede sup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2144,7 +2144,7 @@ Transform:
   m_LocalScale: {x: 180, y: 10, z: 2}
   m_Children: []
   m_Father: {fileID: 1983911482}
-  m_RootOrder: 10
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &342867940
 BoxCollider:
@@ -2901,7 +2901,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 21}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &442875871
 BoxCollider:
@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 456157647}
   - component: {fileID: 456157646}
   m_Layer: 0
-  m_Name: Parede (7)
+  m_Name: Parede fixa vertical7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3090,8 +3090,8 @@ Transform:
   m_LocalPosition: {x: 50, y: 0, z: 50}
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 7
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &456157646
 BoxCollider:
@@ -3381,7 +3381,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 23
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &529169231
 BoxCollider:
@@ -3637,7 +3637,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &580776999
 BoxCollider:
@@ -3904,7 +3904,7 @@ GameObject:
   - component: {fileID: 623591501}
   - component: {fileID: 623591500}
   m_Layer: 0
-  m_Name: Parede (1)
+  m_Name: Parede fixa vertical (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3921,7 +3921,7 @@ Transform:
   m_LocalPosition: {x: 50, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
-  m_Father: {fileID: 1983911482}
+  m_Father: {fileID: 2125317421}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &623591500
@@ -4358,7 +4358,7 @@ Transform:
   m_LocalScale: {x: 21, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 11
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &707119454
 BoxCollider:
@@ -4643,7 +4643,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &770762914
 BoxCollider:
@@ -4738,7 +4738,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 20
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &785368945
 BoxCollider:
@@ -4833,7 +4833,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 21
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &844752491
 BoxCollider:
@@ -5023,7 +5023,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &858296964
 BoxCollider:
@@ -5675,7 +5675,7 @@ GameObject:
   - component: {fileID: 992169413}
   - component: {fileID: 992169412}
   m_Layer: 0
-  m_Name: Parede (6)
+  m_Name: Parede fixa vertical (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5692,8 +5692,8 @@ Transform:
   m_LocalPosition: {x: 70, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 6
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &992169412
 BoxCollider:
@@ -5827,7 +5827,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 16
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1016542145
 BoxCollider:
@@ -6083,7 +6083,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1203772605
 BoxCollider:
@@ -6887,7 +6887,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1315838906
 BoxCollider:
@@ -6964,7 +6964,7 @@ GameObject:
   - component: {fileID: 1321385632}
   - component: {fileID: 1321385631}
   m_Layer: 0
-  m_Name: Parede fixa vertical (10)
+  m_Name: Parede esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6981,8 +6981,8 @@ Transform:
   m_LocalPosition: {x: -90, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 10, z: 180}
   m_Children: []
-  m_Father: {fileID: 2125317421}
-  m_RootOrder: 17
+  m_Father: {fileID: 1983911482}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1321385631
 BoxCollider:
@@ -7533,7 +7533,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 22
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1424602703
 BoxCollider:
@@ -7839,7 +7839,7 @@ GameObject:
   - component: {fileID: 1449102189}
   - component: {fileID: 1449102188}
   m_Layer: 0
-  m_Name: Parede (2)
+  m_Name: Parede fixa horizontal (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7856,8 +7856,8 @@ Transform:
   m_LocalPosition: {x: -10, y: 0, z: 50}
   m_LocalScale: {x: 80, y: 10, z: 1}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 2
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1449102188
 BoxCollider:
@@ -8219,7 +8219,7 @@ GameObject:
   - component: {fileID: 1495891289}
   - component: {fileID: 1495891288}
   m_Layer: 0
-  m_Name: Parede (8)
+  m_Name: Parede fixa horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8236,8 +8236,8 @@ Transform:
   m_LocalPosition: {x: 20, y: 0, z: 70}
   m_LocalScale: {x: 60, y: 10, z: 1}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 8
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1495891288
 BoxCollider:
@@ -8314,7 +8314,7 @@ GameObject:
   - component: {fileID: 1499345608}
   - component: {fileID: 1499345607}
   m_Layer: 0
-  m_Name: Parede fixa vertical (8)
+  m_Name: Parede dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8331,8 +8331,8 @@ Transform:
   m_LocalPosition: {x: 90, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 10, z: 180}
   m_Children: []
-  m_Father: {fileID: 2125317421}
-  m_RootOrder: 14
+  m_Father: {fileID: 1983911482}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1499345607
 BoxCollider:
@@ -8789,7 +8789,7 @@ GameObject:
   - component: {fileID: 1602357079}
   - component: {fileID: 1602357078}
   m_Layer: 0
-  m_Name: Parede (4)
+  m_Name: Parede fixa horizontal (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8806,8 +8806,8 @@ Transform:
   m_LocalPosition: {x: 10, y: 0, z: -70}
   m_LocalScale: {x: 80, y: 10, z: 2}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 4
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1602357078
 BoxCollider:
@@ -8902,7 +8902,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1608210679
 BoxCollider:
@@ -9169,7 +9169,7 @@ GameObject:
   - component: {fileID: 1614906449}
   - component: {fileID: 1614906448}
   m_Layer: 0
-  m_Name: Parede
+  m_Name: Parede fixa vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9186,8 +9186,8 @@ Transform:
   m_LocalPosition: {x: -50, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 10, z: 80}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 0
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1614906448
 BoxCollider:
@@ -9264,7 +9264,7 @@ GameObject:
   - component: {fileID: 1619941819}
   - component: {fileID: 1619941818}
   m_Layer: 0
-  m_Name: Parede (9)
+  m_Name: Parede fixa vertical9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9281,8 +9281,8 @@ Transform:
   m_LocalPosition: {x: -30, y: 0, z: 70}
   m_LocalScale: {x: 1, y: 10, z: 40}
   m_Children: []
-  m_Father: {fileID: 1983911482}
-  m_RootOrder: 9
+  m_Father: {fileID: 2125317421}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1619941818
 BoxCollider:
@@ -10232,7 +10232,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 6
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1758870102
 BoxCollider:
@@ -11243,7 +11243,7 @@ GameObject:
   - component: {fileID: 1898811161}
   - component: {fileID: 1898811160}
   m_Layer: 0
-  m_Name: Parede (5)
+  m_Name: Parede inf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11261,7 +11261,7 @@ Transform:
   m_LocalScale: {x: 180, y: 10, z: 2}
   m_Children: []
   m_Father: {fileID: 1983911482}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1898811160
 BoxCollider:
@@ -11451,7 +11451,7 @@ Transform:
   m_LocalScale: {x: 40, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 10
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1919610648
 BoxCollider:
@@ -11641,7 +11641,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 21}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1963001069
 BoxCollider:
@@ -11806,7 +11806,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 9
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1972880694
 BoxCollider:
@@ -11897,17 +11897,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1614906447}
-  - {fileID: 623591499}
-  - {fileID: 1449102187}
-  - {fileID: 161923468}
-  - {fileID: 1602357077}
+  - {fileID: 1321385630}
   - {fileID: 1898811159}
-  - {fileID: 992169411}
-  - {fileID: 456157645}
-  - {fileID: 1495891287}
-  - {fileID: 1619941817}
   - {fileID: 342867939}
+  - {fileID: 1499345606}
   m_Father: {fileID: 2123068169}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12811,30 +12804,37 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 992169411}
+  - {fileID: 623591499}
+  - {fileID: 1614906447}
   - {fileID: 442875870}
   - {fileID: 1963001068}
   - {fileID: 1203772604}
   - {fileID: 858296963}
   - {fileID: 1315838905}
   - {fileID: 770762913}
+  - {fileID: 1608210678}
+  - {fileID: 250775266}
+  - {fileID: 580776998}
+  - {fileID: 10078590}
+  - {fileID: 1424602702}
+  - {fileID: 1619941817}
+  - {fileID: 456157645}
   - {fileID: 1758870101}
   - {fileID: 2130005733}
   - {fileID: 75066971}
   - {fileID: 1972880693}
+  - {fileID: 1602357077}
+  - {fileID: 161923468}
+  - {fileID: 1449102187}
+  - {fileID: 1495891287}
   - {fileID: 1919610647}
   - {fileID: 707119453}
-  - {fileID: 1608210678}
-  - {fileID: 250775266}
-  - {fileID: 1499345606}
-  - {fileID: 580776998}
+  - {fileID: 529169230}
   - {fileID: 1016542144}
-  - {fileID: 1321385630}
   - {fileID: 231540787}
-  - {fileID: 10078590}
   - {fileID: 785368944}
   - {fileID: 844752490}
-  - {fileID: 1424602702}
-  - {fileID: 529169230}
   m_Father: {fileID: 2123068169}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12869,7 +12869,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2125317421}
-  m_RootOrder: 7
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2130005734
 BoxCollider:
