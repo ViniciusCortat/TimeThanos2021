@@ -4,13 +4,35 @@ using UnityEngine;
 
 public class PlayerCollider : MonoBehaviour
 {
-    public int point;
+    [SerializeField]
+    private int point;
+    [SerializeField]
+    private GameObject InputText;
 
     PointSystem pointSystemScript = PointSystem.Instance;
 
-    void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Other") {
-            pointSystemScript.GivePonto(point);
-        }
-    }
+	private void OnTriggerEnter(Collider col)
+	{
+		if(col.gameObject.tag == "Collectible")
+		{
+            InputText.SetActive(true);
+		}
+	}
+
+	private void OnTriggerStay(Collider col)
+	{
+		if (col.gameObject.tag == "Collectible")
+		{
+			if (Input.GetKeyDown(KeyCode.E))
+			{
+				pointSystemScript.GivePonto(col.GetComponent<ItemValue>().Value);
+				Destroy(col.gameObject);
+			}
+		}
+	}
+
+	private void OnTriggerExit(Collider col)
+	{
+			InputText.SetActive(false);
+	}
 }
