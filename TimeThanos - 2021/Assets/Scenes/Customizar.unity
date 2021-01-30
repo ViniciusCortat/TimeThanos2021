@@ -1971,7 +1971,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 934401421}
         m_TargetAssemblyTypeName: ChoosePart, Assembly-CSharp
-        m_MethodName: ligaCabelo
+        m_MethodName: Randomizar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
