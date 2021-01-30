@@ -12,7 +12,7 @@ public sealed class PointSystem
 
     // Fim da criacao do Singleton
 
-    private int _pontos;
+    private int _pontos = 0;
 
     public int pontos {get {return _pontos;}}
 

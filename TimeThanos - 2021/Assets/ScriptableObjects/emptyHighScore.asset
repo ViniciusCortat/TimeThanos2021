@@ -7,9 +7,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a77689af3f630ba4c94354595ff3c052, type: 3}
-  m_Name: Achieviment
+  m_Script: {fileID: 11500000, guid: b6217babe7a72b44b85fce2059c735fa, type: 3}
+  m_Name: emptyHighScore
   m_EditorClassIdentifier: 
-  Achiev: []
+  MaxDisplayAttempts: 0
+  Scores: 

@@ -8,7 +8,7 @@ public class HighScore : ScriptableObject
     public static int attempts;
     public int MaxDisplayAttempts;
 
-    private List<int> Scores;
+    public List<int> Scores;
 
     void Start() {
         Scores = new List<int>();
