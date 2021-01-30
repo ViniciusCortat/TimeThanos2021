@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Scenes/Ozorio.unity
     guid: 80570a9ffd7162145a3d9af98fc0223a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game_Demo.unity
     guid: 7a2cb6909165aec42a796999d9ec18dc
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 1537b1bb7751f8e4e97f0383930b2c66
   m_configObjects: {}
