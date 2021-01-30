@@ -4,43 +4,33 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private float camDir = 0;
+    public Transform cam;
+    public float rotSpeed;
+    public float movSpeed;
+    private Vector2 dir;
 
-    public float moveSpeed;
-    public float rotSpeet;
-    private Quaternion Rotation => Quaternion.LookRotation(Vector3.Normalize(Direction())); 
+    void Update()
 
-
-    // Start is called before the first frame update
-    void Start()
     {
-        
+
+        camDir += Input.GetAxis("Mouse X") * Time.deltaTime * rotSpeed;
+
+        transform.rotation = Quaternion.Euler(0, camDir, 0);
+
+        dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        dir = Vector2.ClampMagnitude(dir, 1);
+
+        Vector3 camF = cam.forward;
+        Vector3 camR = cam.right;
+
+        camF.y = 0;
+        camR.y = 0;
+        camF = camF.normalized;
+        camR = camR.normalized;
+
+        transform.position += (camF * dir.y + camR * dir.x) * Time.deltaTime * movSpeed;
+
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        float translationV = 0;
-        float translationH = 0;
-
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-        {
-            translationV = Input.GetAxisRaw("Vertical") * moveSpeed;
-            translationH = Input.GetAxisRaw("Horizontal") * moveSpeed;
-        }
-
-
-        translationV *= Time.deltaTime;
-        translationH *= Time.deltaTime;
-
-        transform.rotation = Rotation;
-
-        transform.position += Vector3.Normalize(Direction()) * moveSpeed * Time.deltaTime;
-    }
-
-    private Vector3 Direction()
-    {
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-        return new Vector3(h, 0, v);
-    }
 }
