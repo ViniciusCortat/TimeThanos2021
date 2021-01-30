@@ -18,6 +18,9 @@ public class SetFeitico : MonoBehaviour
         Feiticos.Wall = 0.0f;
         Feiticos.WallMod = 1.0f;
 
+        Feiticos.Chance = 0;
+        Feiticos.ChanceMod = 1.0f;
+
         Feiticos.Loses = false;
         Feiticos.LosesMod = 1.0f;
 
@@ -26,9 +29,6 @@ public class SetFeitico : MonoBehaviour
 
         Feiticos.ScoreUI = false;
         Feiticos.ScoreUIMod = 1.0f;
-
-        Feiticos.Chance = 0.0f;
-        Feiticos.ChanceMod = 1.0f;
 
         Feiticos.Delay = false;
         Feiticos.DelayMod = 1.0f;
@@ -135,12 +135,12 @@ public class SetFeitico : MonoBehaviour
     {
         if(chanceSlider.value == 1.0f)
         {
-            Feiticos.Chance = 0.15f;
+            Feiticos.Chance = 15;
             Feiticos.ChanceMod = 1.6f;
         }
         else
         {
-            Feiticos.Chance = 0.0f;
+            Feiticos.Chance = 0;
             Feiticos.ChanceMod = 1.0f;
         }
     }

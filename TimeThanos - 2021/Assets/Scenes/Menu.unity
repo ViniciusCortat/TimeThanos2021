@@ -2877,12 +2877,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedSlider: {fileID: 2112909550}
   timeSlider: {fileID: 1985753881}
-  wallSlider: {fileID: 0}
-  lossSlider: {fileID: 0}
-  timeUISlider: {fileID: 0}
-  scoreUISlider: {fileID: 0}
-  delaySlider: {fileID: 0}
-  chanceSlider: {fileID: 0}
+  wallSlider: {fileID: 1423301623}
+  lossSlider: {fileID: 1502582882}
+  timeUISlider: {fileID: 1664179848}
+  scoreUISlider: {fileID: 616586522}
+  delaySlider: {fileID: 151136263}
+  chanceSlider: {fileID: 1510969200}
 --- !u!1 &1275213429
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,15 @@ public class GameManager : MonoBehaviour
     {
         PS = PointSystem.Instance;
         Achiev = SaveSystem.GetInstance().Achiev;
+
+        if(Feiticos.ScoreUI == true)
+        {
+            pontosText.enabled = false;
+        }
+        else
+        {
+            pontosText.enabled = true;
+        }
     }
 
     

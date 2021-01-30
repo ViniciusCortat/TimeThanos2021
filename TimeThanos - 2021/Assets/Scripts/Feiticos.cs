@@ -4,7 +4,8 @@ using UnityEngine;
 
 public static class Feiticos
 {
-    private static float speed, time, wall, chance;
+    private static float speed, time, wall;
+    private static int chance;
     private static bool loses, timeUI, scoreUI, delay;
     private static float speedMod, timeMod, wallMod, losesMod, timeUIMod, scoreUIMod, delayMod, chanceMod;
 
@@ -176,7 +177,7 @@ public static class Feiticos
         }
     }
 
-    public static float Chance
+    public static int Chance
     {
         get
         {
