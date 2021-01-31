@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ResultadoFinal.unity
     guid: f86a92c609996614e84e958048c03100
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Game_Demo.unity
     guid: 7a2cb6909165aec42a796999d9ec18dc
   - enabled: 1
     path: Assets/Scenes/Settings.unity
