@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public Text pontosText;
+    public TextMeshProUGUI pontosTextTMP;
 
     private PointSystem PS;
 
@@ -30,11 +31,11 @@ public class GameManager : MonoBehaviour
 
         if(Feiticos.ScoreUI == true)
         {
-            pontosText.enabled = false;
+            pontosTextTMP.enabled = false;
         }
         else
         {
-            pontosText.enabled = true;
+            pontosTextTMP.enabled = true;
         }
 
         Cab = ChoosePart.matCab;
@@ -48,7 +49,7 @@ public class GameManager : MonoBehaviour
     
     void Update()
     {
-        pontosText.text = PS.pontos.ToString();
+        pontosTextTMP.text = PS.pontos.ToString();
 
         if (Input.GetKeyDown(pauseKey) || Input.GetButtonDown("Pause"))
         {
