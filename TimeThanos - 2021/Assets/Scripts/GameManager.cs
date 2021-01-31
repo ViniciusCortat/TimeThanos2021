@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         pontosText.text = PS.pontos.ToString();
 
-        if (Input.GetKeyDown(pauseKey))
+        if (Input.GetKeyDown(pauseKey) || Input.GetButtonDown("Pause"))
         {
             if (paused)
             {
