@@ -7,10 +7,12 @@ public class ObjectCollider : MonoBehaviour
     public int pontos;
     private PointSystem PS;
     private bool colided;
+    private GameObject timer;
 
     void Start() 
     {
         PS = PointSystem.Instance;
+        timer = GameObject.Find("Timer Text");
     }
 
     private void OnTriggerStay(Collider other) {
@@ -40,7 +42,12 @@ public class ObjectCollider : MonoBehaviour
         {
             PS.GivePonto(pontos);
         }
-        
+
+        if(Feiticos.Loses)
+        {
+            timer.GetComponent<Timer>().timeRemaining -= 2;
+        }
+     
         transform.GetChild(1).gameObject.SetActive(false);
         transform.gameObject.GetComponent<BoxCollider>().enabled = false;
         PlaySound();
