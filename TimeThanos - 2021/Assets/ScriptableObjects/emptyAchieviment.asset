@@ -16,13 +16,11 @@ MonoBehaviour:
   - Books
   - Maps
   - Plants
-  - Paintings
   - Fireplace
   - Familiar
   - Skull
   - Ring
   - Mirror
-  - Statue
   - Owl
   - Hat
   - Broom
@@ -36,7 +34,6 @@ MonoBehaviour:
   numberOfBooks: 10
   numberOfMaps: 1
   numberOfPlants: 3
-  numberOfPaintings: 999
   numberOfPoints: 50000
   numberOfMushs: 500
   numberOfCrystals: 50

@@ -6466,7 +6466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Disable timer UI
+  m_text: Disable score UI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00109900944388845b433fa2c2356c46, type: 2}
   m_sharedMaterial: {fileID: -3595998600533968185, guid: 00109900944388845b433fa2c2356c46, type: 2}

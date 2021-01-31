@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class AchievimentImage : MonoBehaviour
 {
     public List<Image> AchievImages;
-    public List<string> Descriptions;
 
     private Achieviments Achiev;
 
