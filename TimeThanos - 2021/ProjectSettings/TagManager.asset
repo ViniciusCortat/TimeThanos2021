@@ -6,6 +6,21 @@ TagManager:
   tags:
   - Other
   - Collectible
+  - Mushroom
+  - Map
+  - Book
+  - Plant
+  - Painting
+  - Crystal
+  - CrystalBall
+  - Potion
+  - Fireplace
+  - Familiar
+  - Skull
+  - Ring
+  - Mirror
+  - Statue
+  - OwlTrophy
   layers:
   - Default
   - TransparentFX
