@@ -19,6 +19,7 @@ public class ObjectCollider : MonoBehaviour
             if(Feiticos.Delay == false)
             {
                 StartCoroutine(Colect(0.0f));
+                other.GetComponentInChildren<Animator>().SetTrigger("pick");
             }
             else
             {
