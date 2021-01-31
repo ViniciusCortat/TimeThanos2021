@@ -43,6 +43,24 @@ public class ColorPicker : MonoBehaviour
                 Debug.Log("cliquei");
                 //OnColorSelect?.Invoke(color);
                 mat.SetColor("Color_6A162E48",color);
+                if(mat.name == "cabelo") {
+                    ChoosePart.matCab = mat;
+                }
+                if(mat.name == "capa") {
+                    ChoosePart.matCapa = mat;
+                }
+                if(mat.name == "chapeu") {
+                    ChoosePart.matChapeu = mat;
+                }
+                if(mat.name == "oculos-aro") {
+                    ChoosePart.matOculos = mat;
+                }
+                if(mat.name == "olho") {
+                    ChoosePart.matOlho = mat;
+                }
+                if(mat.name == "pele") {
+                    ChoosePart.matPele = mat;
+                }
             }
         }
     }
