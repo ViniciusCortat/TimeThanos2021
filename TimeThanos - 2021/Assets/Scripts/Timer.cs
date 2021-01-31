@@ -3,53 +3,51 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class Timer : MonoBehaviour
 {
-	[Tooltip("Tempo em segundos")]
-	public float timeRemaining = 10;
+    [Tooltip("Tempo em segundos")]
+    public float timeRemaining = 10;
+    
+    public Text timerText;
+    private bool timeStopped = false;
 
-	public TextMeshProUGUI TimerTextTMP;
-	private bool timeStopped = false;
+    private void Start()
+    {
+        timeRemaining += Feiticos.Time;
 
-	private void Start()
-	{
-		timeRemaining += Feiticos.Time;
+        if(Feiticos.TimeUI == true)
+        {
+            timerText.gameObject.SetActive(false);
+        }
+        else
+        {
+            timerText.gameObject.SetActive(true);
+        }
+    }
 
-		if (Feiticos.TimeUI == true)
-		{
-			TimerTextTMP.gameObject.SetActive(false);
-		}
-		else
-		{
-			TimerTextTMP.gameObject.SetActive(true);
-		}
-	}
+    void Update() {
 
-	void Update()
-	{
-		if (timeRemaining > 0)
-			timeRemaining -= Time.deltaTime;
-		else
-		{
-			timeRemaining = 0;
-			timeStopped = true;
-			SceneManager.LoadScene("ResultadoFinal");
-			AudioManager.sharedInstance.PlayTimeOut();
-		}
+        if (timeRemaining > 0) 
+            timeRemaining -= Time.deltaTime;
+        else {
+            timeRemaining = 0;
+            timeStopped = true;
+            SceneManager.LoadScene("ResultadoFinal");
+            AudioManager.sharedInstance.PlayTimeOut();
+        }
 
-		DisplayTime(timeRemaining);
-	}
+        DisplayTime(timeRemaining);
+    }
 
-	void DisplayTime(float time)
-	{
-		if (!timeStopped)
-			time += 1;
+    void DisplayTime(float time) {
 
-		float min = Mathf.FloorToInt(time / 60);
-		float sec = Mathf.FloorToInt(time % 60);
+        if (!timeStopped)
+            time += 1;
 
-		TimerTextTMP.text = string.Format("{00:00}:{1:00}", min, sec);
-	}
+        float min = Mathf.FloorToInt(time / 60);
+        float sec = Mathf.FloorToInt(time % 60);
+
+        timerText.text = string.Format("{00:00}:{1:00}", min, sec);
+    }
 }
