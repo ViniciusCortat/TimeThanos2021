@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    private PointSystem PS;
+
+    private void Start()
+    {
+        PS = PointSystem.Instance;
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("Game_Demo", LoadSceneMode.Single);
+        PS.ResetPonto();
     }
 
     public void Leaderboard()
@@ -32,6 +40,7 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         Time.timeScale = 1f;
+        PS.ResetPonto();
     }
 
     public void QuitGame()

@@ -18,6 +18,12 @@ public class ChoosePart : MonoBehaviour
     public Material Olho;
     public Material Pele;
 
+    public static List<Material> mat;
+
+    private void Start() {
+        mat = new List<Material>();
+    } 
+
 
     public void ligaCor(GameObject liga) {
         CorPele.SetActive(false);
@@ -36,6 +42,7 @@ public class ChoosePart : MonoBehaviour
         Oculos.SetColor("Color_6A162E48",new Color32(255,255,255, 0));
         Olho.SetColor("Color_6A162E48",new Color32(0,0,0, 0));
         Pele.SetColor("Color_6A162E48",new Color32(245,125,71, 0));
+        SetMat(Cab,Capa,Chapeu,Oculos,Olho,Pele);
     }
 
     public void Randomizar() {
@@ -45,5 +52,15 @@ public class ChoosePart : MonoBehaviour
         Oculos.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
         Olho.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
         Pele.SetColor("Color_6A162E48",new Color32((byte)Random.Range(1,256),(byte)Random.Range(1,256),(byte)Random.Range(1,256), 0));
+        SetMat(Cab,Capa,Chapeu,Oculos,Olho,Pele);
+    }
+
+    public static void SetMat(Material Cab, Material Capa, Material Chapeu, Material Oculos, Material Olho, Material Pele) {
+        mat.Add(Cab);
+        mat.Add(Capa);
+        mat.Add(Chapeu);
+        mat.Add(Oculos);
+        mat.Add(Olho);
+        mat.Add(Pele);
     }
 }

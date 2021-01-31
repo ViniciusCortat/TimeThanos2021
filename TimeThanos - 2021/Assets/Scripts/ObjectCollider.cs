@@ -5,7 +5,6 @@ using UnityEngine;
 public class ObjectCollider : MonoBehaviour
 {
     public int pontos;
-    
     private PointSystem PS;
 
     void Start() 
@@ -38,16 +37,17 @@ public class ObjectCollider : MonoBehaviour
         {
             PS.GivePonto(pontos);
         }
+        
+        transform.GetChild(1).gameObject.SetActive(false);
+        transform.gameObject.GetComponent<BoxCollider>().enabled = false;
         PlaySound();
-        Debug.Log("oi");
-        Destroy(this.gameObject);
+        
+        //Destroy(this.gameObject);
     }
 
     private void PlaySound(){
-        foreach (Transform child in transform.parent){
-            if (child.name == "audio"){
-                child.GetComponent<AudioSource>().Play();
-            }
-        }
+        Transform audio = transform.Find("audio");
+        audio.GetComponent<AudioSource>().Play();
+
     }
 }
