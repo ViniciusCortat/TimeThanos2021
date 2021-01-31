@@ -6,7 +6,6 @@ public class ObjectCollider : MonoBehaviour
 {
     public int pontos;
     private PointSystem PS;
-    private bool colided;
 
     void Start() 
     {
@@ -14,10 +13,8 @@ public class ObjectCollider : MonoBehaviour
     }
 
     private void OnTriggerStay(Collider other) {
-        if(other.CompareTag("Player") && !colided) 
+        if(other.CompareTag("Player")) 
         {
-            colided = true;
-
             if(Feiticos.Delay == false)
             {
                 StartCoroutine(Colect(0.0f));

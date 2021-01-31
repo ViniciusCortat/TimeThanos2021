@@ -44,14 +44,6 @@ public class SetFeitico : MonoBehaviour
         Feiticos.Delay = false;
         Feiticos.DelayMod = 0.0f;
     }
-
-    private void Update()
-    {
-        if(speedToggle.isOn == true)
-        {
-            Debug.Log(Feiticos.Speed);
-        }
-    }
     public void SetSpeed()
     {
         if (speedToggle.isOn == true)
