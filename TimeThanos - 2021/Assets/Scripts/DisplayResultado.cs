@@ -16,7 +16,7 @@ public class DisplayResultado : MonoBehaviour
 
     void Start()
     {
-        pontuacao.text = "Pontos: " + Points.pontos.ToString();
+        pontuacao.text = "Score: " + Points.pontos.ToString();
         Hs = SaveSystem.GetInstance().Hs;
         DisplayScore();
         Achiev = SaveSystem.GetInstance().Achiev;
