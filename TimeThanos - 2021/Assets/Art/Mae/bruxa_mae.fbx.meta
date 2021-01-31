@@ -1,71 +1,68 @@
 fileFormatVersion: 2
-guid: 90eab0666a6a7e848a2fe5def77091e7
+guid: 8f7caf8f84e0b834dad0ccb6f4cee02b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 4781951162920444690
-    second: Run
+      74: 2264077025236624520
+    second: idle
   - first:
-      74: -3100369314251171874
-    second: Idle
+      74: -9116707391951352954
+    second: Armature.001|armature.eyes|armature.eyes|armature.eyesAction|armature.eyes|a
   - first:
-      74: 5917537482288442099
-    second: Fall
-  - first:
-      74: 108489950169372902
-    second: Pick
+      74: 4386694182768337470
+    second: Armature.001|Armature|Armature|ArmatureAction|Armature|ArmatureAction
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Cordao
+    second: {fileID: 2100000, guid: abdfa10737a01394aa218639106d2c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pele
+    second: {fileID: 2100000, guid: f5f17b38ce228a94597206ba7a24b348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roupa-1
+    second: {fileID: 2100000, guid: 809f75b1943a0fc45b38d756321848b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roupa-2
+    second: {fileID: 2100000, guid: 0a70456f008d4194aa4e6820ec8fc5fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: cabelo
-    second: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cabelo-2
-    second: {fileID: 2100000, guid: fd23359dbdbeeb14cb08682d0905db7d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: camisa
-    second: {fileID: 2100000, guid: 56403691c768fa648b78bb305ed4f20c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: capa
-    second: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+    second: {fileID: 2100000, guid: 9247b7b88f4daca4fa46e34b94293ef5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chapeu
-    second: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
+    second: {fileID: 2100000, guid: e3918e8fe97eeaa44b5ae382b7a7ae99, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chapeu-2
-    second: {fileID: 2100000, guid: 55afe1b44ff5efd4dbc3c4103bad0986, type: 2}
+    second: {fileID: 2100000, guid: 736c439836284964393406f1f533cebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estrela
+    second: {fileID: 2100000, guid: 20fd481ab2172da46b03360e76fa02da, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: oculos-aro
-    second: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
+    second: {fileID: 2100000, guid: 65e30b4559025c54ea1dc5028a1022b1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: olho
-    second: {fileID: 2100000, guid: 00c054099d0d45940b8b5fceb7999a5e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pele
-    second: {fileID: 2100000, guid: d6e952c548b889e4a8eb18591613e1bd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: presilha
-    second: {fileID: 2100000, guid: 5c65bc0c45b79394a84d3c40d7d72526, type: 2}
+    second: {fileID: 2100000, guid: ee4443bc02f465e4caa7ff70deb14451, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -94,11 +91,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Run
-      takeName: Armature|ArmatureAction
+      name: idle
+      takeName: Armature.001|Armature.001Action
       internalID: 0
-      firstFrame: 5
-      lastFrame: 35
+      firstFrame: 0
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -106,93 +103,6 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Idle
-      takeName: Armature|ArmatureAction
-      internalID: 0
-      firstFrame: 50
-      lastFrame: 340
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Fall
-      takeName: Armature|ArmatureAction
-      internalID: 0
-      firstFrame: 360
-      lastFrame: 380
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Pick
-      takeName: Armature|ArmatureAction
-      internalID: 0
-      firstFrame: 390
-      lastFrame: 405
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

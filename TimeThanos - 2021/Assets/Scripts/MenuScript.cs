@@ -27,6 +27,12 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("Customizar", LoadSceneMode.Single);
     }
 
+    public void Reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        Time.timeScale = 1f;
+    }
+
     public void QuitGame()
     {
         Debug.Log("SAIR");
