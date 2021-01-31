@@ -31,7 +31,7 @@ public class animControllerMae : MonoBehaviour
         player.SetActive(true);
         anim.SetTrigger("teleport");
         yield return new WaitForSeconds(2.5f);
-        SceneManager.LoadScene("ResultadoFinal 1");
+        SceneManager.LoadScene("ResultadoFinal");
     }
 
 
