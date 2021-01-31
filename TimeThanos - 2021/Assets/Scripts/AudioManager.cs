@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class AudioManager : MonoBehaviour
     public AudioSource ui1;
     public AudioSource ui2;
     public AudioSource timeOut;
+    public AudioSource menu;
+
+    public AudioSource tema;
 
     //private AudioSource 
 
@@ -47,5 +51,36 @@ public class AudioManager : MonoBehaviour
         timeOut.Play();
     }
 
+    public void PlayMenu()
+    {
+        Scene currentScene = SceneManager.GetActiveScene ();
+ 
+         // Retrieve the name of this scene.
+        string sceneName = currentScene.name;
+ 
+        if (sceneName != "Menu") 
+            return;
+        
+        if (!menu.isPlaying){
+            menu.Play();
+        }
+    }
+
+    public void StopMenu()
+    {
+        menu.Stop();
+    }
+
+    public void PlayTema()
+    {
+        StartCoroutine(WaitToPlay());
+    }
+
+    IEnumerator WaitToPlay()
+    {
+        yield return new WaitForSeconds(3.0f);
+        tema.Play();
+
+    }
 
 }
