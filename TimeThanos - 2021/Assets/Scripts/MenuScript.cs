@@ -36,11 +36,6 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("Settings", LoadSceneMode.Single);
     }
 
-    public void Achievements() {
-        AudioManager.sharedInstance.PlayUISound();
-        SceneManager.LoadScene("Achievements", LoadSceneMode.Single);
-    }
-
     public void Customize() {
         AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("Customizar", LoadSceneMode.Single);
