@@ -145,8 +145,10 @@ public class SaveSystem : MonoBehaviour
     }
 
     public void SaveAchieviments() {
-        Achiev = GameObject.Instantiate(emptyAchiev);
-        Achiev.InitCompleted();
+        if(!File.Exists(SavePath1) || !File.Exists(VersionSavePath)) {
+            Achiev = GameObject.Instantiate(emptyAchiev);
+            Achiev.InitCompleted();
+        }
         string json_ps = JsonUtility.ToJson(Achiev);
         byte[] buffer = Encoding.UTF8.GetBytes(json_ps);
         for(int i = 0; i < buffer.Length; i++)
@@ -170,7 +172,9 @@ public class SaveSystem : MonoBehaviour
     }
 
     public void SaveHighScore() {
-        Hs = GameObject.Instantiate(emptyHs);
+        if(!File.Exists(SavePath2) || !File.Exists(VersionSavePath)) {
+            Hs = GameObject.Instantiate(emptyHs);
+        }
         string json_ps = JsonUtility.ToJson(Hs);
         byte[] buffer = Encoding.UTF8.GetBytes(json_ps);
         for(int i = 0; i < buffer.Length; i++)

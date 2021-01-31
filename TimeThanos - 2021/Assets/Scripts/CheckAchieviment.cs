@@ -19,6 +19,7 @@ public class CheckAchieviment : MonoBehaviour
         if(Achiev.IsEnoughPoints()) TriggerAchieviment("Points");
         if(Achiev.IsEnoughCrystals()) TriggerAchieviment("Crystals");
         if(Achiev.IsEnoughCrystalsBalls()) TriggerAchieviment("CrystalBalls");
+        SaveSystem.GetInstance().SaveAchieviments();
     }
 
     
