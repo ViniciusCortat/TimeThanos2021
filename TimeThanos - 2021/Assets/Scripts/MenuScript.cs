@@ -14,6 +14,8 @@ public class MenuScript : MonoBehaviour
 
 	public void StartGame()
 	{
+        AudioManager.sharedInstance.StopMenu();
+        AudioManager.sharedInstance.PlayTema();
 		AudioManager.sharedInstance.PlayUISound();
 		SceneManager.LoadScene("Game", LoadSceneMode.Single);
 		PS.ResetPonto();
@@ -22,7 +24,7 @@ public class MenuScript : MonoBehaviour
 	public void Leaderboard()
 	{
 		AudioManager.sharedInstance.PlayUISound();
-		SceneManager.LoadScene("ResultadoFinal", LoadSceneMode.Single);
+		SceneManager.LoadScene("HighScore", LoadSceneMode.Single);
 	}
 
 	public void GoMenu()
@@ -35,6 +37,7 @@ public class MenuScript : MonoBehaviour
 	public void Settings()
 	{
 		AudioManager.sharedInstance.PlayUISound();
+        AudioManager.sharedInstance.StopMenu();
 		SceneManager.LoadScene("Settings", LoadSceneMode.Single);
 	}
 
@@ -73,4 +76,8 @@ public class MenuScript : MonoBehaviour
 	{
 		AudioManager.sharedInstance.PlayUISound();
 	}
+
+    private void OnEnable() {
+        AudioManager.sharedInstance.PlayMenu();
+    }
 }
