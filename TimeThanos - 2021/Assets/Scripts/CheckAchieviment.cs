@@ -21,9 +21,6 @@ public class CheckAchieviment : MonoBehaviour
         } 
         if(Achiev.IsEnoughMushs()) {
             TriggerAchieviment("Mushrooms");
-        }
-        if(Achiev.IsEnoughPaintings()){
-            TriggerAchieviment("Paintings");
         } 
         if(Achiev.IsEnoughPlants()) {
             TriggerAchieviment("Plants");

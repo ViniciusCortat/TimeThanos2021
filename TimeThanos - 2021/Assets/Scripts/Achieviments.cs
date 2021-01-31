@@ -18,8 +18,6 @@ public class Achieviments : ScriptableObject
     private int currentMaps;
     public int numberOfPlants;
     private int currentPlants;
-    public int numberOfPaintings;
-    private int currentPaintings;
     public int numberOfPoints;
     private int currentPoints;
     public int numberOfMushs;
@@ -67,10 +65,6 @@ public class Achieviments : ScriptableObject
         currentPlants++;
     }
 
-    public void AddPaintings() {
-        currentPaintings++;
-    }
-
     public void AddPoints(int points) {
         currentPoints += points;
     }
@@ -97,10 +91,6 @@ public class Achieviments : ScriptableObject
 
     public bool IsEnoughBooks() {
         return currentBooks >= numberOfBooks;
-    }
-
-    public bool IsEnoughPaintings() {
-        return currentPaintings >= numberOfPaintings;
     }
 
     public bool IsEnoughPlants() {
