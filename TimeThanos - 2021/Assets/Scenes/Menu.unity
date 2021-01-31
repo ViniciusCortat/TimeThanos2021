@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Curse of the Unkown
+  m_text: Curse of the Unknown
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00109900944388845b433fa2c2356c46, type: 2}
   m_sharedMaterial: {fileID: -3595998600533968185, guid: 00109900944388845b433fa2c2356c46, type: 2}
@@ -9969,7 +9969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chaneller
+  m_text: 'Channeler
 
 '
   m_isRightToLeft: 0
