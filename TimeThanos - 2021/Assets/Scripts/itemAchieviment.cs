@@ -22,67 +22,67 @@ public class itemAchieviment : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Map")) {
-            //Achiev.AddMaps();
+            Achiev.AddMaps();
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Book")) {
-            //Achiev.AddBook();
+            Achiev.AddBook();
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Plant")) {
-            //Achiev.AddPlant();
+            Achiev.AddPlant();
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Fireplace")) {
-            //GM.TriggerAchieviment("Fireplace");
+            GM.TriggerAchieviment("Fireplace");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Familiar")) {
-            //GM.TriggerAchieviment("Familiar");
+            GM.TriggerAchieviment("Familiar");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Skull")) {
-            //GM.TriggerAchieviment("Skull");
+            GM.TriggerAchieviment("Skull");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Ring")) {
-            //GM.TriggerAchieviment("Ring");
+            GM.TriggerAchieviment("Ring");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Mirror")) {
-            //GM.TriggerAchieviment("Mirror");
+            GM.TriggerAchieviment("Mirror");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Statue")) {
-            //GM.TriggerAchieviment("Statue");
+            GM.TriggerAchieviment("Statue");
            //Destroy(other.gameObject);
            PlayAudioAndDisable(other);
         }
         if(other.CompareTag("OwlTrophy")) {
-            //GM.TriggerAchieviment("OwlTrophy");
+            GM.TriggerAchieviment("Owl");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Hat")) {
-           // GM.TriggerAchieviment("Hat");
+            GM.TriggerAchieviment("Hat");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Broom")) {
-            //GM.TriggerAchieviment("Broom");
+            GM.TriggerAchieviment("Broom");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
         if(other.CompareTag("Cauldron")) {
-            //GM.TriggerAchieviment("Cauldron");
+            GM.TriggerAchieviment("Cauldron");
             //Destroy(other.gameObject);
             PlayAudioAndDisable(other);
         }
