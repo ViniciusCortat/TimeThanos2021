@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mae.unity
     guid: 2fbaeabeda3619046a3c91f03a99f39c
+  - enabled: 1
+    path: Assets/Scenes/ResultadoFinal 1.unity
+    guid: 23887d8d6f27a5e4d88d7a38cfd57280
   m_configObjects: {}
