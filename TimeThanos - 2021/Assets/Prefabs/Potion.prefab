@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 5742341080061577783}
   - component: {fileID: 378682598894870276}
   - component: {fileID: 3776853699320967599}
+  - component: {fileID: 6702733656035499541}
   m_Layer: 0
   m_Name: Potion
   m_TagString: Potion
@@ -92,6 +93,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &6702733656035499541
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318407797387165458}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1567129682a12cb46a2dac210fd4cc8c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4731407677662936725
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,15 +256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69e876ae7c3c6ad4b94feb8370466fe3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.244
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69e876ae7c3c6ad4b94feb8370466fe3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.244
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69e876ae7c3c6ad4b94feb8370466fe3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.244
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69e876ae7c3c6ad4b94feb8370466fe3, type: 3}
       propertyPath: m_LocalPosition.x
