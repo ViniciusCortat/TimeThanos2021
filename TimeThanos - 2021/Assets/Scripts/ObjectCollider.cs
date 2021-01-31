@@ -22,7 +22,7 @@ public class ObjectCollider : MonoBehaviour
             }
             else
             {
-                StartCoroutine(Colect(2.0f));
+                StartCoroutine(Colect(1.0f));
             }
         }
     }
