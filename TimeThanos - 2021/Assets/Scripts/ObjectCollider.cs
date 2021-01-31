@@ -9,10 +9,13 @@ public class ObjectCollider : MonoBehaviour
     private bool colided;
     private GameObject timer;
 
+    private Achieviments Achiev;
+
     void Start() 
     {
         PS = PointSystem.Instance;
         timer = GameObject.Find("Timer Text");
+        Achiev = SaveSystem.GetInstance().Achiev;
     }
 
     private void OnTriggerStay(Collider other) {
@@ -46,6 +49,19 @@ public class ObjectCollider : MonoBehaviour
         if(Feiticos.Loses)
         {
             timer.GetComponent<Timer>().timeRemaining -= 2;
+        }
+
+        if(gameObject.CompareTag("Mushroom")) {
+            Achiev.AddMush();
+        }
+        if(gameObject.CompareTag("Crystal")) {
+            Achiev.AddCrystals();
+        }
+        if(gameObject.CompareTag("CrystalBall")) {
+            Achiev.AddCrystalBalls();
+        }
+        if(gameObject.CompareTag("Potion")) {
+            Achiev.AddPotion();
         }
      
         transform.GetChild(1).gameObject.SetActive(false);
