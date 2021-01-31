@@ -6,8 +6,10 @@ using UnityEngine;
 public class Achieviments : ScriptableObject
 {
 
+    [SerializeField]
     public List<string> Achiev;
 
+    [SerializeField]
     private List<bool> Completed;
 
     public int numberOfBooks;
@@ -38,7 +40,11 @@ public class Achieviments : ScriptableObject
         for(int i=0; i < Achiev.Count; i++) {
             Completed.Add(false);
         }
-        Debug.Log(Completed.Count);
+        Debug.Log("Entrei no Completed hahahahahahahah! Count: " + Completed.Count);
+    }
+
+    public int SizeOfCompleted() {
+        return Completed.Count;
     }
 
     public void GiveAchiev(int id) {

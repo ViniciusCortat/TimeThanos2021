@@ -10,16 +10,35 @@ public class CheckAchieviment : MonoBehaviour
     void Start()
     {
         Achiev = SaveSystem.GetInstance().Achiev;
-        if(Achiev.IsEnoughBooks()) TriggerAchieviment("Books");
-        if(Achiev.IsEnoughMaps()) TriggerAchieviment("Maps");
-        if(Achiev.IsEnoughPotion()) TriggerAchieviment("Potions");
-        if(Achiev.IsEnoughMushs()) TriggerAchieviment("Mushrooms");
-        if(Achiev.IsEnoughPaintings()) TriggerAchieviment("Paintings");
-        if(Achiev.IsEnoughPlants()) TriggerAchieviment("Plants");
-        if(Achiev.IsEnoughPoints()) TriggerAchieviment("Points");
-        if(Achiev.IsEnoughCrystals()) TriggerAchieviment("Crystals");
-        if(Achiev.IsEnoughCrystalsBalls()) TriggerAchieviment("CrystalBalls");
+        if(Achiev.IsEnoughBooks()){
+            TriggerAchieviment("Books");
+        } 
+        if(Achiev.IsEnoughMaps()) {
+            TriggerAchieviment("Maps");
+        } 
+        if(Achiev.IsEnoughPotion()) {
+            TriggerAchieviment("Potions");
+        } 
+        if(Achiev.IsEnoughMushs()) {
+            TriggerAchieviment("Mushrooms");
+        }
+        if(Achiev.IsEnoughPaintings()){
+            TriggerAchieviment("Paintings");
+        } 
+        if(Achiev.IsEnoughPlants()) {
+            TriggerAchieviment("Plants");
+        } 
+        if(Achiev.IsEnoughPoints()) {
+            TriggerAchieviment("Points");
+        } 
+        if(Achiev.IsEnoughCrystals()) {
+            TriggerAchieviment("Crystals");
+        } 
+        if(Achiev.IsEnoughCrystalsBalls()) {
+            TriggerAchieviment("CrystalBalls");
+        } 
         SaveSystem.GetInstance().SaveAchieviments();
+        Debug.Log("Size: " + Achiev.SizeOfCompleted());
     }
 
     
@@ -30,7 +49,10 @@ public class CheckAchieviment : MonoBehaviour
 
     private void TriggerAchieviment(string title) {
         int i = Achiev.Achiev.IndexOf(title);
-        if(Achiev.CheckCompletion(i)) return;
+        //Debug.Log("Valor de i: " + i);
+        if(Achiev.CheckCompletion(i)){
+            return;
+        } 
         Achiev.GiveAchiev(i);
     }
 }

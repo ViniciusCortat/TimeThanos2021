@@ -21,6 +21,9 @@ TagManager:
   - Mirror
   - Statue
   - OwlTrophy
+  - Hat
+  - Broom
+  - Cauldron
   layers:
   - Default
   - TransparentFX
