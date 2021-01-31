@@ -33,22 +33,6 @@ public class itemAchieviment : MonoBehaviour
             Achiev.AddPlant();
             Destroy(other.gameObject);
         }
-        if(other.CompareTag("Painting")) {
-            Achiev.AddPaintings();
-            Destroy(other.gameObject);
-        }
-        if(other.CompareTag("Mushroom")) {
-            Achiev.AddMush();
-        }
-        if(other.CompareTag("Crystal")) {
-            Achiev.AddCrystals();
-        }
-        if(other.CompareTag("CrystalBall")) {
-            Achiev.AddCrystalBalls();
-        }
-        if(other.CompareTag("Potion")) {
-            Achiev.AddPotion();
-        }
         if(other.CompareTag("Fireplace")) {
             GM.TriggerAchieviment("Fireplace");
             Destroy(other.gameObject);
