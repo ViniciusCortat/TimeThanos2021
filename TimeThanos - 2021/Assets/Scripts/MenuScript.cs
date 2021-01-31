@@ -17,6 +17,7 @@ public class MenuScript : MonoBehaviour
 
     public void GoMenu() {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        Time.timeScale = 1f;
     }
 
     public void Settings() {
@@ -25,6 +26,12 @@ public class MenuScript : MonoBehaviour
 
     public void Customize() {
         SceneManager.LoadScene("Customizar", LoadSceneMode.Single);
+    }
+
+    public void Reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()

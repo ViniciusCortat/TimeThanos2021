@@ -200,6 +200,7 @@ public class SaveSystem : MonoBehaviour
     public void NewGame() {
         Hs = GameObject.Instantiate(emptyHs);
         Achiev = GameObject.Instantiate(emptyAchiev);
+        Achiev.InitCompleted();
         SaveHighScore();
         SaveAchieviments();
         SucessfulLoad = true;
