@@ -24,7 +24,7 @@ public class MenuScript : MonoBehaviour
 	public void Leaderboard()
 	{
 		AudioManager.sharedInstance.PlayUISound();
-		SceneManager.LoadScene("ResultadoFinal", LoadSceneMode.Single);
+		SceneManager.LoadScene("HighScore", LoadSceneMode.Single);
 	}
 
 	public void GoMenu()

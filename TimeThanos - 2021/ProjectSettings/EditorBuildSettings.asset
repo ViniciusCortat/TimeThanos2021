@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: eda53cd215cd91c4d8f13b79354f1cd2
   - enabled: 1
-    path: Assets/Scenes/ResultadoFinal.unity
+    path: Assets/Scenes/HighScore.unity
     guid: f86a92c609996614e84e958048c03100
   - enabled: 1
     path: Assets/Scenes/Game.unity
