@@ -15,20 +15,22 @@ MonoBehaviour:
   Achiev:
   - Books
   - Maps
-  - Potions
-  - Mushrooms
-  - Paintings
   - Plants
-  - Points
-  - Crystals
-  - CrystalsBalls
+  - Paintings
   - Fireplace
-  - Familiar
   - Skull
   - Ring
   - Mirror
   - Statue
-  - OwlTrophy
+  - Owl
+  - Hat
+  - Broom
+  - Cauldron
+  - Mushroom
+  - Crystal
+  - Potion
+  - CrystalBall
+  - Points
   numberOfBooks: 10
   numberOfMaps: 10
   numberOfPlants: 10
