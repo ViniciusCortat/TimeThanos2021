@@ -5,7 +5,18 @@ using UnityEngine.UI;
 
 public class SetFeitico : MonoBehaviour
 {
-    public Slider speedSlider, timeSlider, wallSlider, lossSlider, timeUISlider, scoreUISlider, delaySlider, chanceSlider;
+    public Toggle speedToggle, timeToggle, wallToggle, lossToggle, timeUIToggle, scoreUIToggle, delayToggle, chanceToggle;
+
+    /*
+     * speed = Slow
+     * time = Time Warp
+     * wall = Petrificus totalus
+     * loss = Curse of Losses
+     * timeUI = Timeless confusion
+     * scoreUI = Curse of the unknown
+     * delay = chaneller
+     * chance = Illusion curse
+     */
 
     private void Start()
     {
@@ -35,7 +46,7 @@ public class SetFeitico : MonoBehaviour
     }
     public void SetSpeed()
     {
-        if (speedSlider.value == 1.0f)
+        if (speedToggle.isOn == true)
         {
             Feiticos.Speed = 0.5f;
             Feiticos.SpeedMod = 0.5f;
@@ -49,9 +60,9 @@ public class SetFeitico : MonoBehaviour
 
     public void SetTime()
     {
-        if (timeSlider.value == 1.0f)
+        if (timeToggle.isOn == true)
         {
-            Feiticos.Time = -20.0f;
+            Feiticos.Time = -60.0f;
             Feiticos.TimeMod = 0.2f;
         }
         else
@@ -63,9 +74,9 @@ public class SetFeitico : MonoBehaviour
 
     public void SetWall()
     {
-        if (wallSlider.value == 1.0f)
+        if (wallToggle.isOn == true)
         {
-            Feiticos.Wall = 4.0f;
+            Feiticos.Wall = 8.0f;
             Feiticos.WallMod = 0.2f;
         }
         else
@@ -77,7 +88,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetLoss()
     {
-        if (lossSlider.value == 1.0f)
+        if (lossToggle.isOn == true)
         {
             Feiticos.Loses = true;
             Feiticos.LosesMod = 0.2f;
@@ -91,7 +102,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetTimeUI()
     {
-        if (timeUISlider.value == 1.0f)
+        if (timeUIToggle.isOn == true)
         {
             Feiticos.TimeUI = true;
             Feiticos.TimeUIMod = 0.3f;
@@ -105,7 +116,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetScoreUI()
     {
-        if (scoreUISlider.value == 1.0f)
+        if (scoreUIToggle.isOn == true)
         {
             Feiticos.ScoreUI = true;
             Feiticos.ScoreUIMod = 0.1f;
@@ -119,7 +130,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetDelay()
     {
-        if (delaySlider.value == 1.0f)
+        if (delayToggle.isOn == true)
         {
             Feiticos.Delay = true;
             Feiticos.DelayMod = 0.4f;
@@ -133,9 +144,9 @@ public class SetFeitico : MonoBehaviour
 
     public void SetChance()
     {
-        if (chanceSlider.value == 1.0f)
+        if (chanceToggle.isOn == true)
         {
-            Feiticos.Chance = 15;
+            Feiticos.Chance = 30;
             Feiticos.ChanceMod = 0.6f;
         }
         else
