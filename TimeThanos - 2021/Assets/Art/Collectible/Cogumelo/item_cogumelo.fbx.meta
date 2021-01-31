@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 4374c8b1cb5c5184994f0b20bd5f28ba
+guid: ff5e6f516b5cd9f42b6da07808c13b58
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amarelo_caule
+    second: {fileID: 2100000, guid: 41449b49ecf63ea4a95763792f2960cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amarelo_interior
+    second: {fileID: 2100000, guid: 613ed35b24455ee479bcb6758bc512aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vermelho_topo
+    second: {fileID: 2100000, guid: 3935c3aa42d32e64ab8561e30bf03b7e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 821f22401c0de2c4d96821e417b99eea
+guid: 69e876ae7c3c6ad4b94feb8370466fe3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: liquido
+    second: {fileID: 2100000, guid: 80d09b3b681c1584c9fa5c8bd41f9fb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rolha
+    second: {fileID: 2100000, guid: 7e4c0ef61a8a14343910c3604a65d8bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro
+    second: {fileID: 2100000, guid: 537df2219ad87554a9be7324a829b44f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: ff5e6f516b5cd9f42b6da07808c13b58
+guid: 4374c8b1cb5c5184994f0b20bd5f28ba
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: azul_base
+    second: {fileID: 2100000, guid: f01048c8a2b6cec45b4419c07f42d9b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lilas_bola
+    second: {fileID: 2100000, guid: cbdcf404569743648a4e517f4893a1c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
