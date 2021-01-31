@@ -29,7 +29,10 @@ public class Settings : MonoBehaviour
             sensibility = defaultSensibilityValue;
         }
 
-        music.SetFloat("volume", volume);
+        if (volume > 0)
+        {
+            music.SetFloat("volume", volume);
+        }
 
         slider.value = volume;
 
