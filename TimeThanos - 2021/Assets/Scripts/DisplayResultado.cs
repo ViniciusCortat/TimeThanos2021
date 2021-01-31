@@ -58,7 +58,7 @@ public class DisplayResultado : MonoBehaviour
     }
 
     private int checkForPontosInHiscores() {
-        int max = Hs.Scores.Count > 10? 10 : Hs.Scores.Count;
+        int max = Hs.Scores.Count > 9? 9 : Hs.Scores.Count-1;
         for(int i=max;i>=0;i--) {
             if(Hs.Scores[i] == Points.pontos) {
                 return i;
