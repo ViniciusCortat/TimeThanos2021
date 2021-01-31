@@ -7,6 +7,8 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager sharedInstance;
+    public AudioSource ui1;
+    public AudioSource ui2;
 
     //private AudioSource 
 
@@ -29,4 +31,16 @@ public class AudioManager : MonoBehaviour
     {
         
     }
+
+    public void PlayUISound()
+    {
+        int i = (int)UnityEngine.Random.Range(0, 2);
+        if (i == 0)
+            ui1.Play();
+        else
+            ui2.Play();
+    }
+
+
+
 }
