@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: '50000: Score at least 50.000 points!'
+  Descriptions: '50000: Score a sum of 50.000 points!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1001 &391279386
 PrefabInstance:

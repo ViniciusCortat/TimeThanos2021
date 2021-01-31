@@ -71,6 +71,10 @@ public class AudioManager : MonoBehaviour
         menu.Stop();
     }
 
+    public void StopTheme() {
+        tema.Stop();
+    }
+
     public void PlayTema()
     {
         StartCoroutine(WaitToPlay());

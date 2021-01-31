@@ -30,6 +30,7 @@ public class MenuScript : MonoBehaviour
 	public void GoMenu()
 	{
 		AudioManager.sharedInstance.PlayUISound();
+		AudioManager.sharedInstance.StopTheme();
 		SceneManager.LoadScene("Menu", LoadSceneMode.Single);
 		Time.timeScale = 1f;
 	}
