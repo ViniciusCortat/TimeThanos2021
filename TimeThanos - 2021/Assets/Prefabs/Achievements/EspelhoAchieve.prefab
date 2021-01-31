@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6966822037403834329}
   m_Layer: 0
   m_Name: EspelhoAchieve
-  m_TagString: Mirror
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
