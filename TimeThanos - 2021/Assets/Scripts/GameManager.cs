@@ -11,6 +11,11 @@ public class GameManager : MonoBehaviour
 
     private Achieviments Achiev;
 
+    public string pauseKey;
+    private bool paused;
+
+    public GameObject PauseMenuUI;
+
     void Start()
     {
         PS = PointSystem.Instance;
@@ -30,6 +35,32 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         pontosText.text = PS.pontos.ToString();
+
+        if (Input.GetKeyDown(pauseKey))
+        {
+            if (paused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
+    private void ResumeGame()
+    {
+        PauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        paused = false;
+    }
+
+    private void PauseGame()
+    {
+        PauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        paused = true;
     }
 
     public void TriggerAchieviment(string title) {
