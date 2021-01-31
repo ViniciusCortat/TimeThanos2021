@@ -65,6 +65,7 @@ public class MenuScript : MonoBehaviour
 
 	public void NewGame()
 	{
+		AudioManager.sharedInstance.PlayUISound();
 		SaveSystem.GetInstance().NewGame();
 	}
 
