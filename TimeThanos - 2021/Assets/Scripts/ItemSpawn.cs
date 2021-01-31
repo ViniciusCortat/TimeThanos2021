@@ -9,7 +9,7 @@ public class ItemSpawn : MonoBehaviour
 	[SerializeField]
 	private GameObject ItemType;
 	[SerializeField]
-	private GameObject Mushroom;
+	private GameObject OtherItem;
 	[SerializeField]
 	private int ItemQuantity;
 
@@ -34,7 +34,7 @@ public class ItemSpawn : MonoBehaviour
 				j++;
 			}
 			else
-				Instantiate(Mushroom, SpawnPoints[i].transform);
+				Instantiate(OtherItem, SpawnPoints[i].transform);
 		}
 	}
 

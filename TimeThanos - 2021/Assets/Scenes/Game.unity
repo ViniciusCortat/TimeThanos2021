@@ -6620,8 +6620,8 @@ MonoBehaviour:
   - {fileID: 1767842298}
   - {fileID: 2120831331}
   ItemType: {fileID: 1185948363036632708, guid: b29b02fdf3376d64993927f2c151495c, type: 3}
-  Mushroom: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
-  ItemQuantity: 1
+  OtherItem: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
+  ItemQuantity: 15
 --- !u!1 &523949899
 GameObject:
   m_ObjectHideFlags: 0
@@ -10973,7 +10973,7 @@ MonoBehaviour:
   - {fileID: 1379531434}
   - {fileID: 202973599}
   ItemType: {fileID: 2858619644362943744, guid: 32db0284d9fdb454381020acca3f55d7, type: 3}
-  Mushroom: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
+  OtherItem: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
   ItemQuantity: 1
 --- !u!1 &740412090
 GameObject:
@@ -17154,7 +17154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127153617511998, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07634298
+      value: 0.076342985
       objectReference: {fileID: 0}
     - target: {fileID: 553127153617511998, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
@@ -17162,7 +17162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127153617511998, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.06990197
+      value: -0.06990198
       objectReference: {fileID: 0}
     - target: {fileID: 553127154024458893, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17190,7 +17190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154481959221, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0896385
+      value: 0.089638494
       objectReference: {fileID: 0}
     - target: {fileID: 553127154481959221, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
@@ -21983,8 +21983,8 @@ MonoBehaviour:
   - {fileID: 587835080}
   - {fileID: 2065495238}
   ItemType: {fileID: 2318407797387165458, guid: eb674346e1d7a984a880af43893fa145, type: 3}
-  Mushroom: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
-  ItemQuantity: 1
+  OtherItem: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
+  ItemQuantity: 10
 --- !u!1 &1648419706
 GameObject:
   m_ObjectHideFlags: 0
