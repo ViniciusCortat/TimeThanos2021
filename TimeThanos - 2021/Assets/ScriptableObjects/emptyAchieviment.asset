@@ -32,12 +32,13 @@ MonoBehaviour:
   - Potion
   - CrystalBall
   - Points
+  Completed: 
   numberOfBooks: 10
-  numberOfMaps: 10
-  numberOfPlants: 10
-  numberOfPaintings: 10
-  numberOfPoints: 10
-  numberOfMushs: 10
-  numberOfCrystals: 10
+  numberOfMaps: 1
+  numberOfPlants: 3
+  numberOfPaintings: 999
+  numberOfPoints: 50000
+  numberOfMushs: 500
+  numberOfCrystals: 50
   numberOfCrystalsBalls: 10
-  numberOfPotions: 10
+  numberOfPotions: 25
