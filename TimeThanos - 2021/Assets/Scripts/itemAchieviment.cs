@@ -58,7 +58,7 @@ public class itemAchieviment : MonoBehaviour
             Destroy(other.gameObject);
         }
         if(other.CompareTag("OwlTrophy")) {
-            GM.TriggerAchieviment("OwlTrophy");
+            GM.TriggerAchieviment("Owl");
             Destroy(other.gameObject);
         }
         if(other.CompareTag("Hat")) {
