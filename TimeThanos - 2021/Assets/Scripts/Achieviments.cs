@@ -30,12 +30,14 @@ public class Achieviments : ScriptableObject
     private int currentPotions;
 
     void Start() {
+        SaveSystem.GetInstance().LoadAchieviments();
+    }
+
+    public void InitCompleted() {
         Completed = new List<bool>();
         for(int i=0; i < Achiev.Count; i++) {
             Completed.Add(false);
         }
-
-        SaveSystem.GetInstance().LoadAchieviments();
     }
 
     public void GiveAchiev(int id) {
@@ -82,5 +84,39 @@ public class Achieviments : ScriptableObject
         currentPotions++;
     }
 
-    
+    public bool IsEnoughPotion() {
+        return currentPotions >= numberOfPotions;
+    }
+
+    public bool IsEnoughBooks() {
+        return currentBooks >= numberOfBooks;
+    }
+
+    public bool IsEnoughPaintings() {
+        return currentPaintings >= numberOfPaintings;
+    }
+
+    public bool IsEnoughPlants() {
+        return currentPlants >= numberOfPlants;
+    }
+
+    public bool IsEnoughMaps() {
+        return currentMaps >= numberOfMaps;
+    }
+
+    public bool IsEnoughMushs() {
+        return currentMushs >= numberOfMushs;
+    }
+
+    public bool IsEnoughCrystals() {
+        return currentCrystals >= numberOfCrystals;
+    }
+
+    public bool IsEnoughCrystalsBalls() {
+        return currentCrystalBalls >= numberOfCrystalsBalls;
+    }
+
+    public bool IsEnoughPoints() {
+        return currentPoints >= numberOfPoints;
+    }
 }
