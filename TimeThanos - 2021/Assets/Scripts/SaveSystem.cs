@@ -196,4 +196,12 @@ public class SaveSystem : MonoBehaviour
         }
         Debug.Log("HighScores Salvo!");
     }
+
+    public void NewGame() {
+        Hs = GameObject.Instantiate(emptyHs);
+        Achiev = GameObject.Instantiate(emptyAchiev);
+        SaveHighScore();
+        SaveAchieviments();
+        SucessfulLoad = true;
+    }
 }

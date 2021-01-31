@@ -32,4 +32,8 @@ public class MenuScript : MonoBehaviour
         Debug.Log("SAIR");
         Application.Quit();
     }
+
+    public void NewGame() {
+        SaveSystem.GetInstance().NewGame();
+    }
 }
