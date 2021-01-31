@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
     }
-
+    
     private void Update()
     {
         float h = Input.GetAxisRaw("Horizontal");

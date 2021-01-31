@@ -38,6 +38,7 @@ public class Achieviments : ScriptableObject
         for(int i=0; i < Achiev.Count; i++) {
             Completed.Add(false);
         }
+        Debug.Log(Completed.Count);
     }
 
     public void GiveAchiev(int id) {
