@@ -15,7 +15,7 @@ public class MenuScript : MonoBehaviour
     public void StartGame()
     {
         AudioManager.sharedInstance.PlayUISound();
-        SceneManager.LoadScene("Game_Demo", LoadSceneMode.Single);
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
         PS.ResetPonto();
     }
 
