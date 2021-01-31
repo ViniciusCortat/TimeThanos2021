@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
 		{
 			timeRemaining = 0;
 			timeStopped = true;
-			SceneManager.LoadScene("ResultadoFinal");
+			SceneManager.LoadScene("Mae");
 			AudioManager.sharedInstance.PlayTimeOut();
 		}
 
