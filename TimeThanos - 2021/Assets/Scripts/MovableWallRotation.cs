@@ -16,6 +16,8 @@ public class MovableWallRotation : MonoBehaviour
 	private Quaternion RotAntiClockwise = Quaternion.Euler(0, -90, 0);
 	private Quaternion RotInitialPos = Quaternion.Euler(0, 0, 0);
 
+	public AudioSource audio;
+
 	private void Start()
 	{
 		InvokeRepeating("ChoosePoint", WaitTime, WaitTime);
@@ -37,6 +39,7 @@ public class MovableWallRotation : MonoBehaviour
 
 	IEnumerator MoveWall(Quaternion rotation)
 	{
+		audio.Play();
 		while (Pivot.transform.rotation != rotation)
 		{
 			Pivot.transform.rotation = Quaternion.Lerp(Pivot.transform.rotation, rotation, Time.deltaTime);

@@ -15,6 +15,8 @@ public class MovableWallLine : MonoBehaviour
 
 	private bool _isActive = false;
 
+	public AudioSource audio;
+
 	private void Start()
 	{
 		InvokeRepeating("ChoosePoint", WaitTime, WaitTime);
@@ -31,6 +33,7 @@ public class MovableWallLine : MonoBehaviour
 
 	IEnumerator MoveWall(Vector3 targetPosition, float duration)
 	{
+		audio.Play();
 		float time = 0;
 		Vector3 startPosition = Wall.transform.position;
 
