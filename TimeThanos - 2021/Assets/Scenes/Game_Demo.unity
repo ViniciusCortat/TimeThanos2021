@@ -12960,6 +12960,12 @@ MonoBehaviour:
   pontosText: {fileID: 740188509}
   pauseKey: escape
   PauseMenuUI: {fileID: 524271782}
+  Cab: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
+  Capa: {fileID: 2100000, guid: 93ae4a6231950b04bb01cef65bd81234, type: 2}
+  Chapeu: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
+  Oculos: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
+  Olho: {fileID: 2100000, guid: 00c054099d0d45940b8b5fceb7999a5e, type: 2}
+  Pele: {fileID: 2100000, guid: d6e952c548b889e4a8eb18591613e1bd, type: 2}
 --- !u!1 &828321593
 GameObject:
   m_ObjectHideFlags: 0
@@ -18701,7 +18707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.9936304
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18709,23 +18715,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.17595077
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7303156
+      value: 0.72225064
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.10293959
+      value: 0.14937016
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.66869926
+      value: 0.6613148
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.09425462
+      value: -0.13676791
+      objectReference: {fileID: 0}
+    - target: {fileID: 1496412440449150839, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1496412440883415894, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21891,6 +21901,14 @@ PrefabInstance:
     - target: {fileID: 7352882863424463044, guid: 705d3cc35b0ae0b4f8edc411604eb435, type: 3}
       propertyPath: m_Name
       value: Parede Horizontal Grande (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352882863554532914, guid: 705d3cc35b0ae0b4f8edc411604eb435, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352882863831642564, guid: 705d3cc35b0ae0b4f8edc411604eb435, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 705d3cc35b0ae0b4f8edc411604eb435, type: 3}

@@ -16,6 +16,13 @@ public class GameManager : MonoBehaviour
 
     public GameObject PauseMenuUI;
 
+    public Material Cab;
+    public Material Capa;
+    public Material Chapeu;
+    public Material Oculos;
+    public Material Olho;
+    public Material Pele;
+
     void Start()
     {
         PS = PointSystem.Instance;
@@ -29,6 +36,13 @@ public class GameManager : MonoBehaviour
         {
             pontosText.enabled = true;
         }
+
+        Cab = ChoosePart.matCab;
+        Capa = ChoosePart.matCapa;
+        Chapeu = ChoosePart.matChapeu;
+        Oculos = ChoosePart.matOculos;
+        Olho = ChoosePart.matOlho;
+        Pele = ChoosePart.matPele;
     }
 
     

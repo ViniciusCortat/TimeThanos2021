@@ -14,25 +14,30 @@ public class MenuScript : MonoBehaviour
 
     public void StartGame()
     {
+        AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("Game_Demo", LoadSceneMode.Single);
         PS.ResetPonto();
     }
 
     public void Leaderboard()
     {
+        AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("ResultadoFinal", LoadSceneMode.Single);
     }
 
     public void GoMenu() {
+        AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         Time.timeScale = 1f;
     }
 
     public void Settings() {
+        AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("Settings", LoadSceneMode.Single);
     }
 
     public void Customize() {
+        AudioManager.sharedInstance.PlayUISound();
         SceneManager.LoadScene("Customizar", LoadSceneMode.Single);
     }
 
@@ -52,4 +57,9 @@ public class MenuScript : MonoBehaviour
     public void NewGame() {
         SaveSystem.GetInstance().NewGame();
     }
+
+    public void Spells(){
+        AudioManager.sharedInstance.PlayUISound();
+    }
+
 }
