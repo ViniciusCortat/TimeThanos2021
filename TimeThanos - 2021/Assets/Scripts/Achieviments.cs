@@ -116,4 +116,24 @@ public class Achieviments : ScriptableObject
     public bool IsEnoughPoints() {
         return currentPoints >= numberOfPoints;
     }
+
+    public int PresentMushrooms() {
+        return currentMushs;
+    }
+
+    public int PresentCrystals() {
+        return currentCrystals;
+    }
+
+    public int PresentPotions() {
+        return currentPotions;
+    }
+
+    public int PresentCrystalBalls() {
+        return currentCrystalBalls;
+    }
+
+    public int PresentPoints() {
+        return currentPoints;
+    }
 }
