@@ -15,7 +15,6 @@ public class DisplayResultado : MonoBehaviour
 
     void Start()
     {
-        pontuacao.text = "Score: " + Points.pontos.ToString();
         Hs = SaveSystem.GetInstance().Hs;
         DisplayScore();
         Achiev = SaveSystem.GetInstance().Achiev;
@@ -34,6 +33,7 @@ public class DisplayResultado : MonoBehaviour
     private void DisplayScore() {
         score.text = "";
         CalculaMultiplicador();
+        pontuacao.text = "Score: " + Points.pontos.ToString();
         Hs.Scores.Add(Points.pontos);
         SaveSystem.GetInstance().SaveHighScore();
         Hs.Scores.Sort();
