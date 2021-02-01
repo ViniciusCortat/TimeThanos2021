@@ -13,7 +13,7 @@ public class DisplayHighScore : MonoBehaviour
 
     public TextMeshProUGUI score;
 
-    public TextMeshProUGUI Stats;
+    public List<TextMeshProUGUI> Stats;
 
     void Start()
     {
@@ -36,11 +36,12 @@ public class DisplayHighScore : MonoBehaviour
         for(int i = 0;i < max; i++) {
             score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
         }
-        Stats.text = $"{Achiev.PresentMushrooms()} Mushrooms\n\n";
-        Stats.text += $"{Achiev.PresentCrystals()} Crystals\n\n";
-        Stats.text += $"{Achiev.PresentPotions()} Potions\n\n";
-        Stats.text += $"{Achiev.PresentCrystalBalls()} Crystalballs\n\n";
-        Stats.text += $"{Achiev.PresentPoints()} Total Points\n\n";
-        Stats.text += $"{Hs.Scores.Count} Total Games";
+        Debug.Log(Achiev.PresentMushrooms());
+        Stats[0].text = $"{Achiev.PresentMushrooms()}";
+        Stats[1].text = $"{Achiev.PresentCrystals()}";
+        Stats[2].text = $"{Achiev.PresentPotions()}";
+        Stats[3].text = $"{Achiev.PresentCrystalBalls()}";
+        Stats[4].text = $"{Achiev.PresentPoints()}";
+        Stats[5].text = $"{Hs.Scores.Count}";
     }
 }

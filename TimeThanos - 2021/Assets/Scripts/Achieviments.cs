@@ -13,20 +13,28 @@ public class Achieviments : ScriptableObject
     private List<bool> Completed;
 
     public int numberOfBooks;
+    [SerializeField]
     private int currentBooks;
     public int numberOfMaps;
+    [SerializeField]
     private int currentMaps;
     public int numberOfPlants;
+    [SerializeField]
     private int currentPlants;
     public int numberOfPoints;
+    [SerializeField]
     private int currentPoints;
     public int numberOfMushs;
+    [SerializeField]
     private int currentMushs;
     public int numberOfCrystals;
+    [SerializeField]
     private int currentCrystals;
     public int numberOfCrystalsBalls;
+    [SerializeField]
     private int currentCrystalBalls;
     public int numberOfPotions;
+    [SerializeField]
     private int currentPotions;
 
     void Start() {

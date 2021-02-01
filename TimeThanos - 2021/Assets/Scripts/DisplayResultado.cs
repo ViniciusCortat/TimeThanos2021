@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class DisplayResultado : MonoBehaviour
@@ -21,12 +20,6 @@ public class DisplayResultado : MonoBehaviour
         DisplayScore();
         Achiev = SaveSystem.GetInstance().Achiev;
         Achiev.AddPoints(Points.pontos);
-    }
-
-    
-    void Update()
-    {
-        
     }
 
     private void CalculaMultiplicador()
