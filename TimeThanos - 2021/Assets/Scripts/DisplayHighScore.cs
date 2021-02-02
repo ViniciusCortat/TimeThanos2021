@@ -7,7 +7,6 @@ using TMPro;
 public class DisplayHighScore : MonoBehaviour
 {
     
-    private PointSystem Points = PointSystem.Instance;
     private HighScore Hs;
     private Achieviments Achiev;
 
