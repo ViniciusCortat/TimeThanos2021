@@ -497,8 +497,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Achiev: {fileID: 0}
   Hs: {fileID: 0}
+  lang: {fileID: 0}
   emptyAchiev: {fileID: 11400000, guid: ceeff26c60f0236498d9c5920bd63274, type: 2}
   emptyHs: {fileID: 11400000, guid: bc1031b474701e445b89717ba5646859, type: 2}
+  emptylang: {fileID: 11400000, guid: 527b57e1bb7b8b64bb27cb6141fb3d6e, type: 2}
 --- !u!4 &69536555
 Transform:
   m_ObjectHideFlags: 0

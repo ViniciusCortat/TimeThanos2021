@@ -12,6 +12,7 @@ public class SaveSystem : MonoBehaviour
     public Achieviments Achiev;
     [HideInInspector]
     public HighScore Hs;
+    [HideInInspector]
     public Language lang;
     public Achieviments emptyAchiev;
     public HighScore emptyHs;
