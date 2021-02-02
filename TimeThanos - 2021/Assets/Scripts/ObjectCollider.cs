@@ -67,8 +67,6 @@ public class ObjectCollider : MonoBehaviour
         transform.GetChild(1).gameObject.SetActive(false);
         transform.gameObject.GetComponent<BoxCollider>().enabled = false;
         PlaySound();
-        
-        //Destroy(this.gameObject);
     }
 
     private void PlaySound(){

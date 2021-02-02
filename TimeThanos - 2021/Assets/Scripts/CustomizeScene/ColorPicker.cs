@@ -40,7 +40,6 @@ public class ColorPicker : MonoBehaviour
             //OnColorPreview?.Invoke(color);
 
             if (Input.GetMouseButtonDown(0)) {
-                Debug.Log("cliquei");
                 //OnColorSelect?.Invoke(color);
                 mat.SetColor("Color_6A162E48",color);
                 if(mat.name == "cabelo") {

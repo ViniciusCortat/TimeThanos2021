@@ -40,7 +40,6 @@ public class MovableWallRotation : MonoBehaviour
 		while (Pivot.transform.rotation != rotation)
 		{
 			Pivot.transform.rotation = Quaternion.Lerp(Pivot.transform.rotation, rotation, Time.deltaTime);
-			//yield return new WaitForEndOfFrame();
 			yield return null;
 		}
 

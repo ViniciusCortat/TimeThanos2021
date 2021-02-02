@@ -49,7 +49,7 @@ public class SetFeitico : MonoBehaviour
     {
         if(speedToggle.isOn == true)
         {
-            Debug.Log(Feiticos.Speed);
+            
         }
     }
     public void SetSpeed()

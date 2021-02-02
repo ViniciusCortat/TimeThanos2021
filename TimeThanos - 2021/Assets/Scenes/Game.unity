@@ -7071,7 +7071,7 @@ MonoBehaviour:
   - {fileID: 1869124641}
   ItemType: {fileID: 1185948363036632708, guid: b29b02fdf3376d64993927f2c151495c, type: 3}
   OtherItem: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
-  ItemQuantity: 20
+  ItemQuantity: 10
 --- !u!1 &523949899
 GameObject:
   m_ObjectHideFlags: 0
@@ -18140,7 +18140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154481959221, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.089638494
+      value: 0.0896385
       objectReference: {fileID: 0}
     - target: {fileID: 553127154481959221, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
@@ -23061,7 +23061,7 @@ MonoBehaviour:
   - {fileID: 1278297154}
   ItemType: {fileID: 2318407797387165458, guid: eb674346e1d7a984a880af43893fa145, type: 3}
   OtherItem: {fileID: 7403862951808784874, guid: c3eb5dfa900fba74cb31f17d9637249d, type: 3}
-  ItemQuantity: 15
+  ItemQuantity: 5
 --- !u!1 &1648419706
 GameObject:
   m_ObjectHideFlags: 0

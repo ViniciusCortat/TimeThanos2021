@@ -46,7 +46,6 @@ public class Achieviments : ScriptableObject
         for(int i=0; i < Achiev.Count; i++) {
             Completed.Add(false);
         }
-        Debug.Log("Entrei no Completed hahahahahahahah! Count: " + Completed.Count);
     }
 
     public int SizeOfCompleted() {

@@ -35,7 +35,6 @@ public class CheckAchieviment : MonoBehaviour
             TriggerAchieviment("CrystalBalls");
         } 
         SaveSystem.GetInstance().SaveAchieviments();
-        Debug.Log("Size: " + Achiev.SizeOfCompleted());
     }
 
     
@@ -46,7 +45,6 @@ public class CheckAchieviment : MonoBehaviour
 
     private void TriggerAchieviment(string title) {
         int i = Achiev.Achiev.IndexOf(title);
-        //Debug.Log("Valor de i: " + i);
         if(Achiev.CheckCompletion(i)){
             return;
         } 
