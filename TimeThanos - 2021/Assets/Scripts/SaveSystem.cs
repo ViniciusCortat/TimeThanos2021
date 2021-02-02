@@ -12,13 +12,16 @@ public class SaveSystem : MonoBehaviour
     public Achieviments Achiev;
     [HideInInspector]
     public HighScore Hs;
+    public Language lang;
     public Achieviments emptyAchiev;
     public HighScore emptyHs;
+    public Language emptylang;
 
     public static float saveVersion = 1.0f;
     
     private static string saveFileName1 = "Achieviments";
     private static string saveFileName2 = "HighScore";
+    private static string saveFileName3 = "Language";
 
     public static bool SucessfulLoad = false;
 
@@ -35,6 +38,14 @@ public class SaveSystem : MonoBehaviour
         get
         {
             return Path.Combine(Application.persistentDataPath, saveFileName2 + ".dat");
+        }
+    }
+
+    private static string SavePath3
+    {
+        get
+        {
+            return Path.Combine(Application.persistentDataPath, saveFileName3 + ".dat");
         }
     }
 
@@ -62,6 +73,7 @@ public class SaveSystem : MonoBehaviour
         }
         LoadAchieviments();
         LoadHighScore();
+        LoadLanguage();
         DontDestroyOnLoad(this.gameObject);
     }
 
@@ -142,6 +154,45 @@ public class SaveSystem : MonoBehaviour
         }
     }
 
+    public void LoadLanguage() {
+        string path = SavePath3;
+        string versionPath = VersionSavePath;
+        if(!File.Exists(path) || !File.Exists(versionPath)) {
+            SaveLanguage();
+            return;
+        }
+        
+        using(StreamReader streamReader = File.OpenText(versionPath)) {
+            string str = streamReader.ReadToEnd();
+            try {
+                float ver = float.Parse(str);
+                if(ver < saveVersion) {
+                    Debug.LogWarning("Warning: old save version");
+                    return;
+                }
+            }
+            catch (Exception e) {
+                Debug.LogWarning("Warning: invalid save-version format" + e.Message);
+                return;
+            }
+        }
+        try {
+            byte[] buffer = File.ReadAllBytes(path);
+            for(int i=0;i< buffer.Length;i ++) {
+                buffer[i] = (Byte)((~buffer[i]) & 0xFF);
+            }
+            string jsonString = Encoding.UTF8.GetString(buffer);
+            lang = ScriptableObject.CreateInstance<Language>();
+            JsonUtility.FromJsonOverwrite(jsonString, lang);
+            SucessfulLoad = true;
+            return;
+        }
+        catch (Exception e) {
+            Debug.LogWarning("Unable to load savefile " + e.Message);
+            return;
+        }
+    }
+
     public void SaveAchieviments() {
         if(!File.Exists(SavePath1) || !File.Exists(VersionSavePath)) {
             Achiev = GameObject.Instantiate(emptyAchiev);
@@ -181,6 +232,32 @@ public class SaveSystem : MonoBehaviour
         try
         {
             File.WriteAllBytes(SavePath2, buffer);
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning("Unable to write to savefile" + e.Message);
+        }
+        
+        using (StreamWriter streamWriter = File.CreateText (VersionSavePath))
+        {
+            streamWriter.Write (saveVersion.ToString());
+        }
+    }
+
+    public void SaveLanguage() {
+        if(!File.Exists(SavePath3) || !File.Exists(VersionSavePath)) {
+            lang = GameObject.Instantiate(emptylang);
+            lang.InitLanguage();
+        }
+        string json_ps = JsonUtility.ToJson(lang);
+        byte[] buffer = Encoding.UTF8.GetBytes(json_ps);
+        for(int i = 0; i < buffer.Length; i++)
+        {
+            buffer[i] = (Byte)((~buffer[i]) & 0xFF);
+        }
+        try
+        {
+            File.WriteAllBytes(SavePath3, buffer);
         }
         catch (Exception e)
         {
