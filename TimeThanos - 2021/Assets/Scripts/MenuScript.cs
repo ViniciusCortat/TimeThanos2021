@@ -27,6 +27,11 @@ public class MenuScript : MonoBehaviour
 		SceneManager.LoadScene("HighScore", LoadSceneMode.Single);
 	}
 
+	public void Shop() {
+		AudioManager.sharedInstance.PlayUISound();
+		SceneManager.LoadScene("Shop", LoadSceneMode.Single);
+	}
+
 	public void GoMenu()
 	{
 		AudioManager.sharedInstance.PlayUISound();
