@@ -19,6 +19,61 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: BookCover01
+    second: {fileID: 2100000, guid: ad580d6a4100a974db51c7303bd74e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookCover01.008
+    second: {fileID: 2100000, guid: aadf20891bb27164eac4782338b1f28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookInner01
+    second: {fileID: 2100000, guid: 248518d9db0410d4f90a0bc70de8f885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookInner01.006
+    second: {fileID: 2100000, guid: 3f0e83fa9de195446aa29029cd398acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookInner01.007
+    second: {fileID: 2100000, guid: 5048e5b069da4e14ab3620ff1b2c6e0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookInner01.010
+    second: {fileID: 2100000, guid: 82d87cb9337ed46459bdfbb69cecf691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caveira
+    second: {fileID: 2100000, guid: 76ea7aa35259d7e44a2a97d53b4e7d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dentro
+    second: {fileID: 2100000, guid: f59eb38333097f14390f09db51048efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fora
+    second: {fileID: 2100000, guid: dc8cc23dd385d4c4ca878d096afff015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 346e7b087dd0abc4fa6ab6846b358a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.046
+    second: {fileID: 2100000, guid: 5516ffe9f5cd8df449928ddce6a25669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: cabelo
     second: {fileID: 2100000, guid: 5952a83638b2d3143af8ff2620c62247, type: 2}
   - first:
@@ -49,6 +104,31 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: chapeu-2.001
+    second: {fileID: 2100000, guid: 736c439836284964393406f1f533cebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chapeu.001
+    second: {fileID: 2100000, guid: e3918e8fe97eeaa44b5ae382b7a7ae99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estrela
+    second: {fileID: 2100000, guid: 20fd481ab2172da46b03360e76fa02da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf
+    second: {fileID: 2100000, guid: 8ec5fa356ffa55340a5c035977fc4f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf.001
+    second: {fileID: 2100000, guid: 67819ad652c437d4b84fab27b9fa05c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: oculos-aro
     second: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
   - first:
@@ -59,6 +139,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: olho-1
+    second: {fileID: 2100000, guid: eda21f54cbf354249bc747814a7a0450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: olho-2
+    second: {fileID: 2100000, guid: 1018196becf7efc4a9cf781bbbd54b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: pele
     second: {fileID: 2100000, guid: d6e952c548b889e4a8eb18591613e1bd, type: 2}
   - first:
@@ -66,6 +156,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: presilha
     second: {fileID: 2100000, guid: 5c65bc0c45b79394a84d3c40d7d72526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sapo-1
+    second: {fileID: 2100000, guid: 76450c155c72d0144ab093ba51bb0c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sapo-2
+    second: {fileID: 2100000, guid: eb4904717c21f1a4cbbcf01ef134e9c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sapo-3
+    second: {fileID: 2100000, guid: fdc505c51d9f6bf44af246e009eb7af5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
