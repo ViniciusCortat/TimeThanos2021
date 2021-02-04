@@ -3717,6 +3717,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2338109039546998913, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338109039546998913, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3783911125868225920, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
       propertyPath: m_Name
       value: AudioManager

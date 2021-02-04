@@ -35,7 +35,7 @@ public class MenuScript : MonoBehaviour
 	public void GoMenu()
 	{
 		AudioManager.sharedInstance.PlayUISound();
-		AudioManager.sharedInstance.StopTheme();
+		AudioManager.sharedInstance.StopTema();
 		SceneManager.LoadScene("Menu", LoadSceneMode.Single);
 		Time.timeScale = 1f;
 	}
@@ -61,6 +61,8 @@ public class MenuScript : MonoBehaviour
 
 	public void Reload()
 	{
+		AudioManager.sharedInstance.StopTema();
+		AudioManager.sharedInstance.PlayTema();
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
 		Time.timeScale = 1f;
 		PS.ResetPonto();

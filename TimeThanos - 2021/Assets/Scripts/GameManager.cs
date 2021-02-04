@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
 
     private void ResumeGame()
     {
+        AudioManager.sharedInstance.UnpauseTema();
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         paused = false;
@@ -73,6 +74,7 @@ public class GameManager : MonoBehaviour
 
     private void PauseGame()
     {
+        AudioManager.sharedInstance.PauseTema();
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         paused = true;

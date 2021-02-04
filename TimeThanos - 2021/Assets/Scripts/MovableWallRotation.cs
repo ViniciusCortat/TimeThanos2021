@@ -37,6 +37,7 @@ public class MovableWallRotation : MonoBehaviour
 
 	IEnumerator MoveWall(Quaternion rotation)
 	{
+		AudioManager.sharedInstance.PlayMoveWall(this.gameObject, 3.0f);
 		while (Pivot.transform.rotation != rotation)
 		{
 			Pivot.transform.rotation = Quaternion.Lerp(Pivot.transform.rotation, rotation, Time.deltaTime);
