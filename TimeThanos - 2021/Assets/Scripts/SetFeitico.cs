@@ -54,6 +54,7 @@ public class SetFeitico : MonoBehaviour
     }
     public void SetSpeed()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (speedToggle.isOn == true)
         {
             Feiticos.Speed = 0.5f;
@@ -68,6 +69,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetTime()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (timeToggle.isOn == true)
         {
             Feiticos.Time = -60.0f;
@@ -82,6 +84,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetWall()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (wallToggle.isOn == true)
         {
             Feiticos.Wall = 8.0f;
@@ -96,6 +99,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetLoss()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (lossToggle.isOn == true)
         {
             Feiticos.Loses = true;
@@ -110,6 +114,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetTimeUI()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (timeUIToggle.isOn == true)
         {
             Feiticos.TimeUI = true;
@@ -124,6 +129,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetScoreUI()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (scoreUIToggle.isOn == true)
         {
             Feiticos.ScoreUI = true;
@@ -138,6 +144,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetDelay()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (delayToggle.isOn == true)
         {
             Feiticos.Delay = true;
@@ -152,6 +159,7 @@ public class SetFeitico : MonoBehaviour
 
     public void SetChance()
     {
+        AudioManager.sharedInstance.PlayCheckBoxUI();
         if (chanceToggle.isOn == true)
         {
             Feiticos.Chance = 30;

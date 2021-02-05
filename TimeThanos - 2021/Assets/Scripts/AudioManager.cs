@@ -13,8 +13,9 @@ public class AudioManager : MonoBehaviour
     public AudioSource timeOut;
     public AudioSource menu;
     public AudioSource tema;
+    public AudioSource ui3;
     public GameObject moveWallPrefab;
-
+    public bool gameOn = false;
     //private AudioSource 
 
     void Awake()
@@ -46,6 +47,11 @@ public class AudioManager : MonoBehaviour
             ui2.Play();
     }
 
+    public void PlayCheckBoxUI()
+    {
+        ui3.Play();
+    }
+
     public void PlayTimeOut()
     {
         timeOut.Play();
@@ -73,11 +79,13 @@ public class AudioManager : MonoBehaviour
 
     public void PlayTema()
     {
+        gameOn = true;
         StartCoroutine(WaitToPlay());
     }
 
     public void StopTema() 
     {
+        gameOn = false;
         tema.Stop();
     }
 
@@ -108,8 +116,11 @@ public class AudioManager : MonoBehaviour
     private IEnumerator StopMoveWall(GameObject obj, float duration)
     {
         yield return new WaitForSeconds(duration);
-        obj.GetComponent<AudioSource>().Stop();
-        Destroy(obj);
+        if (gameOn)
+        {
+            obj.GetComponent<AudioSource>().Stop();
+            Destroy(obj);
+        }
     }
 
 }
