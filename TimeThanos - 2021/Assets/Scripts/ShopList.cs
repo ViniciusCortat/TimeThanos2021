@@ -34,7 +34,7 @@ public class ShopList : MonoBehaviour
         for(int i=0;i<ShopItens.Count;i++) {
             PriceText.Add(ShopItens[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>());
             PriceValue.Add(int.Parse(PriceText[i].text));
-            BuyButtons.Add(ShopItens[i].transform.GetChild(3).GetComponent<Button>());
+            BuyButtons.Add(ShopItens[i].transform.GetChild(0).GetComponent<Button>());
         }
     }
 
@@ -58,5 +58,9 @@ public class ShopList : MonoBehaviour
         }
         CheckEnoughValue();
 
+    }
+
+    public void TestButton() {
+        Debug.Log("Cliquei");
     }
 }

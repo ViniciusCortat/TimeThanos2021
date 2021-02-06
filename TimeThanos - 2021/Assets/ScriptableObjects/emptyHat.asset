@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e72f4535d65cbd448df9a8f617af019, type: 3}
   m_Name: emptyHat
   m_EditorClassIdentifier: 
-  AvailableHats: []
+  AvailableHats:
+  - Book
+  - Plant
+  - Cauldron
+  - Skull
+  - Frog
+  - Mother
   BoughtHats: 
