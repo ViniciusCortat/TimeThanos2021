@@ -8,6 +8,8 @@ public class Hats : ScriptableObject
     public List<string> AvailableHats;
     [SerializeField]
     private List<bool> BoughtHats;
+    public static int WearingHat = 0;
+    
 
     public void InitHat() {
         for(int i=0;i<AvailableHats.Count;i++) {
@@ -25,6 +27,14 @@ public class Hats : ScriptableObject
             return false;
         }
         BoughtHats[i] = true;
+        return true;
+    }
+
+    public bool CheckHat(string hat) {
+        int i = AvailableHats.IndexOf(hat);
+        if(BoughtHats[i]) {
+            return false;
+        }
         return true;
     }
 }

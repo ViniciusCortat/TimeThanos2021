@@ -143,4 +143,8 @@ public class Achieviments : ScriptableObject
     public int PresentPoints() {
         return currentPoints;
     }
+
+    public void BuyItem(int value) {
+        currentPoints -= value;
+    }
 }

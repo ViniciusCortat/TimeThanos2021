@@ -674,7 +674,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3500
+  m_text: 35
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -837,14 +837,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Plant
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &265286762
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7000
+  m_text: 70
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -2281,7 +2281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3000
+  m_text: 30
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -2518,14 +2518,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Cauldron
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &740902047
@@ -3444,7 +3444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10000
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -4619,14 +4619,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Skull
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1473626266
@@ -5411,14 +5411,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frog
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1670631115
@@ -5721,14 +5721,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Book
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1775801270
@@ -6551,7 +6551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4000
+  m_text: 40
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -6685,7 +6685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1500
+  m_text: 15
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
   m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
@@ -7136,14 +7136,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32039186}
         m_TargetAssemblyTypeName: ShopList, Assembly-CSharp
-        m_MethodName: TestButton
-        m_Mode: 1
+        m_MethodName: BuyHatInShop
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Mother
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2018359273

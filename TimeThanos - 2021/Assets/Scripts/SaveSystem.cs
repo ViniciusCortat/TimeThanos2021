@@ -352,14 +352,11 @@ public class SaveSystem : MonoBehaviour
     public void NewGame() {
         Hs = GameObject.Instantiate(emptyHs);
         Achiev = GameObject.Instantiate(emptyAchiev);
-        lang = GameObject.Instantiate(emptylang);
         hats = GameObject.Instantiate(emptyhats);
         Achiev.InitCompleted();
-        lang.InitLanguage();
         hats.InitHat();
         SaveHighScore();
         SaveAchieviments();
-        SaveLanguage();
         SaveHats();
         SucessfulLoad = true;
     }

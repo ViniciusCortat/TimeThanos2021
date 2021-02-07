@@ -53,14 +53,28 @@ public class ShopList : MonoBehaviour
     }
 
     public void BuyHatInShop(string name) {
+        if(!hats.CheckHat(name)) {
+            return;
+        }
+        int i = GetIndex(name);
+        if(Achiev.PresentPoints() < PriceValue[i]) {
+            return;
+        }
         if(!hats.BuyHat(name)) {
             return;
         }
+        Achiev.BuyItem(PriceValue[i]);
+        SaveSystem.GetInstance().SaveHats();
         CheckEnoughValue();
 
     }
 
-    public void TestButton() {
-        Debug.Log("Cliquei");
+    private int GetIndex(string name) {
+        for(int i=0;i<ShopItens.Count;i++) {
+            if(ShopItens[i].name == name) {
+                return i;
+            }
+        }
+        return 999;
     }
 }
