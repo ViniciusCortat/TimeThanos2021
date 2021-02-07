@@ -1311,23 +1311,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4401273993499257188, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_AABB.m_Center.y
-      value: -0.009330519
+      value: -0.06997889
       objectReference: {fileID: 0}
     - target: {fileID: 4401273993499257188, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_AABB.m_Center.z
-      value: 0.04663652
+      value: 0.34977388
       objectReference: {fileID: 0}
     - target: {fileID: 4401273993499257188, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_AABB.m_Extent.x
-      value: 0.2771214
+      value: 2.0784106
       objectReference: {fileID: 0}
     - target: {fileID: 4401273993499257188, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_AABB.m_Extent.y
-      value: 0.044104535
+      value: 0.33078426
       objectReference: {fileID: 0}
     - target: {fileID: 4401273993499257188, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_AABB.m_Extent.z
-      value: 0.3180418
+      value: 2.3853135
       objectReference: {fileID: 0}
     - target: {fileID: 4661066362808290242, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalScale.x
@@ -1477,7 +1477,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -122.92
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5746581191579657390, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
 --- !u!1 &591448012
 GameObject:

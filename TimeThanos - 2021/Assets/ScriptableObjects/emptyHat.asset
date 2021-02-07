@@ -13,10 +13,29 @@ MonoBehaviour:
   m_Name: emptyHat
   m_EditorClassIdentifier: 
   AvailableHats:
-  - Book
-  - Plant
-  - Cauldron
-  - Skull
-  - Frog
-  - Mother
+  - Aureola
+  - Bone
+  - Caldeirao
+  - Capuz
+  - Cartola
+  - Caveira
+  - Chef
+  - Chines
+  - Cone
+  - Covid
+  - Desentupidor
+  - Fez
+  - Fixie
+  - Gatola
+  - Guarda-chuva
+  - Livro
+  - Mae
+  - Natal
+  - Orelha-elfo
+  - Palhaco
+  - Planta
+  - Saco
+  - Sapo
+  - Sombreiro
   BoughtHats: 
+  WearingHat: 0
