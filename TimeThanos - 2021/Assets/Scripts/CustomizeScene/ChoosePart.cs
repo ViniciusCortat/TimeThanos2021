@@ -65,5 +65,13 @@ public class ChoosePart : MonoBehaviour
         matPele = Pele;
     }
 
+    public void OpenHatInterface(GameObject hatmenu) {
+        hatmenu.SetActive(true);
+    }
+
+    public void CloseHatInterface(GameObject hatmenu) {
+        hatmenu.SetActive(false);
+    }
+
     
 }

@@ -8,13 +8,15 @@ public class Hats : ScriptableObject
     public List<string> AvailableHats;
     [SerializeField]
     private List<bool> BoughtHats;
-    public static int WearingHat = 0;
+    [SerializeField]
+    private int WearingHat = 0;
     
 
     public void InitHat() {
         for(int i=0;i<AvailableHats.Count;i++) {
             BoughtHats.Add(false);
         }
+        WearingHat = 0;
     }
 
     public bool ObtainedHats(int i) {
@@ -36,5 +38,13 @@ public class Hats : ScriptableObject
             return false;
         }
         return true;
+    }
+
+    public void ChangeHat(int index) {
+        WearingHat = index;
+    }
+
+    public int CurrentHat() {
+        return WearingHat;
     }
 }
