@@ -14,8 +14,8 @@ public class PlayerHat : MonoBehaviour
         CaveiraEquipped = new List<GameObject>();
         CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(2).gameObject);
         CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(3).gameObject);
-        CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(2).gameObject);
-        CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(2).gameObject);
+        CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(4).gameObject);
+        CaveiraEquipped.Add(gameObject.transform.GetChild(0).GetChild(5).gameObject);
         ActivateHat();
         
     }
@@ -24,9 +24,15 @@ public class PlayerHat : MonoBehaviour
         for(int i=0;i<HatList.Count;i++) {
             HatList[i].SetActive(false);
         }
+        for(int i=0;i<CaveiraEquipped.Count;i++) {
+            CaveiraEquipped[i].SetActive(true);
+        }
         HatList[hats.CurrentHat()].SetActive(true);
         if(hats.CurrentHat() == 4) {
-            
+            for(int i=0;i<CaveiraEquipped.Count;i++) {
+                CaveiraEquipped[i].SetActive(false);
+            }
         }
+
     }
 }
