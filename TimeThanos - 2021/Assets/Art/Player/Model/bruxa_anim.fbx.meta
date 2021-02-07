@@ -19,6 +19,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Aureola
+    second: {fileID: 2100000, guid: 6ba9bc26b09afbf4abccfec6995be2d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: BookCover01
     second: {fileID: 2100000, guid: ad580d6a4100a974db51c7303bd74e49, type: 2}
   - first:
@@ -49,13 +54,93 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: "Cabelo palha\xE7o"
+    second: {fileID: 2100000, guid: d7a9ced134f2156429bd6effeeb6f8a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Caveira
     second: {fileID: 2100000, guid: 76ea7aa35259d7e44a2a97d53b4e7d3c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Chapeu Chines amarelo
+    second: {fileID: 2100000, guid: c1911b9a4b1f33943993b35a98702e1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu Chines amarelo escuro
+    second: {fileID: 2100000, guid: 65fe02f7e94a8734db95c72fa3b68722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu Chines vermelho
+    second: {fileID: 2100000, guid: cc248689c78224b4387f76e6dfc6a0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu chef
+    second: {fileID: 2100000, guid: 4408580c36fa76044b1c33e79707c194, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu chef 2
+    second: {fileID: 2100000, guid: 2152ac16b86ab9449a05efa6c1ce2473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu natal branco
+    second: {fileID: 2100000, guid: 30dd4a81f9e20f6418ee771fb130629f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu natal vermelho
+    second: {fileID: 2100000, guid: cc248689c78224b4387f76e6dfc6a0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu.fixie
+    second: {fileID: 2100000, guid: a08f091fb8a40374398c6bf116580ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu_Aba
+    second: {fileID: 2100000, guid: 6e8ba6afee693c1448030a70a643edd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu_Meio
+    second: {fileID: 2100000, guid: 2ed4e02e557bea448af8b664598790b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu_Topo
+    second: {fileID: 2100000, guid: 457fb514ff201e746844c26df5476d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Dentro
     second: {fileID: 2100000, guid: f59eb38333097f14390f09db51048efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desentupidor marrom
+    second: {fileID: 2100000, guid: 7cfbd84fc4e7fb244b231591d14b0bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desentupidor marrom escuro
+    second: {fileID: 2100000, guid: 3503bb3728ae7284b8b5e346a11a6a17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desentupidor rosa
+    second: {fileID: 2100000, guid: acea39d88ebf0df4694a3d5c93e6ca1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desentupidor rosa escuro
+    second: {fileID: 2100000, guid: b5f22534bb0084a45822981c5616c402, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -71,6 +156,46 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.046
     second: {fileID: 2100000, guid: 5516ffe9f5cd8df449928ddce6a25669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Palha\xE7o marcas"
+    second: {fileID: 2100000, guid: a7cd824a496823842a75351da10f7081, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Palha\xE7o marcas bochecha"
+    second: {fileID: 2100000, guid: 7a3e6408ae9742241b6d02f4221dea5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero  Verde
+    second: {fileID: 2100000, guid: f688dce34a1ffd64abc0000e51f65c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero  Vermelho
+    second: {fileID: 2100000, guid: d6da2e79335554c4baa0362affbaadca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero Bigode
+    second: {fileID: 2100000, guid: ec5781777f1555b4c9667e8aa4faf20a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero Branco
+    second: {fileID: 2100000, guid: fa419c5f22cd675408bc80ed4608b2e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero escuro
+    second: {fileID: 2100000, guid: 5d7d1581f07491741bc1fd3dd323584f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombrero_
+    second: {fileID: 2100000, guid: 06a23d17afcbc194ca61f836f0157689, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -94,6 +219,31 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: capa.escuro
+    second: {fileID: 2100000, guid: 13b6822a1a3fa0045acb35dc98059b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cartola
+    second: {fileID: 2100000, guid: ada9c47a49a44b043abe784a63247070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cartola gatola
+    second: {fileID: 2100000, guid: d15589199e6bd1843b032276d69af714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cartola meio
+    second: {fileID: 2100000, guid: 25096aad6d2b7ce4ba55b31620d3bf72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cartola meio gatola
+    second: {fileID: 2100000, guid: 21dc3bf26e8c96640ae07df1d5fccf25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: chapeu
     second: {fileID: 2100000, guid: 83662dad97c85cc42be5b49a366731a5, type: 2}
   - first:
@@ -114,8 +264,53 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: cone branco
+    second: {fileID: 2100000, guid: ecb5320356992d74bb44c9962fcf8ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cone laranja
+    second: {fileID: 2100000, guid: 9b73bcc80b709dd40b4f82b7a9c353d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: estrela
     second: {fileID: 2100000, guid: 20fd481ab2172da46b03360e76fa02da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fez
+    second: {fileID: 2100000, guid: 7d6bb1db6a749b249a3425e2c7be8f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fez 2
+    second: {fileID: 2100000, guid: ecf87b964eb8e584a9d6ff90f589c43e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gc amarelo
+    second: {fileID: 2100000, guid: 497e0dcab675a4c43bd98c88666d53e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gc azul
+    second: {fileID: 2100000, guid: 3a0e4380155741d43889feef9d932e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gc branco
+    second: {fileID: 2100000, guid: 783afe68c098cca429674121859950d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gc verde
+    second: {fileID: 2100000, guid: 13091a486ca7119479d14f34a23a821d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gc vermelho
+    second: {fileID: 2100000, guid: b9638868dc0953749848626684aeac20, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -129,8 +324,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mascara covid
+    second: {fileID: 2100000, guid: 716dd30c6f6023347b52d05b8c71123f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: oculos-aro
     second: {fileID: 2100000, guid: a94640732a351a34fb3be4a0511669f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oculos.fixie
+    second: {fileID: 2100000, guid: 59461f57423c71347805f3bc0252c603, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -156,6 +361,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: presilha
     second: {fileID: 2100000, guid: 5c65bc0c45b79394a84d3c40d7d72526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sacola
+    second: {fileID: 2100000, guid: 9995332ce4591174ba36b37a604b283e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sacola.olho
+    second: {fileID: 2100000, guid: 457799dc1b0c3cc47800646170444af7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sacola.pupila
+    second: {fileID: 2100000, guid: 1cc82c69c83274d4e9683a6230a5ad29, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
