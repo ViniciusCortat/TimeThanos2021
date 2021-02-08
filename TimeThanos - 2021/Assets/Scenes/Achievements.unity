@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Cauldron: Find the lost cauldron!'
+  Descriptions: 'Cauldron Claimer: Find the lost cauldron!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &67918596
 MonoBehaviour:
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Book Worm Bibliophile: Find all of the lost books!'
+  Descriptions: 'Book Worm: Find all of the lost books!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &146543302
 MonoBehaviour:
