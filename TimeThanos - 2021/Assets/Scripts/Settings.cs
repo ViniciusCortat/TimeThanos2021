@@ -15,6 +15,7 @@ public class Settings : MonoBehaviour
     public Text sensibilityValue;
     public CinemachineFreeLook cinemachine;
     public Slider sensibilitySlider;
+    public GameObject ConfirmSave;
 
     void Start() {
         float volume;
@@ -58,6 +59,16 @@ public class Settings : MonoBehaviour
         music.SetFloat("volume", Mathf.Log(volume) * 20);
         PlayerPrefs.SetFloat("volume", volume);
         PlayerPrefs.Save();
+    }
+
+    public void ConfirmDeleteSave() {
+        if(ConfirmSave.activeSelf) {
+            ConfirmSave.SetActive(false);
+        }
+        else {
+            ConfirmSave.SetActive(true);
+        }
+        
     }
     
 }
