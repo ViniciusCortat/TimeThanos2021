@@ -11,11 +11,13 @@ public class GameManager : MonoBehaviour
     private PointSystem PS;
 
     private Achieviments Achiev;
+    private HighScore Hs;
 
     public string pauseKey;
     private bool paused;
 
     public GameObject PauseMenuUI;
+    public GameObject TutorialUI;
 
     public Material Cab;
     public Material Capa;
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
     {
         PS = PointSystem.Instance;
         Achiev = SaveSystem.GetInstance().Achiev;
+        Hs = SaveSystem.GetInstance().Hs;
 
         if(Feiticos.ScoreUI == true)
         {
@@ -44,6 +47,10 @@ public class GameManager : MonoBehaviour
         Oculos = ChoosePart.matOculos;
         Olho = ChoosePart.matOlho;
         Pele = ChoosePart.matPele;
+
+        if(Hs.Scores.Count == 0) {
+            ShowTutorial();
+        }
     }
 
     
@@ -84,5 +91,19 @@ public class GameManager : MonoBehaviour
         int i = Achiev.Achiev.IndexOf(title);
         if(Achiev.CheckCompletion(i)) return;
         Achiev.GiveAchiev(i);
+    }
+
+    private void ShowTutorial() {
+        AudioManager.sharedInstance.PauseTema();
+        TutorialUI.SetActive(true);
+        Time.timeScale = 0f;
+        paused = true;
+    }
+
+    public void GotItButton() {
+        AudioManager.sharedInstance.UnpauseTema();
+        TutorialUI.SetActive(false);
+        Time.timeScale = 1f;
+        paused = false;
     }
 }
