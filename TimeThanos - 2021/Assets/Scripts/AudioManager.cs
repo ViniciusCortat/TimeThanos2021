@@ -15,14 +15,14 @@ public class AudioManager : MonoBehaviour
     public AudioSource tema;
     public AudioSource ui3;
     public GameObject moveWallPrefab;
-    public bool gameOn = false;
+    private bool gameOn = false;
 
     private GameObject wallObj = null;
     private float wallDist = 0;
     private float wallDuration = 0;
-    //private AudioSource 
 
-    //private List<GameObject> walls = new List<GameObject>();
+    public AudioMixerSnapshot wallFadeOut;
+    public AudioMixerSnapshot normal;
 
     void Awake()
     {
@@ -139,16 +139,18 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void PlayMoveWall(GameObject obj, float duration)
+    private void PlayMoveWall(GameObject obj, float duration)
     {
        GameObject newObj = Instantiate(moveWallPrefab, obj.transform.position, Quaternion.identity);
        newObj.GetComponent<AudioSource>().Play();
        StartCoroutine(StopMoveWall(newObj, duration));
+       wallFadeOut.TransitionTo(duration);
     }
 
     private IEnumerator StopMoveWall(GameObject obj, float duration)
     {
         yield return new WaitForSeconds(duration);
+        normal.TransitionTo(0.0f);
         if (gameOn)
         {
             if (obj != null)

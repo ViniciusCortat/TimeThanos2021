@@ -342,6 +342,8 @@ MonoBehaviour:
   tema: {fileID: 4807261097652288596}
   ui3: {fileID: 7527202645095912763}
   moveWallPrefab: {fileID: 3712677921700123506}
+  wallFadeOut: {fileID: 6650871550423755323, guid: 71f8bbedbbc28394a8c147697680aaef, type: 2}
+  normal: {fileID: 24500006, guid: 71f8bbedbbc28394a8c147697680aaef, type: 2}
 --- !u!1 &4490248412460740773
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,6 +903,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2847092015581404783, guid: acc485472b1f5144daac42caeff2d913, type: 3}
+      propertyPath: m_Volume
+      value: 0.458
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847092015581404783, guid: acc485472b1f5144daac42caeff2d913, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -632886194697623222, guid: 71f8bbedbbc28394a8c147697680aaef, type: 2}
     - target: {fileID: 3780299321247772060, guid: acc485472b1f5144daac42caeff2d913, type: 3}
       propertyPath: m_Name
       value: moveWall
