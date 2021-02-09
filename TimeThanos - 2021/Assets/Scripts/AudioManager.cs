@@ -118,8 +118,11 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(duration);
         if (gameOn)
         {
-            obj.GetComponent<AudioSource>().Stop();
-            Destroy(obj);
+            if (obj != null)
+            {
+                obj.GetComponent<AudioSource>().Stop();
+                Destroy(obj);
+            }
         }
     }
 
