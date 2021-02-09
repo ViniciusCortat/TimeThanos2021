@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource ui1;
     public AudioSource ui2;
     public AudioSource timeOut;
+    public AudioSource puff;
     public AudioSource menu;
     public AudioSource tema;
     public AudioSource ui3;
@@ -54,6 +55,13 @@ public class AudioManager : MonoBehaviour
     public void PlayTimeOut()
     {
         timeOut.Play();
+        StartCoroutine(WaitToPlayPuff());
+    }
+
+    IEnumerator WaitToPlayPuff()
+    {
+        yield return new WaitForSeconds(1.1f);
+        puff.Play();
     }
 
     public void PlayMenu()
