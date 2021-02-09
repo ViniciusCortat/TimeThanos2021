@@ -31,7 +31,7 @@ public class MovableWallLine : MonoBehaviour
 
 	IEnumerator MoveWall(Vector3 targetPosition, float duration)
 	{
-		AudioManager.sharedInstance.PlayMoveWall(this.gameObject, duration);
+		AudioManager.sharedInstance.RequestMoveWall(this.gameObject, duration);
 
 		float time = 0;
 		Vector3 startPosition = Wall.transform.position;

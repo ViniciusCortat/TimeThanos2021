@@ -16,7 +16,13 @@ public class AudioManager : MonoBehaviour
     public AudioSource ui3;
     public GameObject moveWallPrefab;
     public bool gameOn = false;
+
+    private GameObject wallObj = null;
+    private float wallDist = 0;
+    private float wallDuration = 0;
     //private AudioSource 
+
+    //private List<GameObject> walls = new List<GameObject>();
 
     void Awake()
     {
@@ -31,13 +37,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
     }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-    }
-
     public void PlayUISound()
     {
         int i = (int)UnityEngine.Random.Range(0, 2);
@@ -104,6 +103,40 @@ public class AudioManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
         tema.Play();
+    }
+
+    public void RequestMoveWall(GameObject obj, float duration)
+    {
+        GameObject player = GameObject.Find("Player");
+        if (player != null)
+        {
+            float dist = Vector3.Distance(player.transform.position, obj.transform.position);
+            //Debug.Log("Distance to other: " + dist);
+            if (wallObj == null)
+            {
+                wallObj = obj;
+                wallDuration = duration;
+                wallDist = dist;
+            }
+            else if (dist < wallDist)
+            {
+                wallObj = obj;
+                wallDuration = duration;
+                wallDist = dist;
+            }
+        }
+        
+    }
+
+    void FixedUpdate()
+    {
+        if (wallObj != null)
+        {
+            PlayMoveWall(wallObj, wallDuration);
+            wallObj = null;
+            wallDuration = 0.0f;
+            wallDist = 0.0f;
+        }
     }
 
     public void PlayMoveWall(GameObject obj, float duration)
