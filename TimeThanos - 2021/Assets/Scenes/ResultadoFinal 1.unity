@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FADE
       objectReference: {fileID: 0}
+    - target: {fileID: 6940852150360675474, guid: 8fc81b85206393b45a9fd7a93c2a6c7a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6940852150360675478, guid: 8fc81b85206393b45a9fd7a93c2a6c7a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -394,8 +398,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Rank 1 - 76500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
-  m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
+  m_sharedMaterial: {fileID: -7073803049678753263, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -594,8 +598,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Achiev: {fileID: 0}
   Hs: {fileID: 0}
+  lang: {fileID: 0}
+  hats: {fileID: 0}
   emptyAchiev: {fileID: 11400000, guid: ceeff26c60f0236498d9c5920bd63274, type: 2}
   emptyHs: {fileID: 11400000, guid: bc1031b474701e445b89717ba5646859, type: 2}
+  emptylang: {fileID: 0}
+  emptyhats: {fileID: 0}
 --- !u!4 &640090915
 Transform:
   m_ObjectHideFlags: 0
@@ -725,8 +733,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Score - 500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
-  m_sharedMaterial: {fileID: -6812547269166814838, guid: d22ffac4b7cb1434eb93b73d2db272ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
+  m_sharedMaterial: {fileID: -7073803049678753263, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
