@@ -9,6 +9,7 @@ public class DisplayResultado : MonoBehaviour
     private PointSystem Points = PointSystem.Instance;
     private HighScore Hs;
     private Achieviments Achiev;
+    private Language lang;
 
     public TextMeshProUGUI score;
     public TextMeshProUGUI pontuacao;
@@ -18,6 +19,7 @@ public class DisplayResultado : MonoBehaviour
         Hs = SaveSystem.GetInstance().Hs;
         DisplayScore();
         Achiev = SaveSystem.GetInstance().Achiev;
+        lang = SaveSystem.GetInstance().lang;
         Achiev.AddPoints(Points.pontos);
     }
 
@@ -33,7 +35,12 @@ public class DisplayResultado : MonoBehaviour
     private void DisplayScore() {
         score.text = "";
         CalculaMultiplicador();
-        pontuacao.text = "Score: " + Points.pontos.ToString();
+        if(lang.idioma() == Language.languagetype.ENGLISH) {
+            pontuacao.text = "Score: " + Points.pontos.ToString();
+        }
+        if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+            pontuacao.text = "Pontuação: " + Points.pontos.ToString();
+        }
         Hs.Scores.Add(Points.pontos);
         SaveSystem.GetInstance().SaveHighScore();
         Hs.Scores.Sort();
@@ -42,10 +49,20 @@ public class DisplayResultado : MonoBehaviour
         int max = Hs.Scores.Count > 10? 10 : Hs.Scores.Count;
         for(int i = 0;i < max; i++) {
             if(i != redId) {
-                score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+                if(lang.idioma() == Language.languagetype.ENGLISH) {
+                    score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+                }
+                if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+                    score.text += $"Posição {i+1} - {Hs.Scores[i]}\n";
+                }
             }
             else {
-                score.text += $"<color=#FF0000>Rank {i+1} - {Hs.Scores[i]}</color>\n";
+                if(lang.idioma() == Language.languagetype.ENGLISH) {
+                    score.text += $"<color=#FF0000>Rank {i+1} - {Hs.Scores[i]}</color>\n";
+                }
+                if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+                    score.text += $"<color=#FF0000>Pontuação {i+1} - {Hs.Scores[i]}</color>\n";
+                }
             }
         }
     }

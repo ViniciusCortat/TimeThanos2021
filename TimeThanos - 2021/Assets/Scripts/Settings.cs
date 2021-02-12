@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using Cinemachine;
 
 public class Settings : MonoBehaviour
@@ -78,10 +79,12 @@ public class Settings : MonoBehaviour
     public void PortugueseOn() {
         lang.ChangeLanguage(Language.languagetype.PORTUGUESE);
         SaveSystem.GetInstance().SaveLanguage();
+        SceneManager.LoadScene("Settings",LoadSceneMode.Single);
     }
 
     public void EnglishOn() {
         lang.ChangeLanguage(Language.languagetype.ENGLISH);
         SaveSystem.GetInstance().SaveLanguage();
+        SceneManager.LoadScene("Settings",LoadSceneMode.Single);
     }     
 }

@@ -14,6 +14,7 @@ public class ShopList : MonoBehaviour
     private List<Button> BuyButtons;
 
     private Achieviments Achiev;
+    private Language lang;
 
     private Hats hats;
 
@@ -44,7 +45,13 @@ public class ShopList : MonoBehaviour
                 PriceText[i].text = $"<color=#FF0000> {PriceText[i].text} </color>";
             }
             if(hats.ObtainedHats(i)) {
-                PriceText[i].text = "Obtained!";
+                if(lang.idioma() == Language.languagetype.ENGLISH) {
+                    PriceText[i].text = "Obtained!";
+                }
+                if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+                    PriceText[i].text = "Comprado!";
+                }
+                
                 ShopItens[i].transform.GetChild(2).gameObject.SetActive(false);
                 BuyButtons[i].gameObject.SetActive(false);
             }

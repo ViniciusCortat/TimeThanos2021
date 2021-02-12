@@ -1020,8 +1020,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1644304079}
   m_HandleRect: {fileID: 1644304078}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.6069168
+  m_Value: 0.9999999
+  m_Size: 0.6069169
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9635,7 +9635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6940852150360675474, guid: 8fc81b85206393b45a9fd7a93c2a6c7a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6940852150360675478, guid: 8fc81b85206393b45a9fd7a93c2a6c7a, type: 3}
       propertyPath: m_Pivot.x
@@ -11990,6 +11990,7 @@ GameObject:
   - component: {fileID: 1452886372}
   - component: {fileID: 1452886374}
   - component: {fileID: 1452886373}
+  - component: {fileID: 1452886375}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -12099,7 +12100,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -108.82067, y: 0, z: -119.9538, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12113,6 +12114,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452886371}
   m_CullTransparentMesh: 1
+--- !u!114 &1452886375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452886371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Main Menu
+  PortugueseText: Menu Principal
 --- !u!1 &1461268867
 GameObject:
   m_ObjectHideFlags: 0
@@ -17900,6 +17915,7 @@ GameObject:
   - component: {fileID: 1963581392}
   - component: {fileID: 1963581394}
   - component: {fileID: 1963581393}
+  - component: {fileID: 1963581395}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -18023,6 +18039,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963581391}
   m_CullTransparentMesh: 1
+--- !u!114 &1963581395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963581391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Shop
+  PortugueseText: Loja
 --- !u!224 &1990239057 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6940852150360675478, guid: 8fc81b85206393b45a9fd7a93c2a6c7a, type: 3}
