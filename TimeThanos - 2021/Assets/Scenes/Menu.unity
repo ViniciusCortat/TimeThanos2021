@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 16024566}
   - component: {fileID: 16024568}
   - component: {fileID: 16024567}
+  - component: {fileID: 16024569}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -257,6 +258,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16024565}
   m_CullTransparentMesh: 1
+--- !u!114 &16024569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16024565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Back
+  PortugueseText: Voltar
 --- !u!1 &45861347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1831,7 @@ GameObject:
   - component: {fileID: 273702831}
   - component: {fileID: 273702833}
   - component: {fileID: 273702832}
+  - component: {fileID: 273702834}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -1956,6 +1972,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273702830}
   m_CullTransparentMesh: 1
+--- !u!114 &273702834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273702830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: 'Programmer
+
+    Artist
+
+    GD, Programmer
+
+    GD
+
+    Artist
+
+    GD,
+    Artist
+
+    Programmer
+
+    Sound Designer
+
+    GD, Programmer'
+  PortugueseText: 'Programador
+
+    Artista
+
+    GD, Programador
+
+    GD
+
+    Artista
+
+    GD,
+    Artista
+
+    Programadora
+
+    Sonorizador
+
+    GD, Programador'
 --- !u!1 &303452455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5408,6 +5472,7 @@ GameObject:
   - component: {fileID: 1010938680}
   - component: {fileID: 1010938682}
   - component: {fileID: 1010938681}
+  - component: {fileID: 1010938683}
   m_Layer: 5
   m_Name: "T\xEDtulo"
   m_TagString: Untagged
@@ -5531,6 +5596,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010938679}
   m_CullTransparentMesh: 1
+--- !u!114 &1010938683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010938679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Credits
+  PortugueseText: "Cr\xE9ditos"
 --- !u!1 &1022956593
 GameObject:
   m_ObjectHideFlags: 0
@@ -9422,6 +9501,7 @@ GameObject:
   - component: {fileID: 1847775060}
   - component: {fileID: 1847775062}
   - component: {fileID: 1847775061}
+  - component: {fileID: 1847775063}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -9557,6 +9637,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847775059}
   m_CullTransparentMesh: 1
+--- !u!114 &1847775063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847775059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: '<b>Special Thanks</b>
+
+    Bryan Souza
+
+    Jennifer Souza
+
+    Johny
+    Souza
+
+    Our playtesters
+
+
+    and YOU for playing and supporting our game!'
+  PortugueseText: "<b>Agradecimentos Especiais\r</b>\nBryan Souza\r\nJennifer Souza\r\nJohny
+    Souza\r\nNossos playtesters\r\n\r\nE a VOC\xCA por jogar e apoiar nosso jogo!"
 --- !u!1 &1850332466
 GameObject:
   m_ObjectHideFlags: 0
@@ -9757,6 +9864,7 @@ GameObject:
   - component: {fileID: 1932170647}
   - component: {fileID: 1932170649}
   - component: {fileID: 1932170648}
+  - component: {fileID: 1932170650}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -9882,6 +9990,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932170646}
   m_CullTransparentMesh: 1
+--- !u!114 &1932170650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932170646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: "Arthur Ozorio\r\nHelena Coelho\r\nHugo Tonette\r\nMadu Venancio\r\nPedro
+    Fernando\r\nRaphael Ramos\nTatiana Reimer\r\nTheo Caldas\r\nVin\xEDcius Cortat
+    Btechs\r"
+  PortugueseText: "Arthur Ozorio\r\nHelena Coelho\r\nHugo Tonette\r\nMadu Venancio\r\nPedro
+    Fernando\r\nRaphael Ramos\nTatiana Reimer\r\nTheo Caldas\r\nVin\xEDcius Cortat
+    Btechs\r"
 --- !u!1 &1962919616
 GameObject:
   m_ObjectHideFlags: 0
