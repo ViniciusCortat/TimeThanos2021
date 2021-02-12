@@ -16,10 +16,14 @@ public class Settings : MonoBehaviour
     public CinemachineFreeLook cinemachine;
     public Slider sensibilitySlider;
     public GameObject ConfirmSave;
+    
+    private Language lang;
 
     void Start() {
         float volume;
         float sensibility;
+
+        lang = SaveSystem.GetInstance().lang;
 
 
         volume = PlayerPrefs.GetFloat("volume");
@@ -70,5 +74,14 @@ public class Settings : MonoBehaviour
         }
         
     }
-    
+
+    public void PortugueseOn() {
+        lang.ChangeLanguage(Language.languagetype.PORTUGUESE);
+        SaveSystem.GetInstance().SaveLanguage();
+    }
+
+    public void EnglishOn() {
+        lang.ChangeLanguage(Language.languagetype.ENGLISH);
+        SaveSystem.GetInstance().SaveLanguage();
+    }     
 }

@@ -9,6 +9,7 @@ public class DisplayHighScore : MonoBehaviour
     
     private HighScore Hs;
     private Achieviments Achiev;
+    private Language lang;
 
     public TextMeshProUGUI score;
 
@@ -18,6 +19,7 @@ public class DisplayHighScore : MonoBehaviour
     {
         Hs = SaveSystem.GetInstance().Hs;
         Achiev = SaveSystem.GetInstance().Achiev;
+        lang = SaveSystem.GetInstance().lang;
         DisplayScore();
     }
 
@@ -33,7 +35,12 @@ public class DisplayHighScore : MonoBehaviour
         Hs.Scores.Reverse();
         int max = Hs.Scores.Count > 10? 10 : Hs.Scores.Count;
         for(int i = 0;i < max; i++) {
-            score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+            if(lang.idioma() == Language.languagetype.ENGLISH) {
+                score.text += $"Rank {i+1} - {Hs.Scores[i]}\n";
+            }
+            if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+                score.text += $"Posição {i+1} - {Hs.Scores[i]}\n";
+            }
         }
         Stats[0].text = $"{Achiev.PresentMushrooms()}";
         Stats[1].text = $"{Achiev.PresentCrystals()}";

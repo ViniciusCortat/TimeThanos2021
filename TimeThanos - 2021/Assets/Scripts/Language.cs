@@ -17,6 +17,10 @@ public class Language : ScriptableObject
         return lang;
     }
 
+    public void ChangeLanguage(languagetype type) {
+        lang = type;
+    }
+
     public void InitLanguage() {
         lang = languagetype.ENGLISH;
     }

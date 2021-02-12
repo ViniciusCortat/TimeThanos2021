@@ -173,7 +173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'My precious: Find the lost ring!'
+  DescriptionEnglish: 'My precious: Find the lost ring!'
+  DescriptionPortuese: 'Meu precioso: Encontre o anel perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &5667385
 MonoBehaviour:
@@ -263,7 +264,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Cauldron Claimer: Find the lost cauldron!'
+  DescriptionEnglish: 'Mini Minny''s Mother''s Cauldron: Find the lost cauldron!'
+  DescriptionPortuese: "Caldeir\xE3o da M\xE3e da Mini Minny: Encontre o caldeir\xE3o
+    perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &67918596
 MonoBehaviour:
@@ -353,7 +356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Crystal collector: Collect 50 crystals'
+  DescriptionEnglish: 'Crystal collector: Collect 50 crystals!'
+  DescriptionPortuese: 'Colecionador de cristal: Colecione 50 cristais!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &77590490
 MonoBehaviour:
@@ -443,7 +447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Book Worm: Find all of the lost books!'
+  DescriptionEnglish: 'Bibliophile: Find all of the lost books!'
+  DescriptionPortuese: "Bibli\xF3filo: Encontre todos os mapas perdidos!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &146543302
 MonoBehaviour:
@@ -638,7 +643,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Alchemy ace: Collect 25 potions!'
+  DescriptionEnglish: 'Alchemy ace: Collect 25 potions!'
+  DescriptionPortuese: "Adepto da alquimia: Colecione 25 po\xE7\xF5es!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &219546466
 MonoBehaviour:
@@ -803,7 +809,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Cartographer: Find all of the lost maps!'
+  DescriptionEnglish: 'Cartographer: Find all of the lost maps!'
+  DescriptionPortuese: 'Cartografo: Encontre todos os mapas perdidos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &282249341
 MonoBehaviour:
@@ -931,7 +938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: '50000: Score a sum of 50.000 points!'
+  DescriptionEnglish: 'On point: Collect at least 50.000 points!'
+  DescriptionPortuese: 'No ponto: Colecione pelo menos 50.000 pontos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1001 &391279386
 PrefabInstance:
@@ -1148,7 +1156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Hat Hoarder: Find the lost hat!'
+  DescriptionEnglish: 'Hat Hoarder: Find the lost hat!'
+  DescriptionPortuese: "Chapeleira: Encontre o chap\xE9u perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &411281843
 MonoBehaviour:
@@ -1238,7 +1247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Home is where the hearth is: Find the fireplace!'
+  DescriptionEnglish: 'Home is where the hearth is: Find the fireplace!'
+  DescriptionPortuese: 'A lareira do lar: Encontre a lareira!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &448631504
 MonoBehaviour:
@@ -1366,7 +1376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'You did owlright!: Find the lost owl trophy!'
+  DescriptionEnglish: 'You did owlright: Find the lost owl trophy!'
+  DescriptionPortuese: "Filha coruja: Encontre o trof\xE9u de coruja perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &556244793
 GameObject:
@@ -1456,7 +1467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Hat Hoarder: Find the lost hat!'
+  DescriptionEnglish: 'Hat Hoarder: Find the lost hat!'
+  DescriptionPortuese: "Chapeleira: Encontre o chap\xE9u perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &663061672
 GameObject:
@@ -1508,7 +1520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'You did owlright!: Find the lost owl trophy!'
+  DescriptionEnglish: 'You did owlright: Find the lost owl trophy!'
+  DescriptionPortuese: "Filha coruja: Encontre o trof\xE9u de coruja perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &663061675
 MonoBehaviour:
@@ -1691,7 +1704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: '50000: Score at least 50.000 points!'
+  DescriptionEnglish: 'On point: Collect at least 50.000 points!'
+  DescriptionPortuese: 'No ponto: Colecione pelo menos 50.000 pontos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &768837466
 MonoBehaviour:
@@ -2040,7 +2054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Skillful scryer: Collect 10 crystal balls'
+  DescriptionEnglish: 'Skillful scryer: Collect 10 crystal balls!'
+  DescriptionPortuese: 'Vidente virtuoso: Colecione 10 bolas de cristal!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &917127152
 MonoBehaviour:
@@ -2130,7 +2145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Up!: Find the lost broom!'
+  DescriptionEnglish: 'Up: Find the lost broom!'
+  DescriptionPortuese: 'Altas aventuras: Encontre a vassoura perdida!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &922503285
 MonoBehaviour:
@@ -2258,7 +2274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'A familiar sight: Find your lost familiar'
+  DescriptionEnglish: 'A familiar sight: Find your lost familiar!'
+  DescriptionPortuese: 'Uma Figura familiar: Encontre o seu familiar perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1155668454
 GameObject:
@@ -2414,7 +2431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Herbalist: Find all of the lost plants!'
+  DescriptionEnglish: 'Herbalist: Find all of the lost plants!'
+  DescriptionPortuese: 'Herbalista: Encontre todas as plantas perdidos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1188770746
 GameObject:
@@ -2504,7 +2522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Crystal collector: Collect 50 crystals'
+  DescriptionEnglish: 'Crystal collector: Collect 50 crystals!'
+  DescriptionPortuese: 'Colecionador de cristal: Colecione 50 cristais!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1213773037
 GameObject:
@@ -2594,7 +2613,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Alchemy ace: Collect 25 potions!'
+  DescriptionEnglish: 'Alchemy ace: Collect 25 potions!'
+  DescriptionPortuese: "Adepto da alquimia: Colecione 25 po\xE7\xF5es!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1294941535
 GameObject:
@@ -2684,7 +2704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Fungal fan: Collect 500 mushrooms! '
+  DescriptionEnglish: 'Fungal fan: Collect 500 mushrooms! '
+  DescriptionPortuese: "F\xE3 de fungo: Colecione 500 cogumelos!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1309418314
 GameObject:
@@ -2788,7 +2809,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'To be or not to be: Find the lost skull!'
+  DescriptionEnglish: 'To be or not to be: Find the lost skull!'
+  DescriptionPortuese: "Ser ou n\xE3o ser: Encontre o cr\xE2nio perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &1348413203
 MonoBehaviour:
@@ -2878,7 +2900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Herbalist: Find all of the lost plants!'
+  DescriptionEnglish: 'Herbalist: Find all of the lost plants!'
+  DescriptionPortuese: 'Herbalista: Encontre todas as plantas perdidos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &1409316712
 MonoBehaviour:
@@ -3084,7 +3107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Mirror, Mirror on the wall!: Find the lost mirror!'
+  DescriptionEnglish: 'Mirror, Mirror on the wall: Find the lost mirror!'
+  DescriptionPortuese: 'Espelho, espelho meu: Encontre o espelho perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &1521168622
 MonoBehaviour:
@@ -3288,7 +3312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Home is where the hearth is: Find the fireplace!'
+  DescriptionEnglish: 'Home is where the hearth is: Find the fireplace!'
+  DescriptionPortuese: 'A lareira do lar: Encontre a lareira!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1645474906
 GameObject:
@@ -3378,7 +3403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'My precious: Find the lost ring!'
+  DescriptionEnglish: 'My precious: Find the lost ring!'
+  DescriptionPortuese: 'Meu precioso: Encontre o anel perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1662809739
 GameObject:
@@ -3430,7 +3456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'A familiar sight: Find your lost familiar'
+  DescriptionEnglish: 'A familiar sight: Find your lost familiar!'
+  DescriptionPortuese: 'Uma Figura familiar: Encontre o seu familiar perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &1662809742
 MonoBehaviour:
@@ -3558,7 +3585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Mirror, Mirror on the wall!: Find the lost mirror!'
+  DescriptionEnglish: 'Mirror, Mirror on the wall: Find the lost mirror!'
+  DescriptionPortuese: 'Espelho, espelho meu: Encontre o espelho perdido!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1801216672
 GameObject:
@@ -3648,7 +3676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'To be or not to be: Find the lost skull!'
+  DescriptionEnglish: 'To be or not to be: Find the lost skull!'
+  DescriptionPortuese: "Ser ou n\xE3o ser: Encontre o cr\xE2nio perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1840659009
 GameObject:
@@ -3871,7 +3900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Cauldron: Find the lost cauldron!'
+  DescriptionEnglish: 'Mini Minny''s Mother''s Cauldron: Find the lost cauldron!'
+  DescriptionPortuese: "Caldeir\xE3o da M\xE3e da Mini Minny: Encontre o caldeir\xE3o
+    perdido!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1938915913
 GameObject:
@@ -3961,7 +3992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Book Worm Bibliophile: Find all of the lost books!'
+  DescriptionEnglish: 'Bibliophile: Find all of the lost books!'
+  DescriptionPortuese: "Bibli\xF3filo: Encontre todos os mapas perdidos!"
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1938974750
 GameObject:
@@ -4147,7 +4179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Fungal fan: Collect 500 mushrooms! '
+  DescriptionEnglish: 'Fungal fan: Collect 500 mushrooms! '
+  DescriptionPortuese: "F\xE3 de fungo: Colecione 500 cogumelos!"
   DescriptionText: {fileID: 1938974752}
 --- !u!114 &1941923888
 MonoBehaviour:
@@ -4275,7 +4308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Up!: Find the lost broom!'
+  DescriptionEnglish: 'Up: Find the lost broom!'
+  DescriptionPortuese: 'Altas aventuras: Encontre a vassoura perdida!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &1989269078
 GameObject:
@@ -4365,7 +4399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Skillful scryer: Collect 10 crystal balls'
+  DescriptionEnglish: 'Skillful scryer: Collect 10 crystal balls!'
+  DescriptionPortuese: 'Vidente virtuoso: Colecione 10 bolas de cristal!'
   DescriptionText: {fileID: 1938974752}
 --- !u!1 &2016818121
 GameObject:
@@ -4455,7 +4490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a52352b33a4f440a938794aa6f9b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Descriptions: 'Cartographer: Find all of the lost maps!'
+  DescriptionEnglish: 'Cartographer: Find all of the lost maps!'
+  DescriptionPortuese: 'Cartografo: Encontre todos os mapas perdidos!'
   DescriptionText: {fileID: 1938974752}
 --- !u!224 &2092862449 stripped
 RectTransform:
