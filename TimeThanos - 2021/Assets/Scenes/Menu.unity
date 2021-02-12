@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 81516262}
   - component: {fileID: 81516264}
   - component: {fileID: 81516263}
+  - component: {fileID: 81516265}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -666,6 +667,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81516261}
   m_CullTransparentMesh: 1
+--- !u!114 &81516265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81516261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Settings
+  PortugueseText: "Configura\xE7\xF5es"
 --- !u!1 &105796306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,6 +1562,7 @@ GameObject:
   - component: {fileID: 266395365}
   - component: {fileID: 266395367}
   - component: {fileID: 266395366}
+  - component: {fileID: 266395368}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1670,6 +1686,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266395364}
   m_CullTransparentMesh: 1
+--- !u!114 &266395368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266395364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Credits
+  PortugueseText: "Cr\xE9ditos"
 --- !u!1 &270100382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3098,6 +3128,7 @@ GameObject:
   - component: {fileID: 566756224}
   - component: {fileID: 566756226}
   - component: {fileID: 566756225}
+  - component: {fileID: 566756227}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3221,6 +3252,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566756223}
   m_CullTransparentMesh: 1
+--- !u!114 &566756227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566756223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Achievements
+  PortugueseText: Conquistas
 --- !u!1 &586698555
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3352,7 @@ GameObject:
   - component: {fileID: 588274540}
   - component: {fileID: 588274542}
   - component: {fileID: 588274541}
+  - component: {fileID: 588274543}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3430,6 +3476,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588274539}
   m_CullTransparentMesh: 1
+--- !u!114 &588274543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588274539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Spells
+  PortugueseText: "Feiti\xE7os"
 --- !u!1 &590391325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,6 +5264,7 @@ GameObject:
   - component: {fileID: 990411542}
   - component: {fileID: 990411544}
   - component: {fileID: 990411543}
+  - component: {fileID: 990411545}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5327,6 +5388,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990411541}
   m_CullTransparentMesh: 1
+--- !u!114 &990411545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990411541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Exit
+  PortugueseText: Sair
 --- !u!1 &994445175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5621,6 +5696,7 @@ GameObject:
   - component: {fileID: 1022956594}
   - component: {fileID: 1022956596}
   - component: {fileID: 1022956595}
+  - component: {fileID: 1022956597}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -5744,6 +5820,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022956593}
   m_CullTransparentMesh: 1
+--- !u!114 &1022956597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022956593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Outfit
+  PortugueseText: Roupa
 --- !u!1 &1063458387
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,6 +6207,7 @@ GameObject:
   - component: {fileID: 1104477087}
   - component: {fileID: 1104477089}
   - component: {fileID: 1104477088}
+  - component: {fileID: 1104477090}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6240,6 +6331,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104477086}
   m_CullTransparentMesh: 1
+--- !u!114 &1104477090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104477086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Ranking
+  PortugueseText: "Pontua\xE7\xE3o"
 --- !u!1 &1131419091
 GameObject:
   m_ObjectHideFlags: 0
@@ -6834,6 +6939,7 @@ GameObject:
   - component: {fileID: 1255075785}
   - component: {fileID: 1255075787}
   - component: {fileID: 1255075786}
+  - component: {fileID: 1255075788}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6957,6 +7063,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255075784}
   m_CullTransparentMesh: 1
+--- !u!114 &1255075788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255075784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Start
+  PortugueseText: Jogar
 --- !u!1 &1260893683
 GameObject:
   m_ObjectHideFlags: 0
@@ -7282,6 +7402,7 @@ GameObject:
   - component: {fileID: 1352623961}
   - component: {fileID: 1352623963}
   - component: {fileID: 1352623962}
+  - component: {fileID: 1352623964}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -7405,6 +7526,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352623960}
   m_CullTransparentMesh: 1
+--- !u!114 &1352623964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352623960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Shop
+  PortugueseText: Loja
 --- !u!1 &1395329308
 GameObject:
   m_ObjectHideFlags: 0
