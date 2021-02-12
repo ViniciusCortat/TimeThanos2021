@@ -22,6 +22,7 @@ public class ShopList : MonoBehaviour
     {
         Achiev = SaveSystem.GetInstance().Achiev;
         hats = SaveSystem.GetInstance().hats;
+        lang = SaveSystem.GetInstance().lang;
 
         GetValuesInList();
         CheckEnoughValue();

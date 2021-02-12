@@ -18139,6 +18139,10 @@ PrefabInstance:
       propertyPath: m_CollideAgainst.m_Bits
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 553127154024458892, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
+      propertyPath: m_XAxis.m_MaxSpeed
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 553127154024458893, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.2408423
@@ -18193,7 +18197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.23185416
+      value: 0.23185413
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
@@ -18201,7 +18205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19668598
+      value: 0.196686
       objectReference: {fileID: 0}
     - target: {fileID: 831412518012332736, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_IsActive
@@ -18249,11 +18253,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1496412440883415894, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.61710143
+      value: -0.6171014
       objectReference: {fileID: 0}
     - target: {fileID: 1496412440883415894, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19408779
+      value: 0.19408777
       objectReference: {fileID: 0}
     - target: {fileID: 1780899079423926257, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_IsActive
@@ -18769,6 +18773,7 @@ GameObject:
   - component: {fileID: 1289399030}
   - component: {fileID: 1289399032}
   - component: {fileID: 1289399031}
+  - component: {fileID: 1289399033}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18892,6 +18897,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289399029}
   m_CullTransparentMesh: 1
+--- !u!114 &1289399033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289399029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: Got it!
+  PortugueseText: Entendi!
 --- !u!1 &1312803277
 GameObject:
   m_ObjectHideFlags: 0
@@ -26120,7 +26139,6 @@ GameObject:
   - component: {fileID: 1842890195}
   - component: {fileID: 1842890194}
   - component: {fileID: 1842890193}
-  - component: {fileID: 1842890196}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -26242,20 +26260,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842890191}
   m_CullTransparentMesh: 1
---- !u!114 &1842890196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842890191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnglishText: Got it!
-  PortugueseText: Entendi!
 --- !u!1 &1843606563
 GameObject:
   m_ObjectHideFlags: 0

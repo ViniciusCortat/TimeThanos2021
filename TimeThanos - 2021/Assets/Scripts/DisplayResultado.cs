@@ -17,9 +17,9 @@ public class DisplayResultado : MonoBehaviour
     void Start()
     {
         Hs = SaveSystem.GetInstance().Hs;
-        DisplayScore();
         Achiev = SaveSystem.GetInstance().Achiev;
         lang = SaveSystem.GetInstance().lang;
+        DisplayScore();
         Achiev.AddPoints(Points.pontos);
     }
 
