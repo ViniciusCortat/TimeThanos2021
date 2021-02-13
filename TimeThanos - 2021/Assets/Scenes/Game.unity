@@ -429,7 +429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198.34782, y: 44}
+  m_AnchoredPosition: {x: -198.34782, y: 77.85507}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13465226
@@ -3980,7 +3980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -548.34784, y: 44}
+  m_AnchoredPosition: {x: -548.34784, y: 77.85507}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269123823
@@ -4056,7 +4056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 501.65216, y: 44}
+  m_AnchoredPosition: {x: 501.65216, y: 77.85507}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271390552
@@ -19028,7 +19028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.23185413
+      value: 0.23185416
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
@@ -19036,7 +19036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 553127154885156508, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.196686
+      value: 0.19668598
       objectReference: {fileID: 0}
     - target: {fileID: 831412518012332736, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_IsActive
@@ -19084,11 +19084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1496412440883415894, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6171014
+      value: -0.61710143
       objectReference: {fileID: 0}
     - target: {fileID: 1496412440883415894, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19408777
+      value: 0.19408779
       objectReference: {fileID: 0}
     - target: {fileID: 1780899079423926257, guid: 50d5cec6e371f2d4584e53518d4da253, type: 3}
       propertyPath: m_IsActive
@@ -25191,9 +25191,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>How to play</b>: \nMove Minny with the <i>WASD</i> keys and control
-    the camera with your cursor. \nPick up as many items as you can before the timer
-    runs out.\n\nEach item has its own value"
+  m_text: "Move Minny with the <i>WASD</i> keys and control the camera with your
+    cursor. \nPick up as many items as you can before the timer runs out.\n\nEach
+    item has its own value"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
   m_sharedMaterial: {fileID: -7073803049678753263, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
@@ -25282,12 +25282,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishText: "<b>How to play</b>: \nMove Minny with the <i>WASD</i> keys and control
-    the camera with your cursor. \nPick up as many items as you can before the timer
-    runs out.\n\nEach item has its own value"
-  PortugueseText: "<b>Como Jogar</b>: \nMova Minny com as teclas <i>WASD</i>  e controle
-    a c\xE2mera com o seu  cursor. \nPegue  o m\xE1ximo de itens poss\xEDveis antes
-    do tempo acabar.\n\nCada Item tem seu pr\xF3pio valor"
+  EnglishText: "Move Minny with the <i>WASD</i> keys and control the camera with
+    your cursor. \nPick up as many items as you can before the timer runs out.\n\nEach
+    item has its own value"
+  PortugueseText: "Mova Minny com as teclas <i>WASD</i>  e controle a c\xE2mera com
+    o seu  cursor. \nPegue  o m\xE1ximo de itens poss\xEDveis antes do tempo acabar.\n\nCada
+    Item tem seu pr\xF3pio valor"
 --- !u!1 &1693917380
 GameObject:
   m_ObjectHideFlags: 0
@@ -30824,7 +30824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151.65218, y: 44}
+  m_AnchoredPosition: {x: 151.65218, y: 77.85507}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051709131
@@ -31052,6 +31052,7 @@ GameObject:
   - component: {fileID: 2066200950}
   - component: {fileID: 2066200952}
   - component: {fileID: 2066200951}
+  - component: {fileID: 2066200953}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -31075,7 +31076,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: 437}
+  m_AnchoredPosition: {x: 14, y: 437}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066200951
@@ -31098,7 +31099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutorial
+  m_text: How to Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
   m_sharedMaterial: {fileID: -7073803049678753263, guid: 60e1a2e427db8334283ccf7f3dc8fc95, type: 2}
@@ -31161,7 +31162,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -101.71546, y: 0, z: 0, w: 0}
+  m_margin: {x: -228.15117, y: 0, z: -188.74278, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -31175,6 +31176,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066200949}
   m_CullTransparentMesh: 1
+--- !u!114 &2066200953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066200949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548aa74563c7e94d8dd5ec893140a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishText: How to Play
+  PortugueseText: Como Jogar
 --- !u!1 &2067605783
 GameObject:
   m_ObjectHideFlags: 0

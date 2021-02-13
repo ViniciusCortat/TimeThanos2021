@@ -61,7 +61,7 @@ public class PlayerHat : MonoBehaviour
             Cabelo_3.SetActive(false);
             Franja.SetActive(false);
         }
-        if(hn == 6 || hn == 20 || hn == 22) {
+        if(hn == 6 || hn == 21 || hn == 23) {
             Chapeu.SetActive(false);
             Cabelo_2.SetActive(false);
             Cabelo_3.SetActive(false);
@@ -69,7 +69,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(false);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 10 || hn == 19 || hn == 21) {
+        if(hn == 10 || hn == 20 || hn == 22) {
             Chapeu.SetActive(true);
             Cabelo_2.SetActive(true);
             Cabelo_3.SetActive(true);
@@ -77,7 +77,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(true);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 13) {
+        if(hn == 14) {
             Cabelo_inteiro.SetActive(true);
             Cabelo_3.SetActive(true);
             Chapeu.SetActive(false);
@@ -85,7 +85,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(false);
             Oculos.SetActive(false);
         }
-        if(hn == 16 || hn == 17 || hn == 23) {
+        if(hn == 17 || hn == 18 || hn == 24) {
             Chapeu.SetActive(false);
             Cabelo_2.SetActive(true);
             Cabelo_3.SetActive(true);
@@ -93,7 +93,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(true);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 18) {
+        if(hn == 19) {
             Cabelo_inteiro.SetActive(true);
             Cabelo_3.SetActive(true);
             Oculos.SetActive(true);
@@ -101,7 +101,7 @@ public class PlayerHat : MonoBehaviour
             Cabelo_2.SetActive(false);
             Franja.SetActive(false);
         }
-        if(hn == 24) {
+        if(hn == 25) {
             Cabelo_3.SetActive(true);
             Oculos.SetActive(true);
             Chapeu.SetActive(false);
