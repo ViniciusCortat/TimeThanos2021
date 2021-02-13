@@ -61,7 +61,7 @@ public class DisplayResultado : MonoBehaviour
                     score.text += $"<color=#FF0000>Rank {i+1} - {Hs.Scores[i]}</color>\n";
                 }
                 if(lang.idioma() == Language.languagetype.PORTUGUESE) {
-                    score.text += $"<color=#FF0000>Pontuação {i+1} - {Hs.Scores[i]}</color>\n";
+                    score.text += $"<color=#FF0000>Posição {i+1} - {Hs.Scores[i]}</color>\n";
                 }
             }
         }
