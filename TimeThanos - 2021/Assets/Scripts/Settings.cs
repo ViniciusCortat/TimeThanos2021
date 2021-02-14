@@ -12,28 +12,17 @@ public class Settings : MonoBehaviour
 
     public AudioMixer music;
 
-    public float defaultSensibilityValue = 400;
-    public Text sensibilityValue;
-    public CinemachineFreeLook cinemachine;
-    public Slider sensibilitySlider;
     public GameObject ConfirmSave;
     
     private Language lang;
 
     void Start() {
         float volume;
-        float sensibility;
 
         lang = SaveSystem.GetInstance().lang;
 
 
         volume = PlayerPrefs.GetFloat("volume");
-        sensibility = PlayerPrefs.GetFloat("sensibility");
-
-        if(sensibility == 0.0f)
-        {
-            sensibility = defaultSensibilityValue;
-        }
 
         if (volume > 0)
         {
@@ -43,21 +32,9 @@ public class Settings : MonoBehaviour
         slider.value = volume;
 
 
-        if (cinemachine != null)
-        {
-            cinemachine.m_XAxis.m_MaxSpeed = sensibility;
-            sensibilityValue.text = sensibility.ToString("F2");
-            sensibilitySlider.value = sensibility;
-        }
     }
 
-    public void SetSensibilityValue()
-    {
-        sensibilityValue.text = (sensibilitySlider.value / 100).ToString("F2");
-        cinemachine.m_XAxis.m_MaxSpeed = sensibilitySlider.value;
-        PlayerPrefs.SetFloat("sensibility", sensibilitySlider.value);
-        PlayerPrefs.Save();
-    }
+    
 
     public void SetAudio(float volume) {
         //music.SetFloat("volume", volume);

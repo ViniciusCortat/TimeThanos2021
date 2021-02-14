@@ -2101,10 +2101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 777575978}
   music: {fileID: 24100000, guid: 71f8bbedbbc28394a8c147697680aaef, type: 2}
-  defaultSensibilityValue: 400
-  sensibilityValue: {fileID: 0}
-  cinemachine: {fileID: 0}
-  sensibilitySlider: {fileID: 0}
   ConfirmSave: {fileID: 1186575860}
 --- !u!82 &1208408451
 AudioSource:
@@ -2120,7 +2116,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
