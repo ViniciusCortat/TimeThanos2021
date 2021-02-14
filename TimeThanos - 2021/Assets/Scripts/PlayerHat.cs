@@ -13,16 +13,21 @@ public class PlayerHat : MonoBehaviour
     private GameObject Cabelo_2;
     private GameObject Franja;
     private GameObject Chapeu;
+    private GameObject Capa_1;
+    private GameObject Boca;
 
     void Start()
     {
         hats = SaveSystem.GetInstance().hats;
+        Boca = gameObject.transform.GetChild(0).GetChild(1).gameObject;
         Cabelo_inteiro = gameObject.transform.GetChild(0).GetChild(2).gameObject;
         Cabelo_2 = gameObject.transform.GetChild(0).GetChild(3).gameObject;
         Cabelo_3 = gameObject.transform.GetChild(0).GetChild(4).gameObject;
+        Capa_1 = gameObject.transform.GetChild(0).GetChild(5).gameObject;
         Chapeu = gameObject.transform.GetChild(0).GetChild(7).gameObject;
         Franja = gameObject.transform.GetChild(0).GetChild(9).gameObject;
         Oculos = gameObject.transform.GetChild(0).GetChild(10).gameObject;
+
         ActivateHat();
     }
 
@@ -44,6 +49,8 @@ public class PlayerHat : MonoBehaviour
         Chapeu.SetActive(false);
         Cabelo_2.SetActive(false);
         Franja.SetActive(false);
+        Capa_1.SetActive(true);
+        Boca.SetActive(true);
 
         if(hn == 0) {
             Cabelo_inteiro.SetActive(false);
@@ -54,14 +61,16 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(true);
         }
         if(hn == 4) {
-            Cabelo_inteiro.SetActive(true);
-            Oculos.SetActive(true);
-            Chapeu.SetActive(false);
+            Boca.SetActive(false);
+            Cabelo_inteiro.SetActive(false);
             Cabelo_2.SetActive(false);
             Cabelo_3.SetActive(false);
+            Capa_1.SetActive(true);
+            Chapeu.SetActive(false);
             Franja.SetActive(false);
+            Oculos.SetActive(false);
         }
-        if(hn == 6 || hn == 21 || hn == 23) {
+        if(hn == 6 || hn == 20 || hn == 22) {
             Chapeu.SetActive(false);
             Cabelo_2.SetActive(false);
             Cabelo_3.SetActive(false);
@@ -69,7 +78,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(false);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 10 || hn == 20 || hn == 22) {
+        if(hn == 10 || hn == 19 || hn == 21) {
             Chapeu.SetActive(true);
             Cabelo_2.SetActive(true);
             Cabelo_3.SetActive(true);
@@ -77,7 +86,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(true);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 14) {
+        if(hn == 13) {
             Cabelo_inteiro.SetActive(true);
             Cabelo_3.SetActive(true);
             Chapeu.SetActive(false);
@@ -85,7 +94,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(false);
             Oculos.SetActive(false);
         }
-        if(hn == 17 || hn == 18 || hn == 24) {
+        if(hn == 16 || hn == 17 || hn == 23) {
             Chapeu.SetActive(false);
             Cabelo_2.SetActive(true);
             Cabelo_3.SetActive(true);
@@ -93,7 +102,7 @@ public class PlayerHat : MonoBehaviour
             Franja.SetActive(true);
             Cabelo_inteiro.SetActive(false);
         }
-        if(hn == 19) {
+        if(hn == 18) {
             Cabelo_inteiro.SetActive(true);
             Cabelo_3.SetActive(true);
             Oculos.SetActive(true);
@@ -101,13 +110,22 @@ public class PlayerHat : MonoBehaviour
             Cabelo_2.SetActive(false);
             Franja.SetActive(false);
         }
-        if(hn == 25) {
+        if(hn == 24) {
             Cabelo_3.SetActive(true);
             Oculos.SetActive(true);
             Chapeu.SetActive(false);
             Cabelo_2.SetActive(false);
             Franja.SetActive(false);
             Cabelo_inteiro.SetActive(false);
+        }
+        if(hn == 25) {
+            Chapeu.SetActive(false);
+            Cabelo_2.SetActive(false);
+            Cabelo_3.SetActive(false);
+            Oculos.SetActive(false);
+            Franja.SetActive(false);
+            Cabelo_inteiro.SetActive(false);
+            Capa_1.SetActive(false);
         }
     }
 }

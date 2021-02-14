@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Escafandro escuro
+  m_Name: olho.capuz
   m_Shader: {fileID: -6465566751694194690, guid: 1fc4053e89e22874792681e3426616ba, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
