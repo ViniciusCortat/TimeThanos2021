@@ -47,7 +47,7 @@ public class ShopList : MonoBehaviour
             }
             if(hats.ObtainedHats(i)) {
                 if(lang.idioma() == Language.languagetype.ENGLISH) {
-                    PriceText[i].text = "Bought!";
+                    PriceText[i].text = "Obtained!";
                 }
                 if(lang.idioma() == Language.languagetype.PORTUGUESE) {
                     PriceText[i].text = "Comprado!";
