@@ -10,8 +10,8 @@ public class AudioManager : MonoBehaviour
     public static AudioManager sharedInstance;
     public AudioSource ui1;
     public AudioSource ui2;
-    public AudioSource timeOut;
-    public AudioSource TimeOutPort;
+    public AudioSource timeOutEN;
+    public AudioSource timeOutPT;
     public AudioSource puff;
     public AudioSource menu;
     public AudioSource tema;
@@ -28,8 +28,6 @@ public class AudioManager : MonoBehaviour
     public AudioMixerSnapshot wallFadeOut;
     public AudioMixerSnapshot normal;
 
-    private Language lang;
-
     void Awake()
     {
         if (sharedInstance == null)
@@ -42,11 +40,6 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-    }
-
-    void Start()
-    {
-        lang = SaveSystem.GetInstance().lang;
     }
 
     public void PlayUISound()
@@ -70,12 +63,20 @@ public class AudioManager : MonoBehaviour
     
     public void PlayTimeOut()
     {
-        if(lang.idioma() == Language.languagetype.ENGLISH) {
-            timeOut.Play();
+        Language lang = SaveSystem.GetInstance().lang;
+
+        if (lang != null){
+            if(lang.idioma() == Language.languagetype.ENGLISH) {
+                timeOutEN.Play();
+            }
+            else if(lang.idioma() == Language.languagetype.PORTUGUESE) {
+                timeOutPT.Play();
+            }
         }
-        if(lang.idioma() == Language.languagetype.PORTUGUESE) {
-            TimeOutPort.Play();
+        else{
+            timeOutEN.Play();
         }
+        
         StartCoroutine(WaitToPlayPuff());
     }
 

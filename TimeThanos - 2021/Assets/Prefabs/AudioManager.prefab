@@ -467,8 +467,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui1: {fileID: 2277973726234396680}
   ui2: {fileID: 8032775817941515638}
-  timeOut: {fileID: 3550949078664352388}
-  TimeOutPort: {fileID: 0}
+  timeOutEN: {fileID: 3550949078664352388}
+  timeOutPT: {fileID: 8604495912234312105}
   puff: {fileID: 4834603425434868213}
   menu: {fileID: 4059532166376617471}
   tema: {fileID: 4807261097652288596}

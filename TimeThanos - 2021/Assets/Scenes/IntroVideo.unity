@@ -239,6 +239,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 32900000, guid: 88e52455bddd4d84e9a3b9c7c0c552f6, type: 3}
   pauseKey: space
+--- !u!82 &103935153 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3550949078664352388, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
+  m_PrefabInstance: {fileID: 2106853033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &192740461
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +739,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528961248743316310, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
+      propertyPath: timeOutEN
+      value: 
+      objectReference: {fileID: 103935153}
     - target: {fileID: 1528961248743316310, guid: 60b891fcc24be874281f54c3b2740a9e, type: 3}
       propertyPath: TimeOutPort
       value: 
