@@ -71,6 +71,7 @@ public class ShopList : MonoBehaviour
         if(!hats.BuyHat(name)) {
             return;
         }
+        AudioManager.sharedInstance.PlayShopUI();
         Achiev.BuyItem(PriceValue[i]);
         SaveSystem.GetInstance().SaveHats();
         CheckEnoughValue();

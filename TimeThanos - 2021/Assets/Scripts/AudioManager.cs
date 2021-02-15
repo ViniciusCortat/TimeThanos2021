@@ -16,6 +16,8 @@ public class AudioManager : MonoBehaviour
     public AudioSource menu;
     public AudioSource tema;
     public AudioSource ui3;
+
+    public AudioSource ui4;
     public GameObject moveWallPrefab;
     private bool gameOn = false;
 
@@ -60,7 +62,12 @@ public class AudioManager : MonoBehaviour
     {
         ui3.Play();
     }
-
+    
+    public void PlayShopUI()
+    {
+        ui4.Play();
+    }
+    
     public void PlayTimeOut()
     {
         if(lang.idioma() == Language.languagetype.ENGLISH) {
