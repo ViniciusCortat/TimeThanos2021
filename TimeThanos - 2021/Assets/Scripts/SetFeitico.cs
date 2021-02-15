@@ -57,8 +57,8 @@ public class SetFeitico : MonoBehaviour
         AudioManager.sharedInstance.PlayCheckBoxUI();
         if (speedToggle.isOn == true)
         {
-            Feiticos.Speed = 0.5f;
-            Feiticos.SpeedMod = 0.5f;
+            Feiticos.Speed = 0.8f;
+            Feiticos.SpeedMod = 0.2f;
         }
         else
         {
@@ -88,7 +88,7 @@ public class SetFeitico : MonoBehaviour
         if (wallToggle.isOn == true)
         {
             Feiticos.Wall = 8.0f;
-            Feiticos.WallMod = 0.2f;
+            Feiticos.WallMod = 0.1f;
         }
         else
         {
@@ -118,7 +118,7 @@ public class SetFeitico : MonoBehaviour
         if (timeUIToggle.isOn == true)
         {
             Feiticos.TimeUI = true;
-            Feiticos.TimeUIMod = 0.3f;
+            Feiticos.TimeUIMod = 0.1f;
         }
         else
         {
@@ -148,7 +148,7 @@ public class SetFeitico : MonoBehaviour
         if (delayToggle.isOn == true)
         {
             Feiticos.Delay = true;
-            Feiticos.DelayMod = 0.4f;
+            Feiticos.DelayMod = 0.2f;
         }
         else
         {
@@ -162,8 +162,8 @@ public class SetFeitico : MonoBehaviour
         AudioManager.sharedInstance.PlayCheckBoxUI();
         if (chanceToggle.isOn == true)
         {
-            Feiticos.Chance = 30;
-            Feiticos.ChanceMod = 0.6f;
+            Feiticos.Chance = 20;
+            Feiticos.ChanceMod = 0.2f;
         }
         else
         {

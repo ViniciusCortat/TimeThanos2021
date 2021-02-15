@@ -26,9 +26,9 @@ public class DisplayResultado : MonoBehaviour
     private void CalculaMultiplicador()
     {
         float multiplicador = 1 + (Feiticos.ChanceMod + Feiticos.DelayMod + Feiticos.LosesMod + Feiticos.ScoreUIMod + Feiticos.SpeedMod + Feiticos.TimeMod + Feiticos.TimeUIMod + Feiticos.WallMod);
-
+        
         float pontuacaoTotal = Points.pontos * multiplicador;
-
+        
         Points.pontos = (int)pontuacaoTotal;
     }
 
