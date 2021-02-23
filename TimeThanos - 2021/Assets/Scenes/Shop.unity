@@ -1022,8 +1022,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1644304079}
   m_HandleRect: {fileID: 1644304078}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.6069168
+  m_Value: 1
+  m_Size: 0.6069169
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13145,8 +13145,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
